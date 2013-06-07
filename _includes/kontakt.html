@@ -1,7 +1,23 @@
 
-		<p class="bottom_10px"><a href="team.html#elfi">Dr. med. vet. <br>Elfriede Koppensteiner</a></p>
+		<p class="bottom_10px">
+			{% if page.id == "team" %}
+				<a href="#elfi" onclick="showsel('elfi')">
+			{% else %}	
+				<a href="team.html#elfi">
+			{% endif %}
+			
+			Dr. med. vet. <br>Elfriede Koppensteiner</a>
+		</p>
 
-		<p class="bottom_10px"><a href="team.html#gerold">Mag. med. vet. <br>Gerold Koppensteiner</a></p>
+		<p class="bottom_10px">
+			{% if page.id == "team" %}
+				<a href="#gerold" onclick="showsel('gerold')">
+			{% else %}	
+				<a href="team.html#gerold">
+			{% endif %}
+			
+			Mag. med. vet. <br>Gerold Koppensteiner</a>
+		</p>
 		
 		<p class="bottom_20px">1070 Wien, Kaiserstraße 33</p>
 		

@@ -1,60 +1,72 @@
 
 * {
-	margin:0px;
-	padding:0px;
-	border:0px;
-	font-weight:normal;
-	font-size:14px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: black;
+	/* color: #666666; */
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow: scroll;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display:block;
+	display: block;
+	text-align: justify;
+}
+
+a, a:link, a:visited, a:active, a:focus {
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #2F4F4F;
 }
 	
-body {
-	font-family:Verdana, Arial, Helvetica, sans-serif;	
-	color:#666666;
-	background-color:#FFFFBB;
-	background-attachment:scroll; background-repeat:repeat-x;
-	max-width:1024px;
-	width:1024px;
-	margin:auto;
-}
-
-header {
-	margin:15px 0px 15px 0px;
-	padding:15px 15px 15px 15px;
-	background-color:white;
-}
-
 .div-table {
-	display:table;
-	border-collapse:collapse;
+	display: table;
+  border-collapse: collapse;
 }
 
 .div-row {
-	display:table-row;
+	display: table-row;
 }
 
 .div-cell {
-	display:table-cell;
-	vertical-align:top;
+	display: table-cell;
+	vertical-align: top;
 }
 
-#header-logo {
-	width:120px;
+body {
+	background-color: #FFFFBB;
+	background-attachment: scroll; background-repeat: repeat-x;
+	max-width: 1024px;
+	width: 1024px;
+	height: 101%;
+	margin: auto;
+}
+
+header {
+	margin: 15px 0px 15px 0px;
+	background-color: white;
 }
 
 #header-text {
-	padding:0px 0px 0px 40px;
-	width:860px;
+	padding: 15px 15px 15px 40px;
+	width: 824px;
 }
 
 header img {
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 }
 
 header h1 {
@@ -70,42 +82,70 @@ header hr{
 	background-color: #2B2B2B;
 }
 
-header a {
+header nav a {
 	font-size: 16px;
-	padding: 0px 20px 0px 0px;
+	margin: 0px 20px 0px 0px;
+/* padding: 3px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; */	
 }
 
 #content-wrapper {
-	padding: 40px 20px 30px 20px;
+	padding: 40px 0px 30px 0px;
 	background-color: white;
 }
 
 #content {
-	width:	704px;
-	padding: 0px 16px 0px 0px;
+	width:	736px;
+	padding: 0px 16px 0px 15px;
 }
 
 #contact {
-	width: 223px;
-	padding: 0px 0px 0px 16px;
+	width: 224px;
+	padding: 0px 16px 0px 15px;
 }
+
+/* #contact * {
+	color: #666666;
+} */
 
 h1 { font-size: 18px; }
 
-h2 { font-size: 16px; }
+h2 { font-size: 16px; 	line-height: 24px; }
 
-a {		
-	color: #666666;
-	font-style: normal;
-	text-decoration: none;	
+a.internal-link {
+	color: #1B61B6;
 }
 
-a:hover {
-	color: darkgrey;
+a.internal-link:hover {
+	color: blue;
 }
+
+
+a.mainnav {
+	color: white;
+	font-size: 18px;
+}
+
+a.mainnav:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+a.mainnav-active {
+	color: black;
+	font-size: 18px;
+}
+
+a.mainnav-active:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
 
 a.nav-active {
-	color: black;
+	font-weight: bold;
 }
 
 table {
@@ -124,6 +164,11 @@ li {
 
 .fbold {
 	font-weight: bold;
+}
+
+.fitalic {
+	font-style: italic;
+	letter-spacing: 1px;
 }
 
 .bottom_line {
@@ -167,26 +212,47 @@ li {
 	padding-bottom: 40px;
 }
 
+/* article * {
+	color: black;	
+} */
+
 article#willkommen {
 	text-align: center;	
 }
+
+/* article#willkommen h1 {
+	color: #666666;
+} */
 
 article#willkommen img {
 	width: 600px;
 	height: 400px;
 }
 
-#subnav {
-	width: 191px;
-	padding: 0px 16px 0px 0px;
+article#willkommen figure {
+	display: none;
 }
 
+article#willkommen figure.aktiv {
+	display: block;
+}
+
+
+#subnav {
+	width: 191px;
+	padding: 0px 15px 0px 16px;
+}
+
+/* #subnav a {
+	color: #1B61B6;
+} */
+
 div.menu-item {
-	padding: 10px 0px 10px 0px;
+	padding: 16px 0px 16px 0px;
 }
 
 #subcontent {
-  width: 480px;
+  width: 512px;
 	padding: 0px 16px 0px 16px;
 }
 
@@ -198,9 +264,19 @@ div.menu-item {
 	display: block;
 }
 
-#subcontent img {
-	width: 480px;
-	height: 320px;
+img.small {
+	width: 512px;
+	height: 341px;
+}
+
+img.centered{
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+
+.team-layout {
+	padding: 0px 124px 0px 124px;
 }
 
 div.wiengv {
@@ -208,3 +284,15 @@ div.wiengv {
 	background-color: #8FBC8F;
 }
 
+ul.parkgaragen {
+	list-style-type: square;
+}
+
+ul.parkgaragen li {
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+
+#btn-resume.run{
+	display: none;
+}

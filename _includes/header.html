@@ -2,55 +2,56 @@
 	<header>
 		<div class="div-table">
 			<div class="div-row">
-				<div id="header-logo" class="div-cell">
-					<a href="index.html"><img src="img/logo_320x320.jpg"></a>
+				<!-- div id="header-logo" class="div-cell">
+					<a href="index.html"><img src="img/logo_150x150.jpg" alt="Logo"></a>
 				</div>				
-				<div id="header-text" class="div-cell">
-					<h1>Tierarztpraxis Kaiserstraße</h1>
+				<div id="header-text" class="div-cell" -->
+				<div class="div-cell" style="background-image:url(img/banner10.png); background-repeat: no-repeat; width: 1024px; height: 128px;">
+					<h1 style="color: white; padding: 48px 20px 0px 192px;">Tierarztpraxis Kaiserstraße</h1>
 
-					<nav>
-						<hr>
+					<nav style="text-align: left; padding: 32px 20px 0px 192px;">
+						<!-- hr -->
 
 						{% if page.id == "index" %}
-							<a class="nav-active" href="index.html">Startseite</a>
+							<a class="mainnav-active" href="index.html">Startseite</a>
 						{% else %}
-							<a href="index.html">Startseite</a>
+							<a  class="mainnav" href="index.html">Startseite</a>
 						{% endif %}
 						
 						{% if page.id == "team" %}
-							<a class="nav-active" href="team.html">Team</a>
+							<a class="mainnav-active" href="team.html">Team</a>
 						{% else %}
-							<a href="team.html">Team</a>
+							<a class="mainnav" href="team.html">Team</a>
 						{% endif %}
 
 						{% if page.id == "schulmedizin" %}
-							<a class="nav-active" href="schulmedizin.html">Schulmedizin</a>
+							<a class="mainnav-active" href="schulmedizin.html">Schulmedizin</a>
 						{% else %}
-							<a href="schulmedizin.html">Schulmedizin</a>
+							<a class="mainnav" href="schulmedizin.html">Schulmedizin</a>
 						{% endif %}
 
 						{% if page.id == "homoeopathie" %}
-							<a class="nav-active" href="homoeopathie.html">Homöopathie</a>
+							<a class="mainnav-active" href="homoeopathie.html">Homöopathie</a>
 						{% else %}
-							<a href="homoeopathie.html">Homöopathie</a>
-						{% endif %}
-
-						{% if page.id == "praxis" %}
-							<a class="nav-active" href="praxis.html">Praxis</a>
-						{% else %}
-							<a href="praxis.html">Praxis</a>
+							<a class="mainnav" href="homoeopathie.html">Homöopathie</a>
 						{% endif %}
 
 						{% if page.id == "ernaehrung" %}
-							<a class="nav-active" href="ernaehrung.html">Ernährung</a>
+							<a class="mainnav-active" href="ernaehrung.html">Ernährung</a>
 						{% else %}
-							<a href="ernaehrung.html">Ernährung</a>
+							<a class="mainnav" href="ernaehrung.html">Ernährung</a>
+						{% endif %}
+
+						{% if page.id == "praxis" %}
+							<a class="mainnav-active" href="praxis.html">Praxis</a>
+						{% else %}
+							<a class="mainnav" href="praxis.html">Praxis</a>
 						{% endif %}
 
 						{% if page.id == "anfahrt" %}
-							<a class="nav-active" href="anfahrt.html">Anfahrt</a>
+							<a class="mainnav-active" href="anfahrt.html">Anfahrt</a>
 						{% else %}
-							<a href="anfahrt.html">Anfahrt</a>
+							<a class="mainnav" href="anfahrt.html">Anfahrt</a>
 						{% endif %}
 					</nav>
 				</div>

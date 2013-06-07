@@ -6,10 +6,26 @@
 		<meta charset="utf-8">
 
 		<link rel="stylesheet" href="style.css">
-		
-		<script src="script/jquery-1.7.2.min.js"></script>
 
-		<script src="script/jquery.slider.js"></script>
+		<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+			
+		<script type="text/javascript" src="script/jquery.slider.js"></script>
+
+		{% if page.id == "schulmedizin" or page.id == "team" or page.id == "homoeopathie" or page.id == "praxis" or page.id == "ernaehrung" %}
+			<script type="text/javascript" src="script/custom.js"></script>
+			<script>
+				$(document).ready(function() {
+					$('div#subnav a').attr('href', '#');
+					$("section").removeClass("aktiv");
+					$("section:first").addClass("aktiv");
+				});
+			</script>
+		{% endif %}
+		
+		{% if page.id == "praxis" %}
+			<link rel="stylesheet" href="script/lightbox/css/jquery.lightbox-0.5.css" type="text/css" media="screen">
+			<script type="text/javascript" src="script/lightbox/jquery.lightbox-0.5.js"></script>
+		{% endif %}		
 		
 		<!--[if lt IE 9]>
 			<script src="script/html5shiv.js"></script>
@@ -41,7 +57,31 @@
 						<div id="subcontent" class="div-cell">
 							{{ content }}
 						</div>
-					
+
+					{% elsif page.id == "team" %}					
+						<div id="subnav" class="div-cell right_dots">
+							{% include team/team_submenu.html %}
+						</div>
+						<div id="subcontent" class="div-cell">
+							{{ content }}
+						</div>
+
+					{% elsif page.id == "ernaehrung" %}
+						<div id="subnav" class="div-cell right_dots">
+							{% include ernaehrung/ern_submenu.html %}
+						</div>
+						<div id="subcontent" class="div-cell">
+							{{ content }}
+						</div>
+
+					{% elsif page.id == "praxis" %}
+						<div id="subnav" class="div-cell right_dots">
+							{% include praxis/praxis_submenu.html %}
+						</div>
+						<div id="subcontent" class="div-cell">
+							{{ content }}
+						</div>
+
 					{% else %}
 						<div id="content" class="div-cell">
 							{{ content }}

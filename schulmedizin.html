@@ -5,39 +5,36 @@ id: schulmedizin
 ---
 	
 	
-<script>
+	<article id="schulmedizin">
+		{% include schulmedizin/allgemeine_leistungen.html %}
 
-	function debug( msg )
-	{
-	   if( window.console )
-		 window.console.log( msg );
-	}
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
 
-	function showsel(anker)
-	{
-	   debug( "enter showsel: " + anker );
+		{% include schulmedizin/labordiagnostik.html %}
 
-		$("section").removeClass("aktiv");  
-		$('section#' + anker).addClass("aktiv");	
-	 
-		$("nav a").removeClass("nav-active");  
-		$('nav a#nav_' + anker).addClass("nav-active");	
-		
-	  debug( "leave showsel: " + anker );	
-	}
-</script>	
-	
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
 
-<article id="schulmedizin">
-	{% include schulmedizin/allgemeine_leistungen.html %}
+		{% include schulmedizin/digitales_roentgen.html %}
 
-	{% include schulmedizin/labordiagnostik.html %}
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
 
-	{% include schulmedizin/digitales_roentgen.html %}
+		{% include schulmedizin/ultraschall.html %}
 
-	{% include schulmedizin/ultraschall.html %}
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
 
-	{% include schulmedizin/zahnsteinentfernung.html %}
+		{% include schulmedizin/zahnsteinentfernung.html %}
 
-	{% include schulmedizin/weichteilchirurgie.html %}
-</article>
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
+
+		{% include schulmedizin/weichteilchirurgie.html %}
+	</article>

@@ -4,31 +4,12 @@ title: Tierarztpraxis Kaiserstra&szlig;e
 id: homoeopathie
 ---
 	
-<script>
-
-	function debug( msg )
-	{
-		 if( window.console )
-		 window.console.log( msg );
-	}
-
-	function showsel(anker)
-	{
-		 debug( "enter showsel: " + anker );
-
-		$("section").removeClass("aktiv");  
-		$('section#' + anker).addClass("aktiv");	
-	 
-		$("nav a").removeClass("nav-active");  
-		$('nav a#nav_' + anker).addClass("nav-active");	
+	<article id="homoeopathie">
+		{% include homoeopathie/was_ist_homoeopathie.html %}
 		
-		debug( "leave showsel: " + anker );	
-	}
-</script>	
-
-
-<article id="homoeopathie">
-	{% include homoeopathie/was_ist_homoeopathie.html %}
-
-	{% include homoeopathie/unterschied.html %}
-</article>
+		<noscript>
+			<div class="bottom_20px"></div>
+		</noscript>
+		
+		{% include homoeopathie/unterschied.html %}
+	</article>
