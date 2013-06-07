@@ -8,11 +8,16 @@ id: index
 <script>
 	var myslider;
 	
+	/* function resume(){
+		myslider.resume();
+		$('#link-resume').removeClass('run');
+	} */
+	
 	$(document).ready(function(){
 		$('figure.aktiv').removeClass("aktiv");
 		$('figure#slideshow').addClass("aktiv");
 		
-		myslider = richie_slider_new( '#slideshow' );
+		myslider = richie_slider_new( '#slideshow', {} );
 	});
 </script>
 
@@ -29,7 +34,7 @@ id: index
 		</figure>
 
 		<div style="padding: 15px">
-			<a href="#" onclick="myslider.resume();">Resume</a>		
+			<!-- a id="link-resume" href="#" onclick="resume()">Resume</a -->
 		</div>
 
 		<noscript>
