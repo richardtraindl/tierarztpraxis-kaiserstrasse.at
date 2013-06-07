@@ -1,0 +1,210 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-weight:normal;
+	font-size:14px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+	
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	color:#666666;
+	background-color:#FFFFBB;
+	background-attachment:scroll; background-repeat:repeat-x;
+	max-width:1024px;
+	width:1024px;
+	margin:auto;
+}
+
+header {
+	margin:15px 0px 15px 0px;
+	padding:15px 15px 15px 15px;
+	background-color:white;
+}
+
+.div-table {
+	display:table;
+	border-collapse:collapse;
+}
+
+.div-row {
+	display:table-row;
+}
+
+.div-cell {
+	display:table-cell;
+	vertical-align:top;
+}
+
+#header-logo {
+	width:120px;
+}
+
+#header-text {
+	padding:0px 0px 0px 40px;
+	width:860px;
+}
+
+header img {
+	width: 120px;
+	height: 120px;
+}
+
+header h1 {
+	padding: 30px 0px 20px 0px;
+	font-size: 32px;
+}
+
+header hr{
+	margin: 0px 0px 10px 0px;
+	border: 0;
+	height: 1px;
+	color: #2B2B2B;
+	background-color: #2B2B2B;
+}
+
+header a {
+	font-size: 16px;
+	padding: 0px 20px 0px 0px;
+}
+
+#content-wrapper {
+	padding: 40px 20px 30px 20px;
+	background-color: white;
+}
+
+#content {
+	width:	704px;
+	padding: 0px 16px 0px 0px;
+}
+
+#contact {
+	width: 223px;
+	padding: 0px 0px 0px 16px;
+}
+
+h1 { font-size: 18px; }
+
+h2 { font-size: 16px; }
+
+a {		
+	color: #666666;
+	font-style: normal;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: darkgrey;
+}
+
+a.nav-active {
+	color: black;
+}
+
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+li {
+	margin-left: 15px;
+	list-style-type: square;
+}
+
+.fbold {
+	font-weight: bold;
+}
+
+.bottom_line {
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+
+.top_dots {
+	border-top-width: 1px;
+	border-style: dotted;
+}
+
+.right_dots {
+	border-right-width: 1px;
+	border-style: dotted;
+}
+
+.bottom_dots {
+	border-bottom-width: 1px;
+	border-style: dotted;
+}
+
+.left_dots {
+	border-left-width: 1px;
+	border-style: dotted;
+}
+
+.bottom_10px {
+	padding-bottom: 10px;
+}
+
+.bottom_20px {
+	padding-bottom: 20px;
+}
+
+.bottom_30px {
+	padding-bottom: 30px;
+}
+
+.bottom_40px {
+	padding-bottom: 40px;
+}
+
+article#willkommen {
+	text-align: center;	
+}
+
+article#willkommen img {
+	width: 600px;
+	height: 400px;
+}
+
+#subnav {
+	width: 191px;
+	padding: 0px 16px 0px 0px;
+}
+
+div.menu-item {
+	padding: 10px 0px 10px 0px;
+}
+
+#subcontent {
+  width: 480px;
+	padding: 0px 16px 0px 16px;
+}
+
+#subcontent section {
+	display: none;
+}
+
+#subcontent section.aktiv {
+	display: block;
+}
+
+#subcontent img {
+	width: 480px;
+	height: 320px;
+}
+
+div.wiengv {
+	padding: 2px 2px 0px 2px;
+	background-color: #8FBC8F;
+}
+

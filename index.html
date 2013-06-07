@@ -1,0 +1,32 @@
+---
+layout: default
+title: Tierarztpraxis Kaiserstra&szlig;e
+id: index
+---
+
+<script>
+    var myslider;
+
+	$(document).ready( function() {
+	    myslider = richie_slider_new( '#slideshow' );
+	});
+</script>
+
+
+<article id="willkommen">
+	<h1>Herzlich willkommen in der Tierarztpraxis Kaiserstraße</h1>
+	
+	<div class="bottom_30px"></div>
+
+	<figure style="text-align: left; margin: auto; width: 600px; height: 400px; border: solid grey 1px">
+		<div id="slideshow">
+			<img src="img/fassade_600x400.png" alt="F">
+			<img src="img/empfangsraum_600x400.png" alt="E">
+			<img src="img/behandlungsraum_600x400.png" alt="B">
+			<img src="img/katze_schildkroete_600x400.png" alt="KuS">
+		</div>	
+	</figure>
+	<div>
+		<a href="#" onclick="myslider.resume();">Resume</a>
+	</div>
+</article>

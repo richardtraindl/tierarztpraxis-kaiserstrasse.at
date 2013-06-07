@@ -1,0 +1,59 @@
+
+	<header>
+		<div class="div-table">
+			<div class="div-row">
+				<div id="header-logo" class="div-cell">
+					<a href="index.html"><img src="img/logo_320x320.jpg"></a>
+				</div>				
+				<div id="header-text" class="div-cell">
+					<h1>Tierarztpraxis Kaiserstraße</h1>
+
+					<nav>
+						<hr>
+
+						{% if page.id == "index" %}
+							<a class="nav-active" href="index.html">Startseite</a>
+						{% else %}
+							<a href="index.html">Startseite</a>
+						{% endif %}
+						
+						{% if page.id == "team" %}
+							<a class="nav-active" href="team.html">Team</a>
+						{% else %}
+							<a href="team.html">Team</a>
+						{% endif %}
+
+						{% if page.id == "schulmedizin" %}
+							<a class="nav-active" href="schulmedizin.html">Schulmedizin</a>
+						{% else %}
+							<a href="schulmedizin.html">Schulmedizin</a>
+						{% endif %}
+
+						{% if page.id == "homoeopathie" %}
+							<a class="nav-active" href="homoeopathie.html">Homöopathie</a>
+						{% else %}
+							<a href="homoeopathie.html">Homöopathie</a>
+						{% endif %}
+
+						{% if page.id == "praxis" %}
+							<a class="nav-active" href="praxis.html">Praxis</a>
+						{% else %}
+							<a href="praxis.html">Praxis</a>
+						{% endif %}
+
+						{% if page.id == "ernaehrung" %}
+							<a class="nav-active" href="ernaehrung.html">Ernährung</a>
+						{% else %}
+							<a href="ernaehrung.html">Ernährung</a>
+						{% endif %}
+
+						{% if page.id == "anfahrt" %}
+							<a class="nav-active" href="anfahrt.html">Anfahrt</a>
+						{% else %}
+							<a href="anfahrt.html">Anfahrt</a>
+						{% endif %}
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>

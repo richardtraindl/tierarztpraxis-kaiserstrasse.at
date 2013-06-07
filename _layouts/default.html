@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="style.css">
+		
+		<script src="script/jquery-1.7.2.min.js"></script>
+
+		<script src="script/jquery.slider.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="script/html5shiv.js"></script>
+		<![endif]-->
+
+		<title> {{ page.title }} </title>
+	</head>
+
+	<body>
+		{% include header.html %}
+		
+		<div id="content-wrapper">
+
+			<div class="div-table">
+				<div class="div-row">
+
+					{% if page.id == "schulmedizin" %}
+						<div id="subnav" class="div-cell right_dots">
+							{% include schulmedizin/sch_submenu.html %}							
+						</div>
+						<div id="subcontent" class="div-cell">
+							{{ content }}
+						</div>
+					
+					{% elsif page.id == "homoeopathie" %}
+						<div id="subnav" class="div-cell right_dots">
+							{% include homoeopathie/hom_submenu.html %}
+						</div>
+						<div id="subcontent" class="div-cell">
+							{{ content }}
+						</div>
+					
+					{% else %}
+						<div id="content" class="div-cell">
+							{{ content }}
+						</div>
+					
+					{% endif %}
+					
+					<div id="contact" class="div-cell left_dots">
+						{% include kontakt.html %}
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Tierarztpraxis Kaiserstra&szlig;e
+id: schulmedizin
+---
+	
+	
+<script>
+
+	function debug( msg )
+	{
+	   if( window.console )
+		 window.console.log( msg );
+	}
+
+	function showsel(anker)
+	{
+	   debug( "enter showsel: " + anker );
+
+		$("section").removeClass("aktiv");  
+		$('section#' + anker).addClass("aktiv");	
+	 
+		$("nav a").removeClass("nav-active");  
+		$('nav a#nav_' + anker).addClass("nav-active");	
+		
+	  debug( "leave showsel: " + anker );	
+	}
+</script>	
+	
+
+<article id="schulmedizin">
+	{% include schulmedizin/allgemeine_leistungen.html %}
+
+	{% include schulmedizin/labordiagnostik.html %}
+
+	{% include schulmedizin/digitales_roentgen.html %}
+
+	{% include schulmedizin/ultraschall.html %}
+
+	{% include schulmedizin/zahnsteinentfernung.html %}
+
+	{% include schulmedizin/weichteilchirurgie.html %}
+</article>
