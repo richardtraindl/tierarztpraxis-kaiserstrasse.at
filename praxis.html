@@ -5,28 +5,24 @@ id: praxis
 ---
 
 	<script>
-		$(function() {
-			$('a.lightbox').lightBox({
-					overlayBgColor: '#FFF',
-					overlayOpacity: 0.6,
-					imageLoading: 'script/lightbox/images/lightbox-ico-loading.gif',
-					imageBtnClose: 'script/lightbox/images/lightbox-btn-close.gif',
-					imageBtnPrev: 'script/lightbox/images/lightbox-btn-prev.gif',
-					imageBtnNext: 'script/lightbox/images/lightbox-btn-next.gif',
-					containerResizeSpeed: 350,
-					txtImage: 'Bild',
-					txtOf: 'von'
-				});
+		$(document).ready(function(){
+			$('a.gallery').colorbox( { rel: 'group1', slideshow: true, slideshowSpeed: 4000, slideshowAuto: true } ); 
 		});
 	</script>
 
 	<div id="subnav" class="div-cell right_dots">
 		<div class="menu-item bottom_dots">
-			<a id="nav_unsere_praxis" class="nav-active" href="#unsere_praxis" onclick="showsel('unsere_praxis')">Unsere Praxis</a>
+			<a id="nav_unsere_praxis" class="nav-active" href="#unsere_praxis" 
+					onclick="showSelSection('unsere_praxis')">
+				Unsere Praxis
+			</a>
 		</div>
 		
 		<div class="menu-item bottom_dots">
-			<a id="nav_bildergalerie_praxis" href="#bildergalerie_praxis" onclick="showsel('bildergalerie_praxis')">Bildergalerie</a>
+			<a id="nav_bildergalerie_praxis" href="#bildergalerie_praxis" 
+					onclick="showSelSection('bildergalerie_praxis')">
+				Bildergalerie
+			</a>
 		</div>
 	</div>
 
@@ -58,11 +54,13 @@ id: praxis
 				<div class="bottom_10px"></div>
 
 				<figure>
-					<a class="lightbox" href="img/fassade_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/fassade_600x400.png" alt="Portal"></a>
+					<a class="gallery" href="img/fassade_600x400.png">
+						<img style="float: left; width:170px; height:113px;" src="img/fassade_600x400.png" alt="Portal">
+					</a>
+
+					<a class="gallery" href="img/behandlungsraum_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/behandlungsraum_600x400.png" alt="Behandlungsraum"></a>
 					
-					<a class="lightbox" href="img/behandlungsraum_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/behandlungsraum_600x400.png" alt="Behandlungsraum"></a>
-					
-					<a class="lightbox" href="img/empfangsraum_600x400.png"><img style="float: left;  width:170px; height:113px;" src="img/empfangsraum_600x400.png" alt="Empfangsraum"></a>
+					<a class="gallery" href="img/empfangsraum_600x400.png"><img style="float: left;  width:170px; height:113px;" src="img/empfangsraum_600x400.png" alt="Empfangsraum"></a>
 				</figure>
 			</section>
 

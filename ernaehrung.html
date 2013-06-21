@@ -4,16 +4,29 @@ title: Tierarztpraxis Kaiserstra&szlig;e
 id: ernaehrung
 ---
 
+	<script>
+		$(document).ready(function(){
+			$('a.gallery').colorbox( { rel: 'group1', slideshow: true, slideshowSpeed: 4000, slideshowAuto: true } ); 
+		});
+	</script>
+
 
 	<div id="subnav" class="div-cell right_dots">
 		<div class="menu-item bottom_dots">
-			<a id="nav_ernaehrungsberatung" class="nav-active" href="#ernaehrungsberatung" onclick="showsel('ernaehrungsberatung')">Individuelle<br>
-			Ernährungsberatung</a>
+			<a id="nav_ernaehrungsberatung" class="nav-active" 
+					href="#ernaehrungsberatung" 
+					onclick="showSelSection('ernaehrungsberatung')">
+				Individuelle <br>
+				Ernährungsberatung
+			</a>
 		</div>
 		
 		<div class="menu-item bottom_dots">
-			<a id="nav_rationserstellung" href="#rationserstellung" onclick="showsel('rationserstellung')">Rationserstellung-<br>
-			und Überprüfung</a>
+			<a id="nav_rationserstellung" href="#rationserstellung" 
+					onclick="showSelSection('rationserstellung')">
+				Rationserstellung-<br>
+				und Überprüfung
+			</a>
 		</div>
 	</div>
 
@@ -48,14 +61,22 @@ id: ernaehrung
 					<div class="div-table">
 						<div class="div-row">
 							<div class="div-cell">
-								<img style="width: 164px; height: 164px; padding-right: 9px;" src="
-								img/fleisch_480x480.png" alt="Fleisch">
+								<a class="gallery" href="img/fleisch_480x480.png">
+									<img style="width: 164px; height: 164px; padding-right: 9px;" 
+												src="img/fleisch_480x480.png" alt="Fleisch">
+								</a>
 							</div>
 							<div class="div-cell">
-								<img style="width: 164px; height: 164px; padding-right: 9px;" src="img/gefluegel_480x480.png" alt="Geflügel">
+								<a class="gallery" href="img/gefluegel_480x480.png">
+									<img style="width: 164px; height: 164px; padding-right: 9px;" 
+											src="img/gefluegel_480x480.png" alt="Geflügel">
+								</a>
 							</div>
 							<div class="div-cell">
-								<img style="width: 164px; height: 164px;"  src="img/mischfutter_480x480.png" alt="Mischfutter">
+								<a class="gallery" href="img/mischfutter_480x480.png">
+									<img style="width: 164px; height: 164px;"  
+												src="img/mischfutter_480x480.png" alt="Mischfutter">
+								</a>
 							</div>
 						</div>
 					</div>
