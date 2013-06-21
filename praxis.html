@@ -4,13 +4,67 @@ title: Tierarztpraxis Kaiserstra&szlig;e
 id: praxis
 ---
 
-	<article id="praxis">
-		{% include praxis/unsere_praxis.html %}
+	<script>
+		$(function() {
+			$('a.lightbox').lightBox({
+					overlayBgColor: '#FFF',
+					overlayOpacity: 0.6,
+					imageLoading: 'script/lightbox/images/lightbox-ico-loading.gif',
+					imageBtnClose: 'script/lightbox/images/lightbox-btn-close.gif',
+					imageBtnPrev: 'script/lightbox/images/lightbox-btn-prev.gif',
+					imageBtnNext: 'script/lightbox/images/lightbox-btn-next.gif',
+					containerResizeSpeed: 350,
+					txtImage: 'Bild',
+					txtOf: 'von'
+				});
+		});
+	</script>
 
-		<noscript>
-			<div class="bottom_20px"></div>
-		</noscript>
+	<div id="subnav" class="div-cell right_dots">
+		<div class="menu-item bottom_dots">
+			<a id="nav_unsere_praxis" class="nav-active" href="#unsere_praxis" onclick="showsel('unsere_praxis')">Unsere Praxis</a>
+		</div>
+		
+		<div class="menu-item bottom_dots">
+			<a id="nav_bildergalerie_praxis" href="#bildergalerie_praxis" onclick="showsel('bildergalerie_praxis')">Bildergalerie</a>
+		</div>
+	</div>
 
-		{% include praxis/bildergalerie_praxis.html %}
-	</article>
+	<div id="subcontent" class="div-cell">
+		<article id="praxis">
+			<section id="unsere_praxis" class="aktiv">
+				<h2>Unsere Tierarztpraxis</h2>
+				
+				<div class="bottom_10px"></div>
 
+				<p>
+					Unsere Tierarztpraxis befindet sich in der Kaiserstrasse 33, zwischen Seidengasse und Stollgasse. Die Eingangstür ist ebenerdig, Sie gehen vom Gehsteig direkt ins Wartezimmer.
+				</p>
+
+				<div class="bottom_20px"></div>
+				
+				<figure>
+					<img class="small" src="img/fassade_600x400.png" alt="Fassade">
+				</figure>
+			</section>
+
+			<noscript>
+				<div class="bottom_20px"></div>
+			</noscript>
+
+			<section id="bildergalerie_praxis" class="aktiv">
+				<h2>Bildergalerie Tierarztpraxis</h2>
+
+				<div class="bottom_10px"></div>
+
+				<figure>
+					<a class="lightbox" href="img/fassade_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/fassade_600x400.png" alt="Portal"></a>
+					
+					<a class="lightbox" href="img/behandlungsraum_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/behandlungsraum_600x400.png" alt="Behandlungsraum"></a>
+					
+					<a class="lightbox" href="img/empfangsraum_600x400.png"><img style="float: left;  width:170px; height:113px;" src="img/empfangsraum_600x400.png" alt="Empfangsraum"></a>
+				</figure>
+			</section>
+
+		</article>
+	</div>

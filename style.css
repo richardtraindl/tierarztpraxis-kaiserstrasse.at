@@ -34,15 +34,19 @@ a:hover {
 .div-table {
 	display: table;
   border-collapse: collapse;
+  height: 100%;
 }
 
 .div-row {
 	display: table-row;
+  position: relative;
+  height: 100%;
 }
 
-.div-cell {
+.div-cell {	
 	display: table-cell;
 	vertical-align: top;
+  height: 100%;
 }
 
 body {
@@ -92,18 +96,18 @@ header nav a {
 }
 
 #content-wrapper {
-	padding: 40px 0px 30px 0px;
+	padding: 40px 16px 30px 16px;
 	background-color: white;
 }
 
 #content {
 	width:	736px;
-	padding: 0px 16px 0px 15px;
+	padding: 0px 16px 0px 0px;
 }
 
 #contact {
 	width: 224px;
-	padding: 0px 16px 0px 15px;
+	padding: 0px 0px 0px 15px;
 }
 
 /* #contact * {
@@ -122,27 +126,25 @@ a.internal-link:hover {
 	color: blue;
 }
 
-
-a.mainnav {
+nav#mainnav a {
 	color: white;
 	font-size: 18px;
 }
 
-a.mainnav:hover {
+nav#mainnav a:hover {
 	background-color: transparent;
 	color: #2F4F4F;
 }
 
-a.mainnav-active {
+nav#mainnav a.mainnav-active {
 	color: black;
 	font-size: 18px;
 }
 
-a.mainnav-active:hover {
+nav#mainnav a.mainnav-active:hover {
 	background-color: transparent;
 	color: #2F4F4F;
 }
-
 
 a.nav-active {
 	font-weight: bold;
@@ -239,8 +241,8 @@ article#willkommen figure.aktiv {
 
 
 #subnav {
-	width: 191px;
-	padding: 0px 15px 0px 16px;
+	width: 192px;
+	padding: 0px 15px 0px 0px;
 }
 
 /* #subnav a {
@@ -253,7 +255,7 @@ div.menu-item {
 
 #subcontent {
   width: 512px;
-	padding: 0px 16px 0px 16px;
+	padding: 0px 0px 0px 16px;
 }
 
 #subcontent section {

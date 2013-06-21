@@ -17,13 +17,67 @@ id: team
 	});
 </script>
 
+	<div class="div-table">
+		<div class="div-row">
 
-<article id="team">
-		{% include team/elfi.html %}
+			<div id="subnav" class="div-cell right_dots">
+				<div class="menu-item bottom_dots">
+					<a id="nav_elfi" class="nav-active" href="#elfi" onclick="showsel('elfi')">Dr. med. vet. <br>
+					Elfriede Koppensteiner</a>
+				</div>
+				
+				<div class="menu-item bottom_dots">
+					<a id="nav_gerold" href="#gerold" onclick="showsel('gerold')">Mag. med. vet. <br>
+					Gerold Koppensteiner</a>
+				</div>
+			</div>
 
-		<noscript>
-			<div class="bottom_20px"></div>
-		</noscript>
+			<div id="subcontent" class="div-cell">	
+				<article id="team">
 
-		{% include team/gerold.html %}
-</article>
+					<section id="elfi">
+						<h2>Dr. med. vet. Elfriede Koppensteiner</h2>
+					
+						<div class="bottom_10px"></div>
+
+						<ul>
+							<li>Geboren in Gmünd, Niederösterreich</li>
+							<li>6-jährige Ausbildung in Modedesign</li>
+							<li>Studium &amp; Doktorrat an der Veterinärmedizinischen Universität Wien</li>
+							<li>Assistenz in verschiedenen Kliniken, Ö, D, CH</li>
+							<li>Ausbildung in klassischer Homöopathie seit 1992</li>
+							<li>2003 Gründung der Tierarztpraxis Kaiserstrasse</li>
+							<li>Vorträge bei ÖGVH, SIH, "Fortundweiterbildungfuertieraerzte"</li>
+						</ul>
+
+						<!-- figure>
+							<img class="team-img-left" src="img/elfi.jpg" alt="Elfi">
+						</figure -->
+					</section>
+
+					<noscript>
+						<div class="bottom_20px"></div>
+					</noscript>
+
+					<section id="gerold">
+						<h2>Mag. med. vet. Gerold Koppensteiner</h2>
+
+						<div class="bottom_10px"></div>
+
+						<ul>
+							<li>Geboren in Gmünd, Niederösterreich</li>
+							<li>Matura BRG Gmünd</li>
+							<li>Studium an der Veterinärmedizinischen Universität Wien</li>
+							<li>Assistenz in verschiedenen Tierarztpraxen</li>
+							<li>2003 Gründung der Tierarztpraxis Kaiserstrasse</li>
+						</ul>
+
+						<!-- figure>
+							<img class="team-img-left" src="img/gerold.jpg" alt="Gerold">
+						</figure -->
+					</section>
+
+				</article>
+			</div>
+		</div>
+	</div>

@@ -17,3 +17,7 @@
 	  debug( "leave showsel: " + anker );	
 	}
 
+	function selactiv(){
+		var BodyId = 	$("body").attr("id");
+		$('nav#mainnav a[href="' + BodyId + '.html"]').addClass('mainnav-active');
+	}
