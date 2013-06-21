@@ -4,65 +4,78 @@ title: Tierarztpraxis Kaiserstra&szlig;e
 id: praxis
 ---
 
+
 	<script>
 		$(document).ready(function(){
 			$('a.gallery').colorbox( { rel: 'group1', slideshow: true, slideshowSpeed: 4000, slideshowAuto: true } ); 
 		});
 	</script>
 
-	<div id="subnav" class="div-cell right_dots">
-		<div class="menu-item bottom_dots">
-			<a id="nav_unsere_praxis" class="nav-active" href="#unsere_praxis" 
-					onclick="showSelSection('unsere_praxis')">
-				Unsere Praxis
-			</a>
-		</div>
-		
-		<div class="menu-item bottom_dots">
-			<a id="nav_bildergalerie_praxis" href="#bildergalerie_praxis" 
-					onclick="showSelSection('bildergalerie_praxis')">
-				Bildergalerie
-			</a>
-		</div>
-	</div>
 
-	<div id="subcontent" class="div-cell">
-		<article id="praxis">
-			<section id="unsere_praxis" class="aktiv">
-				<h2>Unsere Tierarztpraxis</h2>
-				
-				<div class="bottom_10px"></div>
-
-				<p>
-					Unsere Tierarztpraxis befindet sich in der Kaiserstrasse 33, zwischen Seidengasse und Stollgasse. Die Eingangstür ist ebenerdig, Sie gehen vom Gehsteig direkt ins Wartezimmer.
-				</p>
-
-				<div class="bottom_20px"></div>
-				
-				<figure>
-					<img class="small" src="img/fassade_600x400.png" alt="Fassade">
-				</figure>
-			</section>
-
-			<noscript>
-				<div class="bottom_20px"></div>
-			</noscript>
-
-			<section id="bildergalerie_praxis" class="aktiv">
-				<h2>Bildergalerie Tierarztpraxis</h2>
-
-				<div class="bottom_10px"></div>
-
-				<figure>
-					<a class="gallery" href="img/fassade_600x400.png">
-						<img style="float: left; width:170px; height:113px;" src="img/fassade_600x400.png" alt="Portal">
+	<div class="div-table">
+		<div class="div-row">
+						
+			<div id="subnav" class="div-cell right_dots">
+				<div class="menu-item bottom_dots">
+					<a id="nav_unsere_praxis" class="nav-active" href="#unsere_praxis" 
+							onclick="showSelSection('unsere_praxis')">
+						Unsere Praxis
 					</a>
+				</div>
+				
+				<div class="menu-item bottom_dots">
+					<a id="nav_bildergalerie_praxis" href="#bildergalerie_praxis" 
+							onclick="showSelSection('bildergalerie_praxis')">
+						Bildergalerie
+					</a>
+				</div>
+			</div>
 
-					<a class="gallery" href="img/behandlungsraum_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/behandlungsraum_600x400.png" alt="Behandlungsraum"></a>
-					
-					<a class="gallery" href="img/empfangsraum_600x400.png"><img style="float: left;  width:170px; height:113px;" src="img/empfangsraum_600x400.png" alt="Empfangsraum"></a>
-				</figure>
-			</section>
+			<div id="subcontent" class="div-cell">
+				<article id="praxis">
 
-		</article>
+
+					<section id="unsere_praxis" class="aktiv">
+						<h2>Unsere Tierarztpraxis</h2>
+						
+						<div class="bottom_10px"></div>
+
+						<p>
+							Unsere Tierarztpraxis befindet sich in der Kaiserstrasse 33, zwischen Seidengasse und Stollgasse. Die Eingangstür ist ebenerdig, Sie gehen vom Gehsteig direkt ins Wartezimmer.
+						</p>
+
+						<div class="bottom_20px"></div>
+						
+						<figure>
+							<img class="small" src="img/fassade_600x400.png" alt="Fassade">
+						</figure>
+					</section>
+
+
+					<noscript>
+						<div class="bottom_20px"></div>
+					</noscript>
+
+
+					<section id="bildergalerie_praxis" class="aktiv">
+						<h2>Bildergalerie Tierarztpraxis</h2>
+
+						<div class="bottom_10px"></div>
+
+						<figure>
+							<a class="gallery" href="img/fassade_600x400.png">
+								<img style="float: left; width:170px; height:113px;" src="img/fassade_600x400.png" alt="Portal">
+							</a>
+
+							<a class="gallery" href="img/behandlungsraum_600x400.png"><img style="float: left; width:170px; height:113px;" src="img/behandlungsraum_600x400.png" alt="Behandlungsraum"></a>
+							
+							<a class="gallery" href="img/empfangsraum_600x400.png"><img style="float: left;  width:170px; height:113px;" src="img/empfangsraum_600x400.png" alt="Empfangsraum"></a>
+						</figure>
+					</section>
+
+
+				</article>
+			</div>
+
+		</div>
 	</div>
