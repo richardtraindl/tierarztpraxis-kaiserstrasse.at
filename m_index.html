@@ -1,28 +1,14 @@
-<!DOCTYPE html>
+---
+layout: m_default
+title: Tierarztpraxis Kaiserstra&szlig;e
+---
 
-<html lang="de">
-
-	<head>
-		<meta charset="utf-8">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="jquery.mobile-1.2.0.min.css">
-
-		<script src="../script/jquery-1.8.2.min.js"></script>
-		
-		<script src="jquery.mobile-1.2.0.min.js"></script>
-
-		<title>Tierarztpraxis Kaiserstra&szlig;e</title>
-	</head>
-
-	<body>
-		<div id="index" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
-				<h1>Herzlich willkommen</h1>
+		<div id="index" data-role="page">		
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h2>Herzlich willkommen</h2>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<ul data-role="listview" data-inset="true" data-filter="true">
 					<li><a href="#team">Team</a></li>
 					<li><a href="#schulmedizin">Schulmedizin</a></li>
@@ -31,18 +17,16 @@
 					<li><a href="#anfahrt">Anfahrt</a></li>
 				</ul>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
 
 		
-		<div id="team" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
+		<div id="team" data-role="page">			
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
 				<h1>Unser Team</h1>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<h2>Dr. med. vet. Elfriede Koppensteiner</h2>					
 				<ul>
 					<li>Geboren in Gmünd, Niederösterreich</li>
@@ -63,18 +47,16 @@
 					<li>2003 Gründung der Tierarztpraxis Kaiserstrasse</li>
 				</ul>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
 		
 
 		<div id="schulmedizin" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
-				<h1>Herzlich willkommen in der Tierarztpraxis Kaiserstraße</h1>
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Schulmedizin</h1>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<section id="allgemeine_leistungen">
 					<h2>Allgemeine Leistungen</h2>						
 					<p>
@@ -128,18 +110,16 @@
 					</ul>
 				</section>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
 
 
 		<div id="homoeopathie" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
 				<h1>Homöopathie</h1>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<section id="was_ist_homoeopathie">
 					<h2>Was ist klassische Homöopathie?</h2>
 					<p>
@@ -176,18 +156,16 @@
 					</p>
 				</section>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
 
 
 		<div id="ernaehrung" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
 				<h1>Ernährung</h1>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<section id="ernaehrungsberatung">
 					<h2>Ernährungsberatung</h2>
 					<p>
@@ -229,18 +207,16 @@
 					</p>
 				</section>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
 
 
 		<div id="anfahrt" data-role="page">
-			<div data-role="header">
-				<a href="#index">Tierarztpraxis Kaiserstraße</a>
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
 				<h1>Anfahrt</h1>
 			</div><!-- /header -->
-			<div data-role="content">
+			<div data-role="content" data-theme="b">
 				<section id="oeffentlich">
 					<h2>Öffentlich</h2>
 					<ul>
@@ -268,10 +244,5 @@
 					</ul>
 				</section>
 			</div><!-- /content -->
-			<div data-role="footer">
-				<h4>My Footer</h4>
-			</div><!-- /footer -->
+			{% include m_footer.html %}
 		</div><!-- /page -->
-
-	</body>
-</html>
