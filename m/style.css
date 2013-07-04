@@ -3,12 +3,11 @@
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-/*	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 20px;
-	color: black; */
-	/* color: #666666; */
+	color: black;
 }
 
 html {
@@ -20,7 +19,7 @@ html {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	text-align: justify;
+	text-align: left;
 }
 
 a, a:link, a:visited, a:active, a:focus {
@@ -62,19 +61,27 @@ header img {
 }
 
 #header-text h1 {
-	padding: 0px 0px 0px 32px;
-	font-size: 32px;
+	padding: 0px 0px 0px 10px;
+	font-size: 24px;
+	line-height: 32px;
 	color: white;
 }
 
 #header-text a {
-	font-size: 32px;
+	font-size: 24px;
+	line-height: 32px;
 	color: white;
 }
 
-h1 { font-size: 18px; }
+h1 { 
+	font-size: 18px;
+	line-height: 26px; 
+}
 
-h2 { font-size: 16px; 	line-height: 24px; }
+h2 { 
+	font-size: 16px; 	
+	line-height: 24px; 
+}
 
 a.internal-link {
 	color: #1B61B6;

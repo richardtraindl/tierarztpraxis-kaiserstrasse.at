@@ -7,7 +7,7 @@ id: mobile
 		<div id="index" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1>Willkommen</h1>
+				<h1>Herzlich willkommen</h1>
 			</div><!-- /header -->
 			<div data-role="content" data-theme="c">
 				<ul data-role="listview" data-inset="true">
@@ -20,8 +20,9 @@ id: mobile
 					<li><a href="#kontakt">Kontakt</a></li>
 				</ul>
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#team" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -34,8 +35,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include team.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#team" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#index" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#schulmedizin" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 		
@@ -48,8 +51,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include schulmedizin.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#team" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#homoeopathie" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -62,8 +67,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include homoeopathie.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#schulmedizin" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#ernaehrung" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -76,8 +83,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include ernaehrung.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#homoeopathie" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#praxis" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -90,8 +99,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include praxis.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#ernaehrung" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#anfahrt" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -104,8 +115,10 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include anfahrt.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#praxis" data-role="button" data-icon="back" data-inline="true">Back</a>
+				<a href="#kontakt" data-role="button" data-icon="forward" data-inline="true">Forward</a>
 			</div>
 		</div><!-- /page -->
 
@@ -118,7 +131,8 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include m_kontakt.html %}
 			</div><!-- /content -->
-			<div data-role="footer" data-theme="e" data-type="horizontal">	
-				{% include m_navigation.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">
+				<a href="#index" data-role="button" data-icon="home" data-inline="true">Home</a>
+				<a href="#anfahrt" data-role="button" data-icon="back" data-inline="true">Back</a>
 			</div>
 		</div><!-- /page -->
