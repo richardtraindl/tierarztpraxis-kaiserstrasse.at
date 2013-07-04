@@ -1,0 +1,95 @@
+---
+layout: mobile
+title: Tierarztpraxis Kaiserstrasse
+id: mobile
+---
+
+		<div id="index" data-role="page">		
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Willkommen</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				<ul data-role="listview" data-inset="true">
+					<li><a href="#team">Team</a></li>
+					<li><a href="#schulmedizin">Schulmedizin</a></li>
+					<li><a href="#homoeopathie">Homöopathie</a></li>
+					<li><a href="#ernaehrung">Ernährung</a></li>
+					<li><a href="#praxis">Praxis</a></li>
+					<li><a href="#anfahrt">Anfahrt</a></li>
+				</ul>
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+
+		
+		<div id="team" data-role="page">			
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Team</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include team.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+		
+
+		<div id="schulmedizin" data-role="page">
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Schulmedizin</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include schulmedizin.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+
+
+		<div id="homoeopathie" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Homöopathie</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include homoeopathie.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+
+
+		<div id="ernaehrung" data-role="page">
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Ernährung</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include ernaehrung.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+
+		
+		<div id="praxis" data-role="page">
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Praxis</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include praxis.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->
+
+		
+		<div id="anfahrt" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Anfahrt</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include anfahrt.html %}
+			</div><!-- /content -->
+			{% include m_footer.html %}
+		</div><!-- /page -->

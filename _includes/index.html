@@ -1,0 +1,24 @@
+	
+
+		<h1>Herzlich willkommen in der Tierarztpraxis Kaiserstraße</h1>
+		
+	{% if page.id == "index" %}
+		<div class="bottom_30px"></div>
+
+		<figure id="slideshow" style="margin: auto; width: 600px; border: solid grey 1px">
+				<img src="/img/fassade_600x400.png" alt="Fassade">
+				<img src="/img/empfangsraum_600x400.png" alt="Ordi">
+				<img src="/img/behandlungsraum_600x400.png" alt="Tiere">
+				<img src="/img/katze_schildkroete_600x400.png" alt="Tiere">
+		</figure>
+
+		<div style="padding: 15px">
+			<!-- a id="link-resume" href="#" onclick="resume()">Resume</a -->
+		</div>
+
+		<noscript>
+			<figure style="margin: auto; width: 600px; height: 400px; border: solid grey 1px" class="aktiv">
+				<img src="/img/fassade_600x400.png" alt="Fassade">
+			</figure>
+		</noscript>
+	{% endif %}
