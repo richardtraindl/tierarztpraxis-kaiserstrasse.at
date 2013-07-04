@@ -4,7 +4,7 @@ title: Tierarztpraxis Kaiserstrasse
 id: mobile
 ---
 
-		<div id="index" data-role="page">		
+		<div id="index" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
 				<h1>Willkommen</h1>
@@ -17,9 +17,12 @@ id: mobile
 					<li><a href="#ernaehrung">Ernährung</a></li>
 					<li><a href="#praxis">Praxis</a></li>
 					<li><a href="#anfahrt">Anfahrt</a></li>
+					<li><a href="#kontakt">Kontakt</a></li>
 				</ul>
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 
 		
@@ -31,7 +34,9 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include team.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 		
 
@@ -43,7 +48,9 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include schulmedizin.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 
 
@@ -55,7 +62,9 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include homoeopathie.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 
 
@@ -67,7 +76,9 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include ernaehrung.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 
 		
@@ -79,7 +90,9 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include praxis.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
 
 		
@@ -91,5 +104,21 @@ id: mobile
 			<div data-role="content" data-theme="c">
 				{% include anfahrt.html %}
 			</div><!-- /content -->
-			{% include m_footer.html %}
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
+		</div><!-- /page -->
+
+		
+		<div id="kontakt" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Kontakt</h1>
+			</div><!-- /header -->
+			<div data-role="content" data-theme="c">
+				{% include m_kontakt.html %}
+			</div><!-- /content -->
+			<div data-role="footer" data-theme="e" data-type="horizontal">	
+				{% include m_navigation.html %}
+			</div>
 		</div><!-- /page -->
