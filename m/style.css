@@ -183,9 +183,16 @@ img.centered{
 	margin-right: auto 
 }
 
-div.wiengv {
-	padding: 2px 2px 0px 2px;
+.wiengv {
+	width: 320px;
+	height: 320px;
+	padding: 2px 2px 2px 2px;
 	background-color: #8FBC8F;
+}
+
+.wiengv img {
+	width: 320px;
+	height: 320px;
 }
 
 ul.parkgaragen {

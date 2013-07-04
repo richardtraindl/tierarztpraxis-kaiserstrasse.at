@@ -27,14 +27,12 @@
 
 	<div style="clear:both" class="bottom_20px"></div>
 
-	<div class="wiengv">
-		<noscript>
-			<p>todo... Bild einfügen</p>
-		</noscript>
-
-	{% if page.id == "anfahrt" %}
-		<script defer='defer' type='text/javascript' src='http://www.wien.gv.at/stadtplan/ApiGetViennaGisMap.ctrl?containerWidth=732&amp;containerHeight=488&amp;centerContainer=1&amp;lang=de&amp;bookmark=RIFFRvJoF0bsTHFElrdmRO5RphlnHrlub-arHYOor&amp;bmadr=10071714'></script>
-	{% elsif page.id == "mobile" %}
-		<script defer='defer' type='text/javascript' src='http://www.wien.gv.at/stadtplan/ApiGetViennaGisMap.ctrl?containerWidth=366&amp;containerHeight=244&amp;centerContainer=1&amp;lang=de&amp;bookmark=RIFFRvJoF0bsTHFElrdmRO5RphlnHrlub-arHYOor&amp;bmadr=10071714'></script>
-	{% endif %}
-	</div>
+	<figure class="wiengv">
+		{% if page.id == "anfahrt" %}	
+			<a class="gallery" href="/img/plan_640x640.png">
+				<img src="/img/plan_640x640.png" alt="Plan">
+			</a>
+		{% else %}
+			<img src="/img/plan_640x640.png" alt="Plan">
+		{% endif %}
+	</figure>
