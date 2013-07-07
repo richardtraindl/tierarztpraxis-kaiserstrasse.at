@@ -1,5 +1,11 @@
-	
 
+
+{% if page.id == "mobile" %}
+	<article id="willkommen" class="mobile">
+{% else %}		
+	<article id="willkommen">
+{% endif %}
+		
 		<h1>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h1>
 		
 	{% if page.id == "index" %}

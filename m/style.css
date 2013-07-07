@@ -73,8 +73,21 @@ header img {
 	color: white;
 }
 
+
+article.mobile {
+}
+
+article.mobile h2 {
+	background-color: lightgrey;
+}
+
+article.mobile section {
+	border-top: 1px solid black;
+}
+
+
 .even { 
-	padding: 0px !important;
+	padding: 15px 0px !important;
 	margin: 0px !important;
 }
 
