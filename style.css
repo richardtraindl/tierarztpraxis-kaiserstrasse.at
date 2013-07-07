@@ -214,17 +214,9 @@ li {
 	padding-bottom: 40px;
 }
 
-/* article * {
-	color: black;	
-} */
-
 article#index {
 	text-align: center;	
 }
-
-/* article#willkommen h1 {
-	color: #666666;
-} */
 
 article#index img {
 	width: 600px;
@@ -244,10 +236,6 @@ article#index figure.aktiv {
 	width: 192px;
 	padding: 0px 15px 0px 0px;
 }
-
-/* #subnav a {
-	color: #1B61B6;
-} */
 
 div.menu-item {
 	padding: 16px 0px 16px 0px;
