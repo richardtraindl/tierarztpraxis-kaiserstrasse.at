@@ -18,6 +18,8 @@
 		<script src="/script/colorbox/jquery.colorbox.js"></script>
 	 
 		<script src="/script/colorbox/jquery.colorbox-de.js"></script>
+		
+		<script src="/script/detectmobilebrowser.js"></script>
 
 		<!--[if lt IE 9]>
 			<script src="/script/html5shiv.js"></script>
@@ -29,6 +31,17 @@
 				selMenueItemActiv();
 
 				showSection();
+				
+				if(jQuery.browser.mobile){
+					// alert('You are using a mobile device!');
+					$("#switch-to-mobile").removeClass("inaktiv");
+					$("#switch-to-mobile").addClass("aktiv");
+				}
+				else{
+					// alert('You are not using a mobile device!');
+					$("#switch-to-mobile").removeClass("aktiv");
+					$("#switch-to-mobile").addClass("inaktiv");
+				}
 
 			});
 		</script>
@@ -37,6 +50,9 @@
 	</head>
 
 	<body id="{{ page.id }}">
+		<div id="switch-to-mobile" class="inaktiv">
+			<a href="/m/">Möchten Sie zur Mobilversion wechseln?</a>
+		</div>
 		{% include header.html %}
 		
 		<div id="content-wrapper">

@@ -258,11 +258,11 @@ div.menu-item {
 	padding: 0px 0px 0px 16px;
 }
 
-#subcontent section {
+#subcontent section, .inaktiv {
 	display: none;
 }
 
-#subcontent section.aktiv {
+#subcontent section.aktiv, .aktiv {
 	display: block;
 }
 
