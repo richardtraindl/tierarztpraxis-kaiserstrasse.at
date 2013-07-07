@@ -226,16 +226,16 @@ article#willkommen {
 	color: #666666;
 } */
 
-article#willkommen img {
+article#index img {
 	width: 600px;
 	height: 400px;
 }
 
-article#willkommen figure {
+article#index figure {
 	display: none;
 }
 
-article#willkommen figure.aktiv {
+article#index figure.aktiv {
 	display: block;
 }
 

@@ -63,6 +63,7 @@ header img {
 #header-text h1 {
 	padding: 0px 0px 0px 10px;
 	font-size: 24px;
+	font-weight: normal;
 	line-height: 32px;
 	color: white;
 }
@@ -70,9 +71,27 @@ header img {
 #header-text a {
 	font-size: 24px;
 	line-height: 32px;
+	font-weight: normal;
 	color: white;
 }
 
+.custom-footer1 {
+	padding: 10px;
+	background-color: #FADB4E;
+}
+
+.custom-footer2 {
+	padding: 10px;
+	background-color: lightgrey;
+}
+
+.custom-footer1 a, .custom-footer2 a {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 20px !important;
+	color: black !important;
+}
 
 article.mobile {
 }
@@ -82,7 +101,7 @@ article.mobile h2 {
 }
 
 article.mobile section {
-	border-top: 1px solid black;
+	border-top: 1px solid grey;
 }
 
 
