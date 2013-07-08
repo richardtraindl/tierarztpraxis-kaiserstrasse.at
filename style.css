@@ -85,7 +85,7 @@ a.nav-active {
 }
 
 .fbold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .fitalic {
