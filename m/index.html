@@ -7,22 +7,24 @@ id: mobile
 		<div id="index" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1 data-ajax="false" class="even">Herzlich willkommen</h1>
+				<h1 data-ajax="false">Herzlich willkommen</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
-				<ul data-role="listview" data-inset="true">
-					<li><a href="#team">Team</a></li>
-					<li><a href="#schulmedizin">Schulmedizin</a></li>
-					<li><a href="#homoeopathie">Homöopathie</a></li>
-					<li><a href="#ernaehrung">Ernährung</a></li>
-					<li><a href="#praxis">Praxis</a></li>
-					<li><a href="#anfahrt">Anfahrt</a></li>
-					<li><a href="#kontakt">Kontakt</a></li>
-				</ul>
+				<article id="index" class="mobile">
+					<ul data-role="listview" data-inset="true">
+						<li><a href="#team">Team</a></li>
+						<li><a href="#schulmedizin">Schulmedizin</a></li>
+						<li><a href="#homoeopathie">Homöopathie</a></li>
+						<li><a href="#ernaehrung">Ernährung</a></li>
+						<li><a href="#praxis">Praxis</a></li>
+						<li><a href="#anfahrt">Anfahrt</a></li>
+						<li><a href="#kontakt">Kontakt</a></li>
+					</ul>
+				</article>
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#index" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 
 				<div class="bottom_10px"></div>
@@ -30,7 +32,7 @@ id: mobile
 				<a href="#index" data-ajax="false" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p>
 					<a href="/" data-ajax="false">Zur Vollversion</a>
 				</p>
@@ -41,14 +43,14 @@ id: mobile
 		<div id="team" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Team</h1>
+				<h1>Team</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include team.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#team" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -56,7 +58,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -65,14 +67,14 @@ id: mobile
 		<div id="schulmedizin" data-role="page">
 			<div data-role="header"data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Schulmedizin</h1>
+				<h1>Schulmedizin</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include schulmedizin.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#schulmedizin" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -80,7 +82,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 			
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -89,14 +91,14 @@ id: mobile
 		<div id="homoeopathie" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Homöopathie</h1>
+				<h1>Homöopathie</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include homoeopathie.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#homoeopathie" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -104,7 +106,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -113,14 +115,14 @@ id: mobile
 		<div id="ernaehrung" data-role="page">
 			<div data-role="header"data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Ernährung</h1>
+				<h1>Ernährung</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include ernaehrung.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#ernaehrung" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -128,7 +130,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -137,14 +139,14 @@ id: mobile
 		<div id="praxis" data-role="page">
 			<div data-role="header"data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Praxis</h1>
+				<h1>Praxis</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include praxis.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#praxis" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -152,7 +154,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -161,14 +163,14 @@ id: mobile
 		<div id="anfahrt" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Anfahrt</h1>
+				<h1>Anfahrt</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include anfahrt.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#anfahrt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -176,7 +178,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->
@@ -185,14 +187,14 @@ id: mobile
 		<div id="kontakt" data-role="page">
 			<div data-role="header" data-theme="e">
 				{% include m_header.html %}
-				<h1 class="even">Kontakt</h1>
+				<h1>Kontakt</h1>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				{% include m_kontakt.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="custom-footer1">
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#kontakt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>
@@ -200,7 +202,7 @@ id: mobile
 				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div>
 
-			<footer class="custom-footer2">
+			<footer class="footer2">
 				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
 			</footer>
 		</div><!-- /page -->

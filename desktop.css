@@ -1,0 +1,130 @@
+
+* {
+	text-align: justify;
+}
+
+body {
+	background-color: #FFFFBB;
+	background-attachment: scroll; background-repeat: repeat-x;
+	max-width: 1024px;
+	width: 1024px;
+	height: 101%;
+	margin: auto;
+}
+
+header {
+	margin: 15px 0px 15px 0px;
+	color: white;
+	background-image: url(/img/banner10.png); 
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 128px;
+	position: relative;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+}
+
+header h1 {
+	padding: 48px 20px 0px 192px;
+	font-size: 32px;
+	color: white;
+}
+
+header nav a {
+	font-size: 16px;
+	margin: 0px 20px 0px 0px;
+}
+
+#content-wrapper {
+	padding: 40px 16px 30px 16px;
+	background-color: white;
+}
+
+#content {
+	width:	736px;
+	padding: 0px 16px 0px 0px;
+}
+
+#contact {
+	width: 224px;
+	padding: 0px 0px 0px 15px;
+}
+
+nav#mainnav a {
+	color: white;
+	font-size: 18px;
+}
+
+nav#mainnav a:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav#mainnav a.mainnav-active {
+	color: black;
+	font-size: 18px;
+}
+
+nav#mainnav a.mainnav-active:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+article#index h1 {
+	text-align: center;	
+}
+
+article#index img {
+	width: 600px;
+	height: 400px;
+}
+
+article#index figure {
+	display: none;
+}
+
+article#index figure.aktiv {
+	display: block;
+}
+
+#subnav {
+	width: 192px;
+	padding: 0px 15px 0px 0px;
+}
+
+div.menu-item {
+	padding: 16px 0px 16px 0px;
+}
+
+#subcontent {
+  width: 512px;
+	padding: 0px 0px 0px 16px;
+}
+
+#subcontent section, .inaktiv {
+	display: none;
+}
+
+#subcontent section.aktiv, .aktiv {
+	display: block;
+}
+
+img.small {
+	width: 512px;
+	height: 341px;
+}
+
+.map {
+	width: 480px;
+	height: 480px;
+	padding: 2px 2px 2px 2px;
+	background-color: #8FBC8F;
+}
+
+.map img {
+	width: 480px;
+	height: 480px;
+}
