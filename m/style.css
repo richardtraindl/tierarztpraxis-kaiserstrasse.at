@@ -185,16 +185,12 @@ li {
 	padding-bottom: 10px;
 }
 
+.bottom_15px {
+	padding-bottom: 15px;
+}
+
 .bottom_20px {
 	padding-bottom: 20px;
-}
-
-.bottom_30px {
-	padding-bottom: 30px;
-}
-
-.bottom_40px {
-	padding-bottom: 40px;
 }
 
 article#willkommen {
