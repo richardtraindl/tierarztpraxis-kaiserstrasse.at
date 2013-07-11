@@ -33,8 +33,15 @@ id: mobile
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
-				<h2>Hot<h2>
+				<h2>Hot</h2>
+				<h3>Latest Ranking: <br>
+					Richard at O'Connors, 10th July, 23:44</h3>
 				<table>
+					<colgroup>
+						<col width="45%">
+						<col width="45%">
+						<col width="5%">
+					</colgroup>
 					<tr>
 						<td>
 							Tak Pale Ale
@@ -50,8 +57,13 @@ id: mobile
 				
 				<div class="gap"></div>
 				
-				<h2>Top's<h2>
+				<h2>Top's</h2>
 				<table>
+					<colgroup>
+						<col width="45%">
+						<col width="45%">
+						<col width="5%">
+					</colgroup>
 					<tr>
 						<td>
 							London Pride
@@ -89,8 +101,13 @@ id: mobile
 				
 				<div class="gap"></div>
 				
-				<h2>Gerald's Top5<h2>
+				<h2>Gerald's Top</h2>
 				<table>
+					<colgroup>
+						<col width="45%">
+						<col width="45%">
+						<col width="5%">
+					</colgroup>
 					<tr>
 						<td>
 							Klostergold
@@ -131,26 +148,16 @@ id: mobile
 				<h2>New Rating</h2>
 				<form>
 					<div data-role="fieldcontain">
-						<label for="user">User:</label>
-						<input name="user" id="user" placeholder="Text input" value="" type="text">
+						<label for="beer">Beer</label>
+						<input name="beer" id="beer" placeholder="Text input" value="" type="text">
+						<label for="location">Location</label>
+						<input name="location" id="location" placeholder="Text input" value="" type="text">
+						<label for="rating">Rating:</label>
+						<input name="rating" id="rating" min="1" max="10" value="5" type="range">
 					</div>
 
 					<button type="submit" id="submit-1">Send</button>
 				</form>
-
-
-				
-				<article id="index" class="mobile">
-					<ul data-role="listview" data-inset="true">
-						<li><a href="#team">Team</a></li>
-						<li><a href="#schulmedizin">Schulmedizin</a></li>
-						<li><a href="#homoeopathie">Homöopathie</a></li>
-						<li><a href="#ernaehrung">Ernährung</a></li>
-						<li><a href="#praxis">Praxis</a></li>
-						<li><a href="#anfahrt">Anfahrt</a></li>
-						<li><a href="#kontakt">Kontakt</a></li>
-					</ul>
-				</article>
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
@@ -161,152 +168,6 @@ id: mobile
 				<a href="#index" data-ajax="false" data-role="button" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
 
-			<footer class="footer2">
-				<p>
-					<a href="/" data-ajax="false">Zur Vollversion</a>
-				</p>
-			</footer>
-		</div><!-- /page -->
-
-		
-		<div id="team" data-role="page">
-			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Team</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include team.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#team" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div><!-- /footer -->
-
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
 		</div><!-- /page -->
 		
 
-		<div id="schulmedizin" data-role="page">
-			<div data-role="header"data-theme="e">
-				{% include m_header.html %}
-				<h1>Schulmedizin</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include schulmedizin.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#schulmedizin" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div><!-- /footer -->
-			
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
-		</div><!-- /page -->
-
-
-		<div id="homoeopathie" data-role="page">
-			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Homöopathie</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include homoeopathie.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#homoeopathie" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div><!-- /footer -->
-
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
-		</div><!-- /page -->
-
-
-		<div id="ernaehrung" data-role="page">
-			<div data-role="header"data-theme="e">
-				{% include m_header.html %}
-				<h1>Ernährung</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include ernaehrung.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#ernaehrung" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div><!-- /footer -->
-
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
-		</div><!-- /page -->
-
-		<div id="anfahrt" data-role="page">
-			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Anfahrt</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include anfahrt.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#anfahrt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div><!-- /footer -->
-
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
-		</div><!-- /page -->
-
-		
-		<div id="kontakt" data-role="page">
-			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Kontakt</h1>
-			</div><!-- /header -->
-
-			<div data-role="content" data-theme="c">
-				{% include m_kontakt.html %}
-			</div><!-- /content -->
-
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#kontakt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
-				
-				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
-			</div>
-
-			<footer class="footer2">
-				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
-			</footer>
-		</div><!-- /page -->

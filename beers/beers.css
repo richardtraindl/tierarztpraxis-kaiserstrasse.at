@@ -17,7 +17,9 @@ h1 {
 
 h2 { 
 	font-size: 16px !important; 
-	line-height: 24px !important; 
+	line-height: 24px !important;
+	font-weight: bold !important;
+	background-color: gray;
 }
 
 header {
@@ -49,6 +51,10 @@ header a {
 .footer2 {
 	padding: 10px;
 	background-color: lightgrey;
+}
+
+table {
+	width: 100%;
 }
 
 article.mobile section {
