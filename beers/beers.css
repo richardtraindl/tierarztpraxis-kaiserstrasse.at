@@ -64,14 +64,6 @@ article.mobile h2 {
 	overflow: visible !important;
 }
 
-.map {
-	width: 320px;
-	height: 320px;
-	padding: 2px 2px 2px 2px;
-	background-color: #8FBC8F;
-}
-
-.map img {
-	width: 320px;
-	height: 320px;
+.gap {
+	padding-bottom: 20px;
 }

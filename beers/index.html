@@ -1,0 +1,312 @@
+---
+layout: beers
+title: Beers
+id: mobile
+---
+
+		<div id="login" data-role="page">
+			<div data-role="header"data-theme="e">
+				<h1>Login</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				<form>
+					<div data-role="fieldcontain">
+						<label for="user">User:</label>
+						<input name="user" id="user" placeholder="Text input" value="" type="text">
+					</div>
+
+					<button type="submit" id="submit-1">Send</button>
+				</form>
+			</div>
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<div class="gap"></div>
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+
+		<div id="index" data-role="page">
+			<div data-role="header" data-theme="e">
+				<h1>Welcome</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				<h2>Hot<h2>
+				<table>
+					<tr>
+						<td>
+							Tak Pale Ale
+						</td>
+						<td>
+							Bevog
+						</td>
+						<td>
+							#7
+						</td>
+					</tr>
+				</table>
+				
+				<div class="gap"></div>
+				
+				<h2>Top's<h2>
+				<table>
+					<tr>
+						<td>
+							London Pride
+						</td>
+						<td>
+							Fuller's
+						</td>
+						<td>
+							#10
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Tak Pale Ale
+						</td>
+						<td>
+							Bevog
+						</td>
+						<td>
+							#9
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Prager Dunkles
+						</td>
+						<td>
+							Siebensternbräu
+						</td>
+						<td>
+							#9
+						</td>
+					</tr>
+				</table>
+				
+				<div class="gap"></div>
+				
+				<h2>Gerald's Top5<h2>
+				<table>
+					<tr>
+						<td>
+							Klostergold
+						</td>
+						<td>
+							Lammbräu
+						</td>
+						<td>
+							#9
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Tak Pale Ale
+						</td>
+						<td>
+							Bevog
+						</td>
+						<td>
+							#7
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Schwechater Lager
+						</td>
+						<td>
+							Schwechater
+						</td>
+						<td>
+							#7
+						</td>
+					</tr>
+				</table>
+				
+				<div class="gap"></div>
+				
+				<h2>New Rating</h2>
+				<form>
+					<div data-role="fieldcontain">
+						<label for="user">User:</label>
+						<input name="user" id="user" placeholder="Text input" value="" type="text">
+					</div>
+
+					<button type="submit" id="submit-1">Send</button>
+				</form>
+
+
+				
+				<article id="index" class="mobile">
+					<ul data-role="listview" data-inset="true">
+						<li><a href="#team">Team</a></li>
+						<li><a href="#schulmedizin">Schulmedizin</a></li>
+						<li><a href="#homoeopathie">Homöopathie</a></li>
+						<li><a href="#ernaehrung">Ernährung</a></li>
+						<li><a href="#praxis">Praxis</a></li>
+						<li><a href="#anfahrt">Anfahrt</a></li>
+						<li><a href="#kontakt">Kontakt</a></li>
+					</ul>
+				</article>
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#index" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-ajax="false" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+
+			<footer class="footer2">
+				<p>
+					<a href="/" data-ajax="false">Zur Vollversion</a>
+				</p>
+			</footer>
+		</div><!-- /page -->
+
+		
+		<div id="team" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Team</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include team.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#team" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
+		
+
+		<div id="schulmedizin" data-role="page">
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Schulmedizin</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include schulmedizin.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#schulmedizin" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+			
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
+
+
+		<div id="homoeopathie" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Homöopathie</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include homoeopathie.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#homoeopathie" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
+
+
+		<div id="ernaehrung" data-role="page">
+			<div data-role="header"data-theme="e">
+				{% include m_header.html %}
+				<h1>Ernährung</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include ernaehrung.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#ernaehrung" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
+
+		<div id="anfahrt" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Anfahrt</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include anfahrt.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#anfahrt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div><!-- /footer -->
+
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
+
+		
+		<div id="kontakt" data-role="page">
+			<div data-role="header" data-theme="e">
+				{% include m_header.html %}
+				<h1>Kontakt</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+				{% include m_kontakt.html %}
+			</div><!-- /content -->
+
+			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+				<a href="#kontakt" data-ajax="false" data-role="button" data-icon="arrow-u">Zum Seitenanfang</a>
+				
+				<div class="bottom_10px"></div>
+				
+				<a href="#index" data-role="button" data-icon="home">Zur Übersicht</a>
+			</div>
+
+			<footer class="footer2">
+				<p><a href="/" data-ajax="false">Zur Vollversion</a></p>
+			</footer>
+		</div><!-- /page -->
