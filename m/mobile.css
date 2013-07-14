@@ -34,6 +34,10 @@ li {
 	list-style-type: square;
 }
 
+img {
+	vertical-align: bottom;
+}
+
 header h1 {
 	margin: 0px; 
 	padding: 10px 10px 10px 10px; 
