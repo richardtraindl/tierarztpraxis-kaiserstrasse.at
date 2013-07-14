@@ -5,13 +5,21 @@ id: mobile
 ---
 
 		<div id="index" data-role="page">
-			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1 data-ajax="false">Herzlich willkommen</h1>
+			<div data-role="header" data-theme="none">
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Willkommen</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
 				<article id="index" class="mobile">
+					{% include m_kontakt.html %}
+					
+					<div class="bottom_20px"></div>
+					
+					<p>Wenn sie mehr über uns und unsere Leistungen wissen wollen, wählen sie bitte hier.</p>					
 					<ul data-role="listview" data-inset="true">
 						<li><a href="#team">Team</a></li>
 						<li><a href="#schulmedizin">Schulmedizin</a></li>
@@ -19,31 +27,35 @@ id: mobile
 						<li><a href="#ernaehrung">Ernährung</a></li>
 						<li><a href="#praxis">Praxis</a></li>
 						<li><a href="#anfahrt">Anfahrt</a></li>
-						<li><a href="#kontakt">Kontakt</a></li>
+						<!-- li><a href="#kontakt">Kontakt</a></li -->
 					</ul>
 				</article>
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" class="footer1">
-					<a href="#index" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
+			<div data-role="footer" data-theme="none"> <!-- data-theme="e" -->
+				<footer>
+					<div class="footer1">
+						<!-- a href="#" class="goup" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u" data-theme="e">Zum Seitenanfang</a -->
 
-					<div class="bottom_10px"></div>
-				
-					<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
+						<a href="#index" data-role="button" data-inline="false" data-icon="home" data-theme="e">Zur Übersicht</a>
+					</div>
+					
+					<div class="footer2">
+						<a href="/" data-ajax="false" data-theme="none" style="font-size: 14px; font-weight: normal; line-height: 14px;">Zur Vollversion</a>
+					</div>
+				</footer>			
 			</div><!-- /footer -->
 
-			<footer class="footer2">
-				<p>
-					<a href="/" data-ajax="false">Zur Vollversion</a>
-				</p>
-			</footer>
 		</div><!-- /page -->
 
 		
 		<div id="team" data-role="page">
 			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Team</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Team</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -51,9 +63,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#team" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!-- a href="#team" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -66,8 +76,11 @@ id: mobile
 
 		<div id="schulmedizin" data-role="page">
 			<div data-role="header"data-theme="e">
-				{% include m_header.html %}
-				<h1>Schulmedizin</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Schulmedizin</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -75,9 +88,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#schulmedizin" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!-- a href="#schulmedizin" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -90,8 +101,11 @@ id: mobile
 
 		<div id="homoeopathie" data-role="page">
 			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Homöopathie</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Homöopathie</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -99,9 +113,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#homoeopathie" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!--  a href="#homoeopathie" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -114,8 +126,11 @@ id: mobile
 
 		<div id="ernaehrung" data-role="page">
 			<div data-role="header"data-theme="e">
-				{% include m_header.html %}
-				<h1>Ernährung</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Ernährung</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -123,9 +138,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#ernaehrung" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!-- a href="#ernaehrung" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -138,8 +151,11 @@ id: mobile
 		
 		<div id="praxis" data-role="page">
 			<div data-role="header"data-theme="e">
-				{% include m_header.html %}
-				<h1>Praxis</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Praxis</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -147,9 +163,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#praxis" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!-- a href="#praxis" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -162,8 +176,11 @@ id: mobile
 		
 		<div id="anfahrt" data-role="page">
 			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Anfahrt</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Anfahrt</h2>
+				</header>
 			</div><!-- /header -->
 
 			<div data-role="content" data-theme="c">
@@ -171,9 +188,7 @@ id: mobile
 			</div><!-- /content -->
 
 			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
-				<a href="#anfahrt" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
-				
-				<div class="bottom_10px"></div>
+				<!-- a href="#anfahrt" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a -->
 				
 				<a href="#index" data-role="button" data-inline="false" data-icon="home">Zur Übersicht</a>
 			</div><!-- /footer -->
@@ -184,17 +199,20 @@ id: mobile
 		</div><!-- /page -->
 
 		
-		<div id="kontakt" data-role="page">
+		<!-- div id="kontakt" data-role="page">
 			<div data-role="header" data-theme="e">
-				{% include m_header.html %}
-				<h1>Kontakt</h1>
+				<header>
+					<h1><a href="#index">Tierarztpraxis Kaiserstrasse</a></h1>
+					
+					<h2>Kontakt</h2>
+				</header>
 			</div><!-- /header -->
 
-			<div data-role="content" data-theme="c">
+			<!-- div data-role="content" data-theme="c">
 				{% include m_kontakt.html %}
 			</div><!-- /content -->
 
-			<div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
+			<!-- div data-role="footer" data-theme="e" data-type="horizontal" class="footer1">
 				<a href="#kontakt" data-ajax="false" data-role="button" data-inline="false" data-icon="arrow-u">Zum Seitenanfang</a>
 				
 				<div class="bottom_10px"></div>

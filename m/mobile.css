@@ -1,77 +1,110 @@
 
 * {
-	font-family: Verdana, Arial, Helvetica, sans-serif !important;
-	font-size: 14px !important;
-	font-weight: normal !important;
-	line-height: 20px !important;
-	color: black !important;
-	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	color: black;
+}
+
+a, a:link, a:visited, a:active, a:focus {
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray !important;
 }
 
 h1 {
-	padding: 15px 0px !important;
-	margin: 0px !important;
-	font-size: 18px !important;
-	line-height: 26px !important;
+	font-size: 18px;
+	line-height: 26px;
+	/* font-weight: bold; */
 }
 
 h2 { 
-	font-size: 16px !important; 
-	line-height: 24px !important; 
+	font-size: 16px; 
+	line-height: 24px; 
+	/* font-weight: bold; */
 }
 
-header {
-	background-color: #1B61B6;
-	vertical-align: middle;
-}
-
-header img {
-	width: 75px;
-	height: 75px;
+li {
+	margin-left: 15px;
+	list-style-type: square;
 }
 
 header h1 {
-	padding: 0px 0px 0px 10px;
+	margin: 0px; 
+	padding: 10px 10px 10px 10px; 
+	text-align: center;
+	background-color: #1B61B6;
+	color: white !important;
 }
 
-header a {
-	font-size: 24px !important; 
-	line-height: 32px !important;
-	font-weight: normal !important;
+header h1 a{
 	color: white !important;
+	font-size: 24px !important;
+	font-weight: normal !important;
+	line-height: 24px !important;
+}
+
+header h2 {
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #FFFFBB;
+	font-size: 20px !important;
+	font-weight: normal !important;
+	line-height: 20px !important;
 }
 
 .footer1 {
 	padding: 10px;
-	background-color: #FADB4E;
+	background-color: #FFFFBB;
 }
 
 .footer2 {
 	padding: 10px;
+	text-align: center;
 	background-color: lightgrey;
 }
 
-article.mobile section {
+.footer2 a, .footer2 a:link, .footer2 a:visited, .footer2 a:active, .footer2 a:focus {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.footer2 a:hover {
+	color: gray !important;
+}
+
+/* article * {
+	text-align: justify;
+} */
+
+article section {
 	border-top: 1px solid grey;
 }
 
-article.mobile h2 {
+article h2 {
 	background-color: lightgrey;
 }
 
-.contact {
-	white-space:nowrap !important;
-	overflow: visible !important;
+ul.parkgaragen li {
+	float: left;
+	padding: 0px 5px 0px 0px;
 }
 
-.map {
-	width: 320px;
-	height: 320px;
-	padding: 2px 2px 2px 2px;
-	background-color: #8FBC8F;
+.bottom_10px {
+	padding-bottom: 10px;
 }
 
-.map img {
-	width: 320px;
-	height: 320px;
+.bottom_20px {
+	padding-bottom: 20px;
+}
+
+.fbold {
+	font-weight: bold !important;
 }
