@@ -2,11 +2,16 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans';
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 18px;
 	color: black;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+    src: url('/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 a, a:link, a:visited, a:active, a:focus {
