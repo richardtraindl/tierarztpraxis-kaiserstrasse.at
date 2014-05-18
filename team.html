@@ -1,47 +1,91 @@
 ---
 layout: desktop
-title: Tierarztpraxis Kaiserstrasse
+title: Team
 id: team
+subnav: nav_team.html
 ---
 
 
-	<script>
-		$(document).ready(function() {
-			var anker = window.location.hash;
-		
-			if(anker == "#elfi"){
-				showsel('elfi');
-			}
-			else if(anker == "#gerold"){
-				showsel('gerold');
-			}
-		});
-	</script>
+      <script>
+        $(document).ready(function() {
+          var anker = window.location.hash;
+        
+          if(anker == "#elfi"){
+            showsel('elfi');
+          }
+          else if(anker == "#gerold"){
+            showsel('gerold');
+          }
+        });
+      </script>
 
 
-	<div class="div-table">
-		<div class="div-row">
+      <article id="team">
 
-			<div id="subnav" class="div-cell right_dots">
-				<div class="menu-item bottom_dots">
-					<a id="nav_elfi" class="nav-active" href="#elfi" 
-							onclick="showSelSection('elfi')">
-						Dr. med. vet. <br>
-						Elfriede Koppensteiner
-					</a>
-				</div>
-				
-				<div class="menu-item bottom_dots">
-					<a id="nav_gerold" href="#gerold" onclick="showSelSection('gerold')">
-						Mag. med. vet. <br>
-						Gerold Koppensteiner
-					</a>
-				</div>
-			</div>
+        <section id="elfi" class="aktiv">
+          <h2>Dr. med. vet. Elfriede Koppensteiner</h2>
 
-			<div id="subcontent" class="div-cell">	
-				{% include team.html %}
-			</div>
+          <div class="small-gap"></div>
 
-		</div>
-	</div>
+          <div style="display: table;">
+            <div style="display: table-row;">
+
+              <div class="portrait" style="display: table-cell; vertical-align: top;">
+                <img src="img/portrait.jpg"  alt="Elfi">
+              </div>
+            
+              <div class="portrait" style="display: table-cell; vertical-align: top;">
+                <ul>
+                  <li>Geboren in Gmünd, Niederösterreich</li>
+                  <li>6-jährige Ausbildung in Modedesign</li>
+                  <li>Studium &amp; Doktorrat an der Veterinärmedizinischen Universität Wien</li>
+                  <li>Assistenz in verschiedenen Kliniken, Ö, D, CH</li>
+                  <li>Ausbildung in klassischer Homöopathie seit 1992</li>
+                  <li>2003 Gründung der Tierarztpraxis Kaiserstrasse</li>
+                  <li>Vorträge bei ÖGVH, SIH, "Fortundweiterbildungfuertieraerzte"</li>
+                </ul>
+
+                <!-- figure>
+                  <img class="team-img-left" src="/img/elfi.jpg" alt="Elfi">
+                </figure -->
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <noscript>
+          <div class="big-gap"></div>
+        </noscript>
+
+        <section id="gerold" class="aktiv">
+          <h2>Mag. med. vet. Gerold Koppensteiner</h2>
+
+          <div class="small-gap"></div>
+
+          <div style="display: table;">
+            <div style="display: table-row;">
+
+              <div class="portrait" style="display: table-cell; vertical-align: top;">
+                <img src="img/portrait.jpg"  alt="Gerold">
+              </div>
+
+              <div class="portrait" style="display: table-cell; vertical-align: top;">
+                <ul>
+                  <li>Geboren in Gmünd, Niederösterreich</li>
+                  <li>Matura BRG Gmünd</li>
+                  <li>Studium an der Veterinärmedizinischen Universität Wien</li>
+                  <li>Assistenz in verschiedenen Tierarztpraxen</li>
+                  <li>2003 Gründung der Tierarztpraxis Kaiserstrasse</li>
+                </ul>
+
+                <!-- figure>
+                  <img class="team-img-left" src="/img/gerold.jpg" alt="Gerold">
+                </figure -->
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </article>

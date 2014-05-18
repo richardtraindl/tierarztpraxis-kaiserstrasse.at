@@ -13,8 +13,8 @@
 		}
 		else{
 			$("section" + window.location.hash).addClass("aktiv");
-			$("div#subnav a").removeClass("nav-active");  
-			$('div#subnav a#nav_' + window.location.hash.substr(1)).addClass("nav-active");
+			$("div#subnav a").removeClass("subnav-active");  
+			$('div#subnav a#nav_' + window.location.hash.substr(1)).addClass("subnav-active");
 		}
 	}
 
@@ -22,6 +22,6 @@
 		$("section").removeClass("aktiv");  
 		$('section#' + anker).addClass("aktiv");
 	 
-		$("div#subnav a").removeClass("nav-active");  
-		$('div#subnav a#nav_' + anker).addClass("nav-active");	
+		$("div#subnav a").removeClass("subnav-active");  
+		$('div#subnav a#nav_' + anker).addClass("subnav-active");	
 	}

@@ -1,15 +1,50 @@
 ---
 layout: desktop
-title: Tierarztpraxis Kaiserstrasse
+title: Anfahrt
 id: anfahrt
 ---
-	
-	<script>
-		$(document).ready(function(){
-			$('a.gallery').colorbox( { rel: 'group1', slideshow: true, slideshowSpeed: 4000, slideshowAuto: true } );	
-		});
-	</script>
-	
-	
-	{% include anfahrt.html %}
 
+
+	<script>
+	  $(document).ready(function(){
+	    $('a.gallery1').colorbox( { rel: 'group1', opacity: 0.3, slideshow: true, slideshowSpeed: 4000, slideshowAuto: true } );	
+	  });
+	</script>
+
+
+	<article id="anfahrt">
+
+	  <p>Sie erreichen unsere Ordination <span class="fbold">öffentlich</span></p>
+	  <ul>
+	    <li>
+	      mit der Straßenbahn Linie 5 - Haltestelle Stollgasse oder Westbahnstraße
+	    </li>
+	    <li>
+	      mit den Straßenbahnen Linie 6, 9, 18, 52 und 58 - Haltestelle Westbahnhof
+	    </li>
+	    <li>
+	      mit den U-Bahnen Linie U3 und U6 - Haltestelle Westbahnhof
+	    </li>
+	  </ul>
+	  
+	  <div class="big-gap"></div>
+
+	  <p>	
+	    Wenn Sie mit dem <span class="fbold">Auto</span> kommen, beachten Sie die Kurzparkregelung für den 7. Bezirk (Parkpickerl).
+	    Parkgaragen:
+	  </p>
+	  <ul class="parkgaragen">
+	    <li>Lugner-Garagen Kaiserstr. 45</li>
+	    <li>Apollo-Garage Apollog. 11-13</li>
+	    <li>Parkplatz 'la stafa' Kaiserstr. 7</li>
+	  </ul>
+
+	  <div style="clear:both"class="big-gap"></div>
+
+	  <figure class="map">
+	    <a class="gallery1" href="img/plan_640x640.png">
+	      <img src="img/plan_640x640.png" alt="Plan">
+	    </a>
+	  </figure>
+
+	</article>

@@ -1,0 +1,318 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow: scroll;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: black;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+    src: url('/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	max-width: 90%;
+	width: 90%;
+	margin: auto;
+	/* background-color: #FFFFBB; */
+}
+
+h1, h1 a {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h2 { 
+	font-size: 18px; 
+	line-height: 24px; 
+}
+
+h3 { 
+	font-size: 16px; 
+	line-height: 20px; 
+}
+
+a, a:link, a:visited, a:active, a:focus {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #FFFFA0;
+}
+
+li {
+	margin-left: 15px;
+	list-style-type: square;
+}
+
+header {
+	padding: 20px 20px 5px 20px;
+	background-color: LightBlue;
+}
+
+header h1, header h1 a {
+	font-size: 32px;
+}
+
+header h1 {
+	padding: 20px 20px 20px 20px;
+}
+
+#content-wrapper {
+	padding: 20px;
+	background-color: #F0F0F0;
+}
+
+footer {
+	padding: 20px;
+	background-color: #F0F0F0;
+}
+
+#kontakt {
+	padding: 20px 0px 20px 20px;
+}
+
+nav#mainnav {
+	padding: 20px 20px 5px 20px;
+}
+
+nav#mainnav a {
+	color: white;
+	font-size: 18px;
+	margin: 0px 30px 0px 0px;
+}
+
+nav#mainnav a:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav#mainnav a.mainnav-active {
+	color: black;
+	font-size: 18px;
+}
+
+nav#mainnav a.mainnav-active:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+a.subnav-active {
+	font-weight: bold;
+}
+
+article {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+article#index h1 {
+	text-align: center;	
+}
+
+article#index img {
+	width: 600px;
+	height: 400px;
+}
+
+article#index figure {
+	display: none;
+}
+
+article#index figure.aktiv {
+	display: block;
+}
+
+nav#subnav {
+	vertical-align: top;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.fbold {
+	font-weight: bold;
+}
+
+.fitalic {
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+.small-gap {
+	padding-bottom: 10px;
+}
+
+.big-gap {
+	padding-bottom: 20px;
+}
+
+.huge-gap {
+	padding-bottom: 40px;
+}
+
+.horizontal-dotted-line {
+	background: url("../img/horizontal-dotted-line.png");
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+.vertical-dotted-line {
+	background: url("../img/vertical-dotted-line.png");
+	background-position: center top;
+	background-repeat: repeat-y;
+}
+
+#subnav {
+	padding: 0px 15px 0px 0px;
+}
+
+div.menu-item {
+	padding: 16px 0px 16px 0px;
+	text-align: left;
+}
+
+article section, .inaktiv {
+	display: none;
+}
+
+article section.aktiv, .aktiv {
+	display: block;
+}
+
+img.small {
+	width: 512px;
+	height: 341px;
+}
+
+
+.gallery {
+    line-height: 0;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: lightgray;
+}
+
+.img-ernaehrung {
+    display: block;
+	width: 164px; 
+	height: 164px; 
+	margin: 16px 0px 16px 16px; 
+    border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+
+.img-praxis {
+    display: block;
+    width:170px; 
+    height:113px;
+	margin: 16px 0px 16px 16px; 
+    border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+
+.map {
+	width: 480px;
+	height: 480px;
+	padding: 2px 2px 2px 2px;
+	background-color: #8FBC8F;
+}
+
+.map img {
+	width: 480px;
+	height: 480px;
+}
+
+img.centered{
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+
+ul.parkgaragen {
+	list-style-type: square;
+}
+
+ul.parkgaragen li {
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+
+.portrait {
+    line-height: 0;
+}
+
+.portrait img {
+  display: block;
+	width: 120px;
+	height: 120px;
+  padding: 2px 2px 2px 2px;
+  /* margin: 2px 2px 2px 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white; */
+  background-color: #666666;
+}
+
+.portrait ul {
+    padding: 0px 10px 10px 20px;
+}
+
+#img-hahnemann {
+  float: right; 
+  margin-top: 5px; 
+  padding: 0px 0px 5px 10px; 
+  width: 200px; 
+  height: 268px;
+}
+#img-globuli {
+  float: right; 
+  margin-top: 5px; 
+  padding: 0px 0px 5px 10px; 
+  width: 300px; 
+  height: 200px;
+}
+
+/*
+header {
+	margin: 15px 0px 15px 0px;
+	color: white;
+	background-image: url(/img/banner10.png); 
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 128px;
+	position: relative;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+}
+
+header h1 {
+	padding: 48px 20px 0px 192px;
+	font-size: 32px;
+	color: white;
+}
+
+header nav a {
+	font-size: 16px;
+	margin: 0px 20px 0px 0px;
+} */
