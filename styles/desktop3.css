@@ -71,8 +71,11 @@ header p {
 }
 
 #content-wrapper {
+	margin-bottom: 20px;
 	padding: 0px 16px 0px 16px;
 	background-color: #FFFBD7; /* #FFFACD; */
+	max-height: 640px;
+	height: 640px;
 }
 
 #navigation {
@@ -123,8 +126,6 @@ nav a.nav-active:hover {
 	text-align: left;
 	font-size: 10px;
 	line-height: 12px;
-	border-bottom-width: 1px;
-	border-style: dotted;
 	display: none;
 }
 
