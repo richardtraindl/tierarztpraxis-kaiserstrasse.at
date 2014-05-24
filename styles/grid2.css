@@ -1,9 +1,13 @@
 /* custom css grid */
 
 .grid-64 {
-	width: 100%; 
-	min-width: 400px; 
-	overflow: hidden;
+	display: table;
+	width: 100%;
+}
+
+.grid-64-row {
+	display: table-row;
+	width: 100%;
 }
 
 .grid-64-cols_1, .grid-64-cols_2, .grid-64-cols_4, .grid-64-cols_6, 
@@ -13,10 +17,11 @@
 .grid-64-cols_35, .grid-64-cols_36, .grid-64-cols_44, .grid-64-cols_46, 
 .grid-64-cols_48, .grid-64-cols_49, .grid-64-cols_50, .grid-64-cols_52, 
 .grid-64-cols_54, .grid-64-cols_56, .grid-64-cols_58, .grid-64-cols_60, 
-.grid-64-cols_62, .grid-64-cols_63, .grid-64-cols_64, .grid-64-col {
-	display: inline-block;
-	min-height: 100%;
-  vertical-align: top;
+.grid-64-cols_62, .grid-64-cols_63, .grid-64-cols_64 {
+	display: table-cell;
+	vertical-align: top;
+  width: 100%;
+  overflow: hidden;
 }
 
 .grid-64-cols_1 {

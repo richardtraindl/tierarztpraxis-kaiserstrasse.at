@@ -1,43 +1,51 @@
 ---
-layout: desktop
-title: Startseite
+layout: desktop3
+title: Tierarztpraxis Kaiserstrasse
 id: index
 ---
 
 
-      <script>
-        var myslider;
+	<script>
+		var myslider;
 
-        $(document).ready(function(){
-          $('figure.aktiv').removeClass("aktiv");
-          $('figure#slideshow').addClass("aktiv");
-          
-          myslider = richie_slider_new( '#slideshow', {} );
-        });
-      </script>
+		$(document).ready(function(){
+			// $('figure.aktiv').removeClass("aktiv");
+			// $('figure#slideshow').addClass("aktiv");
+			
+			// myslider = richie_slider_new( '#slideshow', {} );
+		});
+	</script>
 
 
-      <article id="index">
+	<article id="index">
 		
-        <h1>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h1>
-      
-        <div class="big-gap"></div>
-		
-        <figure id="slideshow" style="margin: auto; border: solid grey 1px">
-          <img src="img/fassade_600x400.png" alt="Fassade">
-          <img src="img/empfangsraum_600x400.png" alt="Ordi">
-          <img src="img/behandlungsraum_600x400.png" alt="Tiere">
-          <img src="img/katze_schildkroete_600x400.png" alt="Tiere">
-        </figure>
+		<div class="div-table">
+			<div class="div-row">
 
-        <!-- div style="padding: 15px" -->
-          <!-- a id="link-resume" href="#" onclick="resume()">Resume</a -->
-        <!-- /div -->
+				<div class="div-cell index-content1">
+					<h1>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h1>
+				
+					<div class="gap"></div>
 
-        <noscript>
-          <figure style="margin: auto; width: 600px; height: 400px; border: solid grey 1px" class="aktiv">
-            <img src="img/fassade_600x400.png" alt="Fassade">
-          </figure>
-        </noscript>
+					<!-- figure id="slideshow" class="aktiv" style="margin: auto; border: solid grey 1px">
+							<img src="img/fassade_600x400.png" alt="Fassade">
+							<img src="img/empfangsraum_600x400.png" alt="Ordi">
+							<img src="img/behandlungsraum_600x400.png" alt="Tiere">
+							<img src="img/katze_schildkroete_600x400.png" alt="Tiere">
+					</figure -->
+
+					<!-- noscript -->
+						<figure style="margin: auto; border: solid grey 1px" class="aktiv">
+							<img src="img/fassade_600x400.png" alt="Fassade">
+						</figure>
+					<!-- /noscript -->
+				</div>
+
+				<div class="div-cell index-content2">
+					{% include kontakt.html %}
+				</div>
+
+			</div>
+		</div>
 
 	</article>

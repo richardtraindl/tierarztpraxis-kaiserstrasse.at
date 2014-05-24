@@ -5,10 +5,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<link rel="stylesheet" href="styles/desktop.css">
-        
-        <link rel="stylesheet" href="styles/grid.css">
+		<link rel="stylesheet" type="text/css" href="styles/desktop2.css" media="only screen and (min-width: 640px)">
 
+		<link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 640px)">
+        
 		<link rel="stylesheet" href="scripts/colorbox/colorbox.css">
 		
 		<script src="scripts/jquery-1.8.2.min.js"></script>
@@ -41,45 +41,39 @@
 	</head>
 
 	<body id="{{ page.id }}">
-		<div class="big-gap"></div>
 
-		{% include header.html %}
+		<div id="screen">
+			<div class="big-gap"></div>
 
-		<div class="huge-gap"></div>
-
-		<div id="content-wrapper">
-
-			<div class="grid-64">
-				<div class="grid-64-row">
-                    
-                    {% if page.subnav %}
-                        <div class="grid-64-cols_12">
-                            {% include {{page.subnav}} %}
-                        </div>                        
-                        
-                        <div class="grid-64-cols_1 vertical-dotted-line">
-                        </div>
-                        
-                        <div class="grid-64-cols_36">
-                            {{ content }}
-                        </div>
-                    {% else %}
-                        <div class="grid-64-cols_49">
-                            {{ content }}
-                        </div>
-                    {% endif %}
-                    
-                    <div class="grid-64-cols_1 vertical-dotted-line">
-                    </div>                                        
-
-					<div class="grid-64-cols_14">
-						{% include kontakt.html %}
-					</div>
-
-				</div>
+			<div id="header">
+				{% include header.html %}
 			</div>
 
-		</div>
+			<div class="huge-gap"></div>
+
+			{% if page.subnav %}
+				<div id="subnav">
+					{% include {{page.subnav}} %}
+				</div>
+
+				<div id="small-content">
+					{{ content }}
+				</div>
+			{% else %}
+				<div id="content">
+					{{ content }}
+				</div>
+			{% endif %}
+
+
+			
+			<div id="contact">
+				{% include kontakt.html %}
+			</div>
+
+			<div style="clear:both;"></div>
+		</div>				
+
 	</body>
 </html>
 
