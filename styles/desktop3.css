@@ -50,7 +50,7 @@ body {
 header {
 	padding: 20px 0px 20px 0px;
 	margin: 20px 0px 20px 0px;
-	background-color: #FFFBD7; /* #FFFACD; */
+	background-color: #FFFACD; /* #FFFBD7; */
 	/* background-image: url(img/banner10.png); */
 	background-repeat: no-repeat;
 	width: 1024px;
@@ -77,8 +77,12 @@ header p {
 
 #navigation {
 	width: 18%;
-	padding: 10px 15px 10px 0px;
+	padding: 10px 10px 10px 0px;
 /*	background-color: #FFFAF0; */
+}
+
+#navigation * {
+	overflow: hidden !important;
 }
 
 #content {
@@ -100,7 +104,7 @@ nav a:hover {
 	color: #2F4F4F;
 }
 
-nav a.nav-active {
+nav a.nav-active, a.nav-active  {
 	color:  #B22222;
 }
 
@@ -115,17 +119,22 @@ nav a.nav-active:hover {
 }
 
 .submenu-item {
-	margin: 5px 0px 0px 20px;
+	margin: 5px 0px 0px 10px;
 	text-align: left;
 	font-size: 10px;
 	line-height: 12px;
 	border-bottom-width: 1px;
 	border-style: dotted;
+	display: none;
 }
 
 .submenu-item * {
 	font-size: 14px;
 	line-height: 16px;
+}
+
+.submenu-item.aktiv {
+	display: block;
 }
 
 .index-content1 {
@@ -154,6 +163,7 @@ nav a.nav-active:hover {
 
 .content1 img, .index-content1 img {
 	width: 100%;
+	display: block;
 }
 
 article#index figure {
@@ -171,6 +181,7 @@ article#index h1 {
 article#index img {
 	width: 100%;
 	height: auto;
+	display: block;
 }
 
 #subcontent {
@@ -193,7 +204,6 @@ section {
 section.aktiv {
 	display: block;
 }
-
 
 #contact {
 	padding: 20px 0px 0px 10px;

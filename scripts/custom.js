@@ -2,7 +2,14 @@
 
 	function selMenueItemActiv(){
 		var BodyId = 	$("body").attr("id");
-		$('nav#mainnav a[href="' + BodyId + '.html"]').addClass('nav-active');
+		mainnav = $('nav#mainnav a[href="' + BodyId + '.html"]');
+		mainnav.addClass('nav-active');
+
+		var subnav = mainnav.nextAll('div.submenu-item');
+		if( subnav != null ){
+			subnav.addClass('aktiv');
+			subnav.find('a').first().addClass('nav-active');
+		}		
 	}
 
 	function showSection(){
