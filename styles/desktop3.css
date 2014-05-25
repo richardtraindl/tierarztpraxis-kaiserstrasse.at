@@ -38,6 +38,7 @@ header p {
 	margin-bottom: 20px;
 	padding: 0px 16px 16px 16px;
 	background-color: #FFECC5; /*#FFE09E; /* #FFFBD7; /* #FFFACD; */
+	min-height: 540px;
 	/* max-height: 540px;
 	height: 540px; */
 }
