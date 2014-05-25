@@ -9,8 +9,6 @@
 	font-size: 14px;
 	line-height: 20px;
 	text-align: justify;
-	/* overflow: hidden; */
-	color: black;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -20,7 +18,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 a, a:link, a:visited, a:active, a:focus {
-	text-decoration: none;	
+	text-decoration: none;
+	color: black;
 }
 
 a:hover {
@@ -98,5 +97,11 @@ a.internal-link {
 
 a.internal-link:hover {
 	color: blue;
+}
+
+li {
+	list-style-image: url("../img/listitem.png");
+	/* list-style-position: inside; */
+	margin-left: 20px;
 }
 
