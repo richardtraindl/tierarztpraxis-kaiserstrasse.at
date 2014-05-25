@@ -178,3 +178,7 @@ img {
 	width: 100%;
 	display: block;
 }
+
+article#team ul, li { 
+	text-align: left;
+}
