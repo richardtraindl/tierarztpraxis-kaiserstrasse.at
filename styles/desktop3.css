@@ -179,6 +179,6 @@ img {
 	display: block;
 }
 
-article#team ul, li { 
+article#team ul, article#team li { 
 	text-align: left;
 }
