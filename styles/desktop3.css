@@ -61,7 +61,7 @@ header p {
 }
 
 .content2 {
-	padding: 10px 10px 0px 10px;
+	padding: 20px 10px 0px 10px;
 	width: 36%;
 }
 
@@ -180,4 +180,8 @@ img {
 
 article#team ul, article#team li { 
 	text-align: left;
+}
+
+section h2 {
+	font-style: italic;
 }
