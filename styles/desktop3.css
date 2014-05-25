@@ -38,8 +38,8 @@ header p {
 	margin-bottom: 20px;
 	padding: 0px 16px 0px 16px;
 	background-color: #FFFBD7; /* #FFFACD; */
-	max-height: 580px;
-	height: 580px;
+	max-height: 640px;
+	height: 640px;
 }
 
 #navigation {
@@ -57,12 +57,12 @@ header p {
 
 .content1 {
 	padding: 0px 10px 0px 10px;
-	width: 70%;
+	width: 64%;
 }
 
 .content2 {
 	padding: 10px 10px 0px 10px;
-	width: 30%;
+	width: 36%;
 }
 
 .content2 h1, h2, h3 {
