@@ -69,6 +69,16 @@ header p {
 	text-align: left;
 }
 
+.index-content1 {
+	padding: 0px 10px 0px 10px;
+	width: 704%;
+}
+
+.index-content2 {
+	padding: 30px 10px 0px 10px;
+	width: 30%;
+}
+
 nav {
 	padding: 0px 0px 0px 0px;
 	text-align: left;
