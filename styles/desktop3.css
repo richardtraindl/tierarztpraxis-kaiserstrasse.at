@@ -43,7 +43,7 @@ header p {
 }
 
 #navigation {
-	width: 18%;
+	width: 16%;
 	padding: 10px 10px 10px 0px;
 }
 
@@ -52,17 +52,17 @@ header p {
 }
 
 #content {
-	width: 82%;
+	width: 84%;
 }
 
 .content1 {
 	padding: 0px 10px 0px 10px;
-	width: 60%;
+	width: 62%;
 }
 
 .content2 {
 	padding: 30px 10px 0px 10px;
-	width: 40%;
+	width: 38%;
 }
 
 .content2 h1, h2, h3 {
