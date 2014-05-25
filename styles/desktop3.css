@@ -1,46 +1,13 @@
+/* CSS for desktop */
 
 html {
 	overflow: -moz-scrollbars-vertical;
 	overflow: scroll;
 }
 
-h1 {
-	font-size: 20px;
-	line-height: 26px;
-}
-
-h2 { 
-	font-size: 18px; 
-	line-height: 24px; 
-}
-
-table {
-	border-spacing: 0px;
-	border-collapse: collapse;
-	/* width: 100%; */
-}
-
-li {
-	margin-left: 15px;
-	list-style-type: square;
-}
-
-ul.parkgaragen {
-	list-style-type: square;
-}
-
-ul.parkgaragen li {
-	float: left;
-	padding: 0px 5px 0px 0px;
-}
-
 body {
 	background-color: #FFCC66; /* #F5DEB3; #FFFCE4; #FFFACD; Wheat; #FFFFBB; */
 	background-attachment: scroll; background-repeat: repeat-x; 
-	/*background: -webkit-linear-gradient(left top, #F5DEB3, #FFCC66);
-	background: -o-linear-gradient(bottom right, #F5DEB3, #FFCC66);
-	background: -moz-linear-gradient(bottom right, #F5DEB3´, #FFCC66);
-	background: linear-gradient(to bottom, #F5DEB3, #FFCC66); */
 	max-width: 1024px;
 	width: 1024px;
 	height: 101%;
@@ -50,11 +17,8 @@ body {
 header {
 	padding: 20px 0px 20px 0px;
 	margin: 20px 0px 20px 0px;
-	/* background-color: #FFFACD; /* #FFFBD7; */
-	/* background-image: url(img/banner10.png); */
 	background-repeat: no-repeat;
 	width: 1024px;
-	/* height: 128px; */
 }
 
 header h1 {
@@ -81,7 +45,6 @@ header p {
 #navigation {
 	width: 18%;
 	padding: 10px 10px 10px 0px;
-/*	background-color: #FFFAF0; */
 }
 
 #navigation * {
@@ -90,62 +53,6 @@ header p {
 
 #content {
 	width: 82%;
-}
-
-#mainnav {
-	padding: 0px 0px 0px 0px;
-	text-align: left;
-}
-
-nav a {
-	color: black;
-	font-size: 18px;
-}
-
-nav a:hover {
-	background-color: transparent;
-	color: #2F4F4F;
-}
-
-nav a.nav-active, a.nav-active  {
-	color:  #B22222;
-}
-
-nav a.nav-active:hover {
-	background-color: transparent;
-	color: #2F4F4F;
-}
-
-.menu-item {
-	padding: 20px 0px 0px 0px;
-	text-align: left;
-}
-
-.submenu-item {
-	margin: 5px 0px 0px 10px;
-	text-align: left;
-	font-size: 10px;
-	line-height: 12px;
-	display: none;
-}
-
-.submenu-item * {
-	font-size: 14px;
-	line-height: 16px;
-}
-
-.submenu-item.aktiv {
-	display: block;
-}
-
-.index-content1 {
-	padding: 0px 10px 0px 10px;
-	width: 70%;
-}
-
-.index-content2 {
-	padding: 0px 10px 0px 10px;
-	width: 30%;
 }
 
 .content1 {
@@ -162,32 +69,53 @@ nav a.nav-active:hover {
 	text-align: left;
 }
 
-.content1 img, .index-content1 img {
-	width: 100%;
-	display: block;
+nav {
+	padding: 0px 0px 0px 0px;
+	text-align: left;
 }
 
-article#index figure {
+nav a {
+	color: black;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+nav a:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav a.nav-aktiv  {
+	color: #B22222;
+}
+
+nav a.nav-aktiv:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav .menu-item {
+	padding: 20px 0px 0px 0px;
+	text-align: left;
+}
+
+nav .submenu-item {
+	margin: 5px 0px 0px 10px;
+	text-align: left;
 	display: none;
 }
 
-article#index figure.aktiv {
+nav .submenu-item * {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+nav .submenu-item.aktiv {
 	display: block;
 }
 
 article#index h1 {
 	text-align: center;	
-}
-
-article#index img {
-	width: 100%;
-	height: auto;
-	display: block;
-}
-
-#subcontent {
-  /* width: 512px; */
-	padding: 0px 0px 0px 16px;
 }
 
 .inaktiv {
@@ -216,7 +144,37 @@ section.aktiv {
 	text-align: left;
 }
 
-.akad-titel {
-	font-size: 16px;
-	line-height: 20px;
+h1 {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h2 { 
+	font-size: 18px; 
+	line-height: 24px; 
+}
+
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+li {
+	margin-left: 15px;
+	list-style-type: square;
+}
+
+ul.parkgaragen {
+	list-style-type: square;
+}
+
+ul.parkgaragen li {
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+
+img {
+	width: 100%;
+	display: block;
 }
