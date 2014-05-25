@@ -162,11 +162,11 @@ table {
 
 li {
 	margin-left: 15px;
-	list-style-type: square;
+	list-style-type: none;
 }
 
 ul.parkgaragen {
-	list-style-type: square;
+	list-style-type: none;
 }
 
 ul.parkgaragen li {
