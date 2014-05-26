@@ -117,8 +117,8 @@ nav .submenu-item {
 }
 
 nav .submenu-item * {
-	font-size: 12px;
-	line-height: 14px;
+	/* font-size: 12px;
+	line-height: 14px; */
 }
 
 nav .submenu-item.aktiv {
