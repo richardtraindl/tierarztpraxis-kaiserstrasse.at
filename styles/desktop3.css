@@ -14,6 +14,24 @@ body {
 	margin: auto;
 }
 
+
+h1 {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h2 { 
+	font-size: 18px; 
+	line-height: 24px; 
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+
+
 header {
 	padding: 40px 0px 20px 0px;
 	margin: 20px 0px 20px 0px;
