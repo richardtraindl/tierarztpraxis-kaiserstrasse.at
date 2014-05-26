@@ -66,7 +66,7 @@ header p {
 	width: 38%;
 }
 
-.content2 h1, h2, h3 {
+.content2 h* {
 	text-align: left;
 }
 
@@ -87,8 +87,8 @@ nav {
 
 nav a {
 	color: black;
-	font-size: 18px;
-	line-height: 20px;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 nav a:hover {
@@ -117,8 +117,8 @@ nav .submenu-item {
 }
 
 nav .submenu-item * {
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 12px;
+	line-height: 14px;
 }
 
 nav .submenu-item.aktiv {
