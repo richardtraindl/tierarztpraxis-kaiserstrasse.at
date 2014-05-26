@@ -35,7 +35,7 @@ header p {
 }
 
 #content-wrapper {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	padding: 0px 16px 16px 16px;
 	background-color: #FFECC5; /*#FFE09E; /* #FFFBD7; /* #FFFACD; */
 	min-height: 540px;
@@ -44,7 +44,7 @@ header p {
 }
 
 #navigation {
-	width: 16%;
+	width: 20%;
 	padding: 10px 10px 10px 0px;
 }
 
@@ -53,20 +53,20 @@ header p {
 }
 
 #content {
-	width: 84%;
+	width: 80%;
 }
 
 .content1 {
 	padding: 0px 10px 0px 10px;
-	width: 62%;
+	width: 66%;
 }
 
 .content2 {
 	padding: 30px 10px 0px 10px;
-	width: 38%;
+	width: 34%;
 }
 
-.content2 h* {
+.content2 h2 {
 	text-align: left;
 }
 
@@ -171,28 +171,9 @@ table {
 	width: 100%;
 }
 
-/*
-li {
-	margin-left: 15px;
-	list-style-type: none;
-}
-
-ul.parkgaragen {
-	list-style-type: none;
-}
-
-ul.parkgaragen li {
-	padding: 0px 5px 0px 0px;
-}
-*/
-
 img {
 	width: 100%;
 	display: block;
-}
-
-article#team ul, article#team li { 
-	text-align: left;
 }
 
 section h2 {
