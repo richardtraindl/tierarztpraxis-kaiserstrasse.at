@@ -36,9 +36,9 @@ header p {
 
 #content-wrapper {
 	/* margin-bottom: 20px; */
-	padding: 0px 16px 16px 16px;
+	padding: 0px 16px 0px 16px;
 	background-color: #FFECC5; /*#FFE09E; /* #FFFBD7; /* #FFFACD; */
-	min-height: 540px;
+	/* min-height: 480px; */
 	/* max-height: 540px;
 	height: 540px; */
 }
