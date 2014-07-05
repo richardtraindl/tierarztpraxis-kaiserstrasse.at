@@ -9,6 +9,7 @@
 	font-size: 14px;
 	line-height: 18px;
 	text-align: justify;
+	color: #735552;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -38,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
 
 a, a:link, a:visited, a:active, a:focus {
 	text-decoration: none;
-	color: black;
+	color: #735552;
 }
 
 a:hover {
