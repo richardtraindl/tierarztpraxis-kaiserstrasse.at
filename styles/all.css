@@ -10,6 +10,9 @@
 	line-height: 18px;
 	text-align: justify;
 	color: #735552;
+	-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 /* HTML5 display-role reset for older browsers */
