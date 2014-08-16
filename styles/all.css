@@ -56,6 +56,10 @@ li {
 	text-align: left;
 }
 
+img {
+	display: block;
+}
+
 .fbold {
 	font-weight: bold !important;
 }

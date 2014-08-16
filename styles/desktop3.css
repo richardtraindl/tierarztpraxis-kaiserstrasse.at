@@ -1,19 +1,17 @@
 /* CSS for desktop */
 
 html {
-	overflow: -moz-scrollbars-vertical;
 	overflow: scroll;
 }
 
 body {
-	background-color: #FFE09E; /* #FFCC66;  #F5DEB3; #FFFCE4; #FFFACD; Wheat; #FFFFBB; */
-	background-attachment: scroll; background-repeat: repeat-x; 
-	max-width: 1024px;
-	width: 1024px;
-	/* height: 101%; */
-	margin: auto;
+	background-color: #FFE09E; 
+	background-attachment: scroll; background-repeat: repeat-x;
+	/* max-width: 1120px;
+	width: 1120px;
+  height: 101%;
+	margin: auto; */
 }
-
 
 h1 {
 	font-size: 20px;
@@ -25,23 +23,19 @@ h2 {
 	line-height: 24px; 
 }
 
-img {
-	width: 100%;
-	display: block;
-}
-
 header {
 	padding: 10px 0px 20px 0px;
 	margin: 20px 0px 20px 0px;
 	background-repeat: no-repeat;
-	width: 1024px;
+	/* width: 1120px; */
+	margin: auto;
 }
 
 header img {
+	/* display: inline-block; */
 	width: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	text-align: center;
+	margin: auto;
 }
 
 header h1 {
@@ -58,17 +52,20 @@ header p {
 }
 
 #content-wrapper {
-	/* margin-bottom: 20px; */
-	padding: 0px 16px 0px 16px;
+	margin-bottom: 20px;
+	/* padding: 0px 16px 0px 16px; */
 	background-color: #FFECC5; /*  #FFECC5; /*#FFE09E; /* #FFFBD7; /* #FFFACD; */
-	/* min-height: 480px; */
-	/* max-height: 540px;
-	height: 540px; */
+	width: 1120px;
+	height: 576px;
+	max-height: 576px;
+	margin: auto;
 }
 
 #navigation {
-	width: 20%;
-	padding: 10px 10px 10px 0px;
+	width: 204px;
+	padding: 10px 10px 10px 10px;
+	height: 576px;
+	max-height: 576px;
 }
 
 #navigation * {
@@ -76,18 +73,28 @@ header p {
 }
 
 #content {
-	width: 80%;
+	width: 896px;
+	height: 576px;
+	max-height: 576px;
 }
 
 .content1 {
-	padding: 0px 10px 0px 10px;
-	width: 66%;
+	width: 576px;
+	height: 576px;
+	max-height: 576px;
+}
+
+.content1 img {
+	display: block;
+	width: 576px;
+	height: 576px;
 }
 
 .content2 {
-	padding: 30px 10px 10px 10px;
-	width: 34%;
-	overflow: scroll;
+	padding: 30px 20px 10px 10px;
+	width: 290px;
+	height: 576px;
+	max-height: 576px;
 }
 
 .content2 h2 {
@@ -96,12 +103,17 @@ header p {
 
 .index-content1 {
 	padding: 0px 10px 0px 10px;
-	width: 74%;
+	width: 632px;
+}
+
+.index-content1 img {
+	width: 632px;
+	/* height: 40px; */
 }
 
 .index-content2 {
-	padding: 30px 10px 0px 10px;
-	width: 26%;
+	padding: 40px 10px 0px 10px;
+	width: 224px;
 }
 
 nav {
@@ -141,8 +153,9 @@ nav .submenu-item {
 }
 
 nav .submenu-item * {
-	/* font-size: 12px;
-	line-height: 14px; */
+	font-size: 12px;
+	line-height: 14px;
+	white-space: nowrap;
 }
 
 nav .submenu-item.aktiv {
@@ -170,7 +183,6 @@ section.aktiv {
 }
 
 #contact {
-	padding: 20px 0px 0px 10px;
 	width: 100%;
 	text-align: left;
 }
