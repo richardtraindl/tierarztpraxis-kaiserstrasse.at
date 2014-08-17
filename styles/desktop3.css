@@ -91,8 +91,8 @@ header p {
 }
 
 .content2 {
-	padding: 30px 20px 10px 10px;
-	width: 290px;
+	padding: 30px 20px 10px 20px;
+	width: 280px;
 	height: 576px;
 	max-height: 576px;
 }
@@ -155,7 +155,6 @@ nav .submenu-item {
 nav .submenu-item * {
 	font-size: 12px;
 	line-height: 14px;
-	white-space: nowrap;
 }
 
 nav .submenu-item.aktiv {
