@@ -7,8 +7,7 @@
 	font-family: "'Segoe UI', 'Calibri', 'Courier New'";
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 18px;
-	text-align: justify;
+	line-height: 16px;
 	color: #735552;
 	-webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -19,6 +18,46 @@
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+body {
+	background-color: #FFE09E; 
+	background-attachment: scroll; background-repeat: repeat-x;
+  /* height: 101%; */
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+h2 { 
+	font-size: 18px; 
+	line-height: 22px; 
+}
+
+a, a:link, a:visited, a:active, a:focus {
+	text-decoration: none;
+	color: #735552;
+}
+
+a:hover {
+	color: #2F4F4F;
+}
+
+li {
+	list-style-image: url("../img/listitem.png");
+	margin-left: 20px;
+	text-align: left;
+}
+
+img {
+	display: block;
+}
+
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
 }
 
 .div-table {
@@ -40,28 +79,8 @@ footer, header, hgroup, menu, nav, section {
 	height: 100%;
 }
 
-a, a:link, a:visited, a:active, a:focus {
-	text-decoration: none;
-	color: #735552;
-}
-
-a:hover {
-	color: #2F4F4F;
-}
-
-li {
-	list-style-image: url("../img/listitem.png");
-	/* list-style-position: inside; */
-	margin-left: 20px;
-	text-align: left;
-}
-
-img {
-	display: block;
-}
-
 .fbold {
-	font-weight: bold !important;
+	font-weight: bold;
 }
 
 .fitalic {
@@ -104,5 +123,146 @@ img {
 
 .huge-gap {
 	padding-bottom: 30px;
+}
+
+header {
+	padding: 10px 0px 20px 0px;
+	margin: 20px 0px 20px 0px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+header img {
+	width: 80px;
+	text-align: center;
+	margin: auto;
+}
+
+header h1, header a {
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+header p, header a {
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.inaktiv {
+	display: none;
+}
+
+.aktiv {
+	display: block;
+}
+
+section {
+	display: none;
+	text-align: justify;
+}
+
+section.aktiv {
+	display: block;
+}
+
+section h1, section h2 {
+	text-align: left;
+	font-style: italic;
+}
+
+section#section-index {
+	position: relative;
+}
+
+section#section-index > div {
+	position: absolute; 
+	width: 100%;
+}
+
+section#section-index h1 {
+	background-color: white;
+	opacity: 0.6; 
+	text-align: center; 
+	margin: auto;
+}
+
+section#section-index figure {
+	margin: auto; 
+	border: solid grey 1px;
+}
+
+section#section-index figure img {
+	width: 100%;
+}
+
+article#article-kontakt h1, 
+article#article-kontakt h2, 
+article#article-kontakt p {
+	text-align: left;
+}
+
+.spacer {
+	padding: 16px 0px 16px 0px;
+}
+
+section .spacer {
+	padding: 12px 0px 20px 0px;
+}
+
+.spacer img {
+	width: 40px;
+	height: 1px;
+}
+
+nav {
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+nav a {
+	color: black;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+nav a:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav a.nav-aktiv  {
+	color: #B22222;
+}
+
+nav a.nav-aktiv:hover {
+	background-color: transparent;
+	color: #2F4F4F;
+}
+
+nav .menu-item {
+	padding: 20px 0px 0px 0px;
+	text-align: left;
+}
+
+#nav_index {
+	padding: 0px 0px 0px 0px;
+}
+
+nav .submenu-item {
+	margin: 5px 0px 0px 10px;
+	text-align: left;
+	display: none;
+}
+
+nav .submenu-item * {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+nav .submenu-item.aktiv {
+	display: block;
 }
 

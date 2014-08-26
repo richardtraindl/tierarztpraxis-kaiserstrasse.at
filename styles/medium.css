@@ -1,0 +1,65 @@
+/* CSS for medium */
+
+#wrapper {
+	background-color: #FFECC5;
+	width: 640px;
+  height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#navigation {
+	width: 136px;
+  height: auto;
+	padding: 16px 8px 8px 16px;
+}
+
+#content {
+	width: 480px;
+  height: auto;
+}
+
+figure.image {
+	float: left;
+	width: 300px;
+	height: 300px;
+  padding: 0px 0px 0px 0px;
+}
+
+figure.image img {
+	width: 288px;
+	height: 288px;
+}
+
+div.description {
+	width: 468px;
+	height: auto;
+  padding: 16px 16px 8px 0px;
+}
+
+div.description ul {
+
+}
+
+section#section-index > div {
+	top: 256px;
+	left: 0px; 
+}
+
+section#section-index h1 {
+	width: 400px; 
+}
+
+.telefon-cell2 {
+	float: left;
+}
+
+.telefon-cell3 {
+	float: left;
+}
+
+.telefon-cell4 {
+  padding-bottom: 16px;
+}

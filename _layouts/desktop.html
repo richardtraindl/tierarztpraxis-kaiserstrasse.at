@@ -9,9 +9,11 @@
 
 		<link rel="stylesheet" href="styles/all.css">
 
-		<link rel="stylesheet" media="only screen and (max-width: 1119px)" href="styles/desktop2.css" />
+		<link rel="stylesheet" media="only screen and (max-width: 639px)" href="styles/small.css" />
 
-		<link rel="stylesheet" media="only screen and (min-width: 1120px)" href="styles/desktop3.css" />
+		<link rel="stylesheet" media="only screen and (min-width: 640px) and (max-width: 959px)" href="styles/medium.css" />
+
+		<link rel="stylesheet" media="only screen and (min-width: 960px)" href="styles/desktop.css" />
 
 		<link rel="stylesheet" href="scripts/colorbox/colorbox.css">
 		
@@ -45,14 +47,17 @@
 		{% include header.html %}
 
 		<div id="wrapper">
-			<div id="navigation">
-				{% include navigation.html %}
-			</div>
-
-			<div id="content">
-				{{ content }}
-			</div>
-		</div>
+      <div class="div-table">
+        <div class="div-row">
+          <div id="navigation" class="div-cell">
+            {% include navigation.html %}
+          </div>
+          <div id="content" class="div-cell">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
 
 	</body>
 </html>
