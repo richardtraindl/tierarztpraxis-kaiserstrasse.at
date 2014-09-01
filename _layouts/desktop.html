@@ -42,6 +42,11 @@
           $( "body" ).css("background-color", inputValue ); 
         });
 
+        $( "input#wrapper-hintergrundfarbe" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "#wrapper" ).css("background-color", inputValue ); 
+        });
+
         $( "input#schriftfarbe" ).click(function() {
           var inputValue = $( this ).val();
           $( "*" ).css("color", inputValue ); 
@@ -67,9 +72,15 @@
           $( ".submenu-item a" ).css("font-size", inputValue ); 
         });
 
+        $( "input#schriftgroeße_inhalt_ueberschrift" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "#content h2" ).css("font-size", inputValue ); 
+        });
+
         $( "input#schriftgroeße_inhalt" ).click(function() {
           var inputValue = $( this ).val();
-          $( "#content *" ).css("font-size", inputValue ); 
+          $( "#content p" ).css("font-size", inputValue ); 
+          $( "#content li" ).css("font-size", inputValue ); 
         });
 
 			});
@@ -102,6 +113,15 @@
 					</div>
 					<div class="div-cell" style="width: 150px;">
 						<input id="hintergrundfarbe" type="text" name="hintergrundfarbe" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-wrapper-hintergrundfarbe">
+					<div class="div-cell" style="width: 200px;">
+						Wrapper Hintergrundfarbe: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="wrapper-hintergrundfarbe" type="text" name="wrapper-hintergrundfarbe" size="10" maxlength="30">
 					</div>
 				</form>
 
@@ -147,6 +167,16 @@
 					</div>
 					<div class="div-cell" style="width: 150px;">
 						<input id="schriftgroeße_subnav" type="text" name="schriftgroeße_subnav" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftgroeße_inhalt_ueberschrift">
+					<div class="div-cell" style="width: 200px;">
+						Schriftgröße Inhalt Übers.: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftgroeße_inhalt_ueberschrift" type="text" name="schriftgroeße_inhalt_ueberschrift" size="10" maxlength="30">
+					</div>
 					</div>
 				</form>
 

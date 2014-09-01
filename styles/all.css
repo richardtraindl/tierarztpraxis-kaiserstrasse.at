@@ -38,11 +38,11 @@ h2 {
 
 a, a:link, a:visited, a:active, a:focus {
 	text-decoration: none;
-	color: #735552;
+	/* color: #735552; */
 }
 
 a:hover {
-	color: #B22222;
+	/* color: #B22222; */
 }
 
 li {
@@ -146,7 +146,7 @@ header h1, header h1 a {
 }
 
 header a:hover {
-	color: #735552;
+	/* color: #735552; */
 }
 
 header p, header p a {
@@ -228,14 +228,14 @@ nav {
 }
 
 nav a {
-	color: black;
+	/* color: black; */
 	font-size: 14px;
 	line-height: 16px;
 }
 
 nav a:hover {
-	background-color: transparent;
-	color: #B22222;
+	/* background-color: transparent; */
+	/* color: #B22222; */
 }
 
 nav a.nav-aktiv  {
@@ -243,8 +243,8 @@ nav a.nav-aktiv  {
 }
 
 nav a.nav-aktiv:hover {
-	background-color: transparent;
-	color: #B22222;
+	/* background-color: transparent; */
+	/* color: #B22222; */
 }
 
 nav .menu-item {
