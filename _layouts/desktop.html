@@ -36,6 +36,42 @@
 				selMenueItemActiv();
 
 				showSection();
+
+        $( "input#hintergrundfarbe" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "body" ).css("background-color", inputValue ); 
+        });
+
+        $( "input#schriftfarbe" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "*" ).css("color", inputValue ); 
+        });
+
+        $( "input#schriftart" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "*" ).css("font-family", inputValue ); 
+        });
+
+        $( "input#schriftgroeße_header" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "header a" ).css("font-size", inputValue ); 
+        });
+
+        $( "input#schriftgroeße_nav" ).click(function() {
+          var inputValue = $( this ).val();
+          $( ".menu-item > a" ).css("font-size", inputValue ); 
+        });
+
+        $( "input#schriftgroeße_subnav" ).click(function() {
+          var inputValue = $( this ).val();
+          $( ".submenu-item a" ).css("font-size", inputValue ); 
+        });
+
+        $( "input#schriftgroeße_inhalt" ).click(function() {
+          var inputValue = $( this ).val();
+          $( "#content *" ).css("font-size", inputValue ); 
+        });
+
 			});
 		</script>
 
@@ -58,6 +94,72 @@
         </div>
       </div>
     </div>
+    
+			<div id="custom">
+				<form name="set-hintergrundfarbe">
+					<div class="div-cell" style="width: 200px;">
+						Hintergrundfarbe: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="hintergrundfarbe" type="text" name="hintergrundfarbe" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftfarbe">
+					<div class="div-cell" style="width: 200px;">
+						Schriftfarbe: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftfarbe" type="text" name="schriftfarbe" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftart">
+					<div class="div-cell" style="width: 200px;">
+						Schriftart: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftart" type="text" name="schriftart" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftgroeße_header">
+					<div class="div-cell" style="width: 200px;">
+						Schriftgröße Header: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftgroeße_header" type="text" name="schriftgroeße_header" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftgroeße_nav">
+					<div class="div-cell" style="width: 200px;">
+						Schriftgröße Nav: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftgroeße_nav" type="text" name="schriftgroeße_nav" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftgroeße_subnav">
+					<div class="div-cell" style="width: 200px;">
+						Schriftgröße Subnav: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftgroeße_subnav" type="text" name="schriftgroeße_subnav" size="10" maxlength="30">
+					</div>
+				</form>
+
+				<form name="set-schriftgroeße_inhalt">
+					<div class="div-cell" style="width: 200px;">
+						Schriftgröße Inhalt: 
+					</div>
+					<div class="div-cell" style="width: 150px;">
+						<input id="schriftgroeße_inhalt" type="text" name="schriftgroeße_inhalt" size="10" maxlength="30">
+					</div>
+					</div>
+				</form>
+			</div>
 
 	</body>
 </html>

@@ -42,7 +42,7 @@ a, a:link, a:visited, a:active, a:focus {
 }
 
 a:hover {
-	color: #2F4F4F;
+	color: #B22222;
 }
 
 li {
@@ -138,17 +138,22 @@ header img {
 	margin: auto;
 }
 
-header h1, header a {
+header h1, header h1 a {
 	font-size: 24px;
-	line-height: 26px;
+	line-height: 24px;
 	text-align: center;
 	text-decoration: underline;
 }
 
-header p, header a {
+header a:hover {
+	color: #735552;
+}
+
+header p, header p a {
 	font-size: 20px;
-	line-height: 24px;
+	line-height: 20px;
 	text-align: center;
+	font-style: italic;
 }
 
 .inaktiv {
@@ -230,7 +235,7 @@ nav a {
 
 nav a:hover {
 	background-color: transparent;
-	color: #2F4F4F;
+	color: #B22222;
 }
 
 nav a.nav-aktiv  {
@@ -239,7 +244,7 @@ nav a.nav-aktiv  {
 
 nav a.nav-aktiv:hover {
 	background-color: transparent;
-	color: #2F4F4F;
+	color: #B22222;
 }
 
 nav .menu-item {
