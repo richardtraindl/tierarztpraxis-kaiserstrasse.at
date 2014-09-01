@@ -79,8 +79,11 @@
 
         $( "input#schriftgroeße_inhalt" ).click(function() {
           var inputValue = $( this ).val();
+          $( "#content div" ).css("font-size", inputValue ); 
+          $( "#content td" ).css("font-size", inputValue ); 
           $( "#content p" ).css("font-size", inputValue ); 
           $( "#content li" ).css("font-size", inputValue ); 
+          $( "#content a" ).css("font-size", inputValue ); 
         });
 
 			});
