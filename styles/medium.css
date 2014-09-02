@@ -16,6 +16,14 @@
 	padding: 16px 8px 8px 16px;
 }
 
+#mainnav {
+  height: auto;
+}
+
+#nav-logo {
+	display: none;
+}
+
 #content {
 	width: 480px;
   height: auto;
