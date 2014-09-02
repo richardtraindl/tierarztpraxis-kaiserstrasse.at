@@ -21,7 +21,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	background-color: #FFE09E; 
+	background-color: #FFE394; /* #FFE09E; */
 	background-attachment: scroll; background-repeat: repeat-x;
   /* height: 101%; */
 }
@@ -121,10 +121,12 @@ table {
 }
 
 header {
-	padding: 10px 0px 20px 0px;
-	margin: 20px 0px 20px 0px;
-	background-repeat: no-repeat;
-	margin: auto;
+	/* background-repeat: no-repeat; */
+	padding: 10px 0px 10px 0px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 28px;
+	margin-left: auto;
 }
 
 header img {
@@ -239,6 +241,6 @@ section .spacer {
 }
 
 #nav-logo img {
- margin: auto;
+ /* margin: auto; */
 }
 

@@ -11,18 +11,25 @@
 	margin-left: auto;
 }
 
-#navigation {
+#mainnav {
 	width: 144px;
-  height: 480px;
+  height: 400px;
 	padding: 28px 16px 16px 16px;
+}
+
+#nav-logo {
+	width: 144px;
+  height: 68px;
+	padding: 0px 0px 0px 0px;
+}
+
+#nav-logo img {
+	width: 68px;
+	height: 68px;
 }
 
 #mainnav {
   height: 400px;
-}
-
-#nav-logo {
-	height: 80px;
 }
 
 #content {
