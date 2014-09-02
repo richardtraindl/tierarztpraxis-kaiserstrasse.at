@@ -35,13 +35,10 @@ div.description ul {
 
 }
 
-section#section-index > div {
-	top: 176px;
+section#section-index figure h1 {
+	top: 80px;
 	left: 0px; 
-}
-
-section#section-index h1 {
-	width: 256px; 
+  margin: auto;
 }
 
 .telefon {

@@ -48,46 +48,43 @@ div.description > div {
   overflow: visible; /* auto; */
 }
 
-section#section-index > div {
-	top: 460px;
+section#section-index figure h1 {
+	top: 464px;
 	left: 0px; 
-}
-
-section#section-index h1 {
-	width: 400px; 
+  margin: auto;
 }
 
 .telefon {
 	display: table;
 	border-collapse: collapse;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .telefon-row {
 	display: table-row;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .telefon-cell1 {
 	display: table-cell;
 	vertical-align: top;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .telefon-cell2 {
 	display: table-cell;
 	vertical-align: top;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .telefon-cell3 {
 	display: table-cell;
 	vertical-align: top;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .telefon-cell4 {
 	display: table-cell;
 	vertical-align: top;
-	height: 100%;
+	/* height: 100%; */
 }

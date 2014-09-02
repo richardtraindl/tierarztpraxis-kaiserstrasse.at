@@ -43,13 +43,12 @@ div.description ul {
 
 }
 
-section#section-index > div {
-	top: 256px;
-	left: 0px; 
-}
-
-section#section-index h1 {
-	width: 400px; 
+section#section-index figure h1 {
+	font-size: 16px;
+	line-height: 20px;
+	top: 248px;
+	left: 0px;
+  width: 288px;
 }
 
 .telefon-cell2 {

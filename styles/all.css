@@ -178,11 +178,11 @@ section h1, section h2 {
 	font-style: italic;
 }
 
-section#section-index {
+section#section-index figure {
 	position: relative;
 }
 
-section#section-index > div {
+section#section-index figure > h1 {
 	position: absolute; 
 	width: 100%;
 }
@@ -191,17 +191,16 @@ section#section-index h1 {
 	background-color: white;
 	opacity: 0.6; 
 	text-align: center; 
-	margin: auto;
 }
 
-section#section-index figure {
+/* section#section-index figure {
 	margin: auto; 
 	border: solid grey 1px;
 }
 
 section#section-index figure img {
 	width: 100%;
-}
+} */
 
 article#article-kontakt h1, 
 article#article-kontakt h2, 
@@ -269,5 +268,15 @@ nav .submenu-item * {
 
 nav .submenu-item.aktiv {
 	display: block;
+}
+
+#mainnav {
+	position: relative;
+}
+
+#nav-logo {
+	position: absolute; 
+	top: 380px;
+	left: 26px; 
 }
 
