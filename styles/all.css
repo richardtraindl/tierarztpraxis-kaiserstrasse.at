@@ -22,7 +22,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	background-color: #FFE394; /* #FFE09E; */
-	background-attachment: scroll; background-repeat: repeat-x;
+	/* background-attachment: scroll; background-repeat: repeat-x; */
   /* height: 101%; */
 }
 
@@ -149,6 +149,10 @@ header p, header p a {
 	font-style: italic;
 }
 
+#wrapper {
+	background-color: #FFFFE8;
+}
+
 .inaktiv {
 	display: none;
 }
@@ -239,8 +243,3 @@ section .spacer {
 #mainnav .submenu-item.aktiv {
 	display: block;
 }
-
-#nav-logo img {
- /* margin: auto; */
-}
-

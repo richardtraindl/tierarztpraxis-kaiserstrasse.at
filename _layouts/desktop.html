@@ -37,6 +37,8 @@
 
 				showSection();
 
+        $('a.gallery').colorbox({rel:"gal"});
+
         $( "input#hintergrundfarbe" ).click(function() {
           var inputValue = $( this ).val();
           $( "body" ).css("background-color", inputValue ); 
