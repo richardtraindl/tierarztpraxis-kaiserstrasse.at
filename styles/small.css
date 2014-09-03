@@ -75,6 +75,10 @@ section#section-index figure h1 {
 	height: 100%;
 }
 
+a.gallery img{
+  display: none;
+}
+
 #kontakt {
   width: 100%;
   margin: 0;

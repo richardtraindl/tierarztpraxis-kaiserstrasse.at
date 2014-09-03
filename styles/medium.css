@@ -70,6 +70,11 @@ section#section-index figure h1 {
   padding-bottom: 16px;
 }
 
+a.gallery img{
+	width: 100px;
+	height: 100px;
+}
+
 #kontakt {
   width: 100%;
   margin: 0;
