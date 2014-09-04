@@ -19,10 +19,6 @@
   height: auto;
 }
 
-#nav-logo {
-	display: none;
-}
-
 #content {
 	width: 480px;
   height: auto;
@@ -35,9 +31,14 @@ figure.image {
   padding: 0px 0px 0px 0px;
 }
 
-figure.image img {
+figure.image > img {
 	width: 288px;
 	height: 288px;
+}
+
+.gal img{
+	width: 100px;
+	height: 100px;
 }
 
 div.description {
@@ -64,11 +65,6 @@ div.description {
 
 .telefon-cell4 {
   padding-bottom: 16px;
-}
-
-a.gallery img{
-	width: 100px;
-	height: 100px;
 }
 
 #kontakt {

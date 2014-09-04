@@ -20,14 +20,27 @@
   height: auto;
 }
 
-figure.image {
+figure.image > img {
   display: none;
+}
+
+figure.gal {
+  display: block;
+}
+
+.gal img {
+	width: 83px;
+	height: 83px;
 }
 
 div.description {
 	width: 240px;
 	height: auto;
   padding: 16px 8px 8px 8px;
+}
+
+#willkommen {
+  display: none;
 }
 
 .telefon {
@@ -63,10 +76,6 @@ div.description {
 	display: table-cell;
 	vertical-align: top;
 	height: 100%;
-}
-
-a.gallery img{
-  display: none;
 }
 
 #kontakt {
