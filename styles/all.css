@@ -236,14 +236,6 @@ section .spacer {
 	display: block;
 }
 
-.table-img {
-	border-collapse: collapse;
-	border-width: 2px;
-	border-color: black;
-}
-
-.table-img td {
-	background-color: red;
-	border-width: 2px;
-	border-color: black;
+.gal table, .gal th, .gal td {
+  border: 2px solid darkgray;
 }
