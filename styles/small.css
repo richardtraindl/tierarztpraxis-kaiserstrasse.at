@@ -3,10 +3,8 @@
 #wrapper {
 	width: 416px;
   height: auto;
-	margin-top: 0px;
-	margin-right: auto;
+	margin: 0px auto;
 	margin-bottom: 10px;
-	margin-left: auto;
 }
 
 #navigation {

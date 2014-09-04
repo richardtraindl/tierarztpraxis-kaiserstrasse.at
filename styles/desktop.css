@@ -4,10 +4,8 @@
 #wrapper {
 	width: 992px;
   height: 512px;
-	margin-top: 0px;
-	margin-right: auto;
+	margin: 0px auto;
 	margin-bottom: 20px;
-	margin-left: auto;
 }
 
 #navigation {

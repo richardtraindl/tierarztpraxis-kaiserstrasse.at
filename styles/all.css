@@ -236,6 +236,10 @@ section .spacer {
 	display: block;
 }
 
+/* .description {
+	overflow: scroll;
+} */
+
 .gal table, .gal th, .gal td {
   border: 2px solid darkgray;
 }
