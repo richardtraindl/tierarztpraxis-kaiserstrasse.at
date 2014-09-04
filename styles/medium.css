@@ -50,12 +50,15 @@ div.description ul {
 
 }
 
-section#section-index figure h1 {
-	font-size: 16px;
-	line-height: 20px;
+#div-willkommen {
 	top: 248px;
 	left: 0px;
   width: 288px;
+}
+
+#willkommen {
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .telefon-cell2 {

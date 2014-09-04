@@ -48,10 +48,9 @@ div.description > div {
   overflow: visible; /* auto; */
 }
 
-section#section-index figure h1 {
+#div-willkommen {
 	top: 464px;
 	left: 0px; 
-  margin: auto;
 }
 
 .telefon {

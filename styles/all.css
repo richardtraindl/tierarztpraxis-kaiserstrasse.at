@@ -175,19 +175,19 @@ section h1, section h2 {
 	font-style: italic;
 }
 
-section#section-index figure {
+#figure-willkommen {
 	position: relative;
 }
 
-section#section-index figure > h1 {
+#div-willkommen {
 	position: absolute; 
+	background-color: white;
+	opacity: 0.6; 
 	width: 100%;
 }
 
-section#section-index h1 {
-	background-color: white;
-	opacity: 0.6; 
-	text-align: center; 
+#willkommen {
+	text-align: center !important; 
 }
 
 #section-index h1, 
