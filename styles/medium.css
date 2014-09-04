@@ -46,17 +46,10 @@ div.description {
   padding: 16px 16px 8px 0px;
 }
 
-div.description ul {
-
-}
-
-#div-willkommen {
-	top: 248px;
-	left: 0px;
-  width: 288px;
-}
-
 #willkommen {
+	top: -40px;
+  width: 288px;
+	height: 40px;
 	font-size: 16px;
 	line-height: 20px;
 }

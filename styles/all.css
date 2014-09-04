@@ -175,18 +175,10 @@ section h1, section h2 {
 	font-style: italic;
 }
 
-#figure-willkommen {
-	position: relative;
-}
-
-#div-willkommen {
-	position: absolute; 
+#willkommen {
+	position: relative; 
 	background-color: white;
 	opacity: 0.6; 
-	width: 100%;
-}
-
-#willkommen {
 	text-align: center !important; 
 }
 
@@ -242,4 +234,16 @@ section .spacer {
 
 #mainnav .submenu-item.aktiv {
 	display: block;
+}
+
+.table-img {
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: black;
+}
+
+.table-img td {
+	background-color: red;
+	border-width: 2px;
+	border-color: black;
 }
