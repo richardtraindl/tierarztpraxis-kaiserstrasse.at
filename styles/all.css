@@ -1,17 +1,20 @@
 /* CSS for all width's */
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.woff');
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-	font-family: "'Segoe UI', 'Calibri', 'Courier New'";
+	font-family: Helvetia, 'Open Sans';
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
-	color: #395858; /* #735552; */
-	/* -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; */
+	color: #395858;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -22,7 +25,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	background-color: #FFE394; /* #FFE09E; */
-	/* background-attachment: scroll; background-repeat: repeat-x; */
   /* height: 101%; */
 }
 
@@ -121,7 +123,6 @@ table {
 }
 
 header {
-	/* background-repeat: no-repeat; */
 	padding: 10px 0px 10px 0px;
 	margin-top: 20px;
 	margin-right: auto;

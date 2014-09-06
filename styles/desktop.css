@@ -59,39 +59,33 @@ div.description > div {
 .telefon {
 	display: table;
 	border-collapse: collapse;
-	/* height: 100%; */
 }
 
 .telefon-row {
 	display: table-row;
-	/* height: 100%; */
 }
 
 .telefon-cell1 {
 	display: table-cell;
 	vertical-align: top;
-	/* height: 100%; */
 }
 
 .telefon-cell2 {
 	display: table-cell;
 	vertical-align: top;
-	/* height: 100%; */
 }
 
 .telefon-cell3 {
 	display: table-cell;
 	vertical-align: top;
-	/* height: 100%; */
 }
 
 .telefon-cell4 {
 	display: table-cell;
 	vertical-align: top;
-	/* height: 100%; */
 }
 
 #kontakt {
-  width: 80%;
-  margin: 0 auto;
+  /* width: 80%;
+  margin: 0 auto; */
 }
