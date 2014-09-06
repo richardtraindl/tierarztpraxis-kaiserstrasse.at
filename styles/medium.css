@@ -53,6 +53,16 @@ div.description {
 	line-height: 20px;
 }
 
+.telefon {
+}
+
+.telefon-row {
+  page-break-inside: avoid;
+}
+
+.telefon-cell1 {
+}
+
 .telefon-cell2 {
 	float: left;
 }

@@ -49,6 +49,7 @@ div.description {
 
 .telefon-row {
 	display: table-row;
+  page-break-inside: avoid;
 	height: 100%;
 }
 

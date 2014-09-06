@@ -63,6 +63,7 @@ div.description > div {
 
 .telefon-row {
 	display: table-row;
+  page-break-inside: avoid;
 }
 
 .telefon-cell1 {
