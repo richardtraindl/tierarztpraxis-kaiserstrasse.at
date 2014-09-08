@@ -1,5 +1,12 @@
 /* CSS for small */
 
+
+header {
+	padding: 6px 0px 6px 0px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
 #wrapper {
 	/* width: 416px; */
 	width: 320px;
@@ -13,9 +20,9 @@
 	width: 304px;
   float: left;
   height: auto;
-	padding: 16px 8px 8px 8px;
+	padding: 8px 8px 8px 8px;
   margin-bottom: 16px;
-	background-color: lightgray;
+	background-color: #F0F0F0; /* lightgray; */
 }
 
 #mainnav {
@@ -26,7 +33,7 @@
   float: left;
 	padding: 2px 2px 2px 2px;
   margin: 4px 4px 4px 4px;
-	background-color: darkgray;
+	background-color: #ADD8E6;
 	text-align: left;
   border-radius: 4px 4px 4px 4px;
 	-moz-border-radius: 4px 4px 4px 4px;
