@@ -1,20 +1,45 @@
 /* CSS for small */
 
 #wrapper {
-	width: 416px;
+	/* width: 416px; */
+	width: 320px;
   height: auto;
 	margin: 0px auto;
 	margin-bottom: 10px;
 }
 
 #navigation {
-	width: 144px;
+	/* width: 144px; */
+	width: 304px;
+  float: left;
   height: auto;
 	padding: 16px 8px 8px 8px;
+  margin-bottom: 16px;
+	background-color: lightgray;
+}
+
+#mainnav {
+
+}
+
+#mainnav .menu-item {
+  float: left;
+	padding: 2px 2px 2px 2px;
+  margin: 4px 4px 4px 4px;
+	background-color: darkgray;
+	text-align: left;
+  border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+}
+
+#mainnav .submenu-item {
+	margin: 0px 0px 6px 6px;
 }
 
 #content {
-	width: 256px;
+	/* width: 256px; */
+	width: 320px;
   height: auto;
 }
 
@@ -27,12 +52,15 @@ figure.gal {
 }
 
 .gal img {
-	width: 82px;
-	height: 82px;
+	/* width: 82px;
+	height: 82px; */
+	width: 104px;
+	height: 104px;
 }
 
 div.description {
-	width: 240px;
+	/* width: 240px; */
+	width: 304px;
 	height: auto;
   padding: 16px 8px 8px 8px;
 }

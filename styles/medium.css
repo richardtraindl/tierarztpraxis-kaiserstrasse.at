@@ -6,8 +6,22 @@
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+#inner-wrapper {
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+
+#most-inner-wrapper {
+	display: table-row;
+	width: 100%;
+	height: 100%;
+}
 
 #navigation {
+	display: table-cell;
+	vertical-align: top;
 	width: 136px;
   height: auto;
 	padding: 16px 8px 8px 16px;
@@ -18,6 +32,8 @@
 }
 
 #content {
+	display: table-cell;
+	vertical-align: top;
 	width: 480px;
   height: auto;
 }
