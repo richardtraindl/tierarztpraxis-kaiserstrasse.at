@@ -7,18 +7,34 @@ header {
 	margin-bottom: 6px;
 }
 
+header h1, header h1 a {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+header p, header p a {
+	font-size: 16px;
+	line-height: 16px;
+}
+
 #wrapper {
-	/* width: 416px; */
 	width: 320px;
   height: auto;
 	margin: 0px auto;
 	margin-bottom: 10px;
 }
 
+#inner-wrapper {
+	display: block;
+}
+
+#most-inner-wrapper {
+	display: block;
+}
+
 #navigation {
-	/* width: 144px; */
+	display: block;
 	width: 304px;
-  float: left;
   height: auto;
 	padding: 8px 8px 8px 8px;
   margin-bottom: 16px;
@@ -45,13 +61,23 @@ header {
 }
 
 #content {
-	/* width: 256px; */
+  clear: both;
+	display: block;
 	width: 320px;
   height: auto;
 }
 
-figure.image > img {
+figure.image {
   display: none;
+	/* width: 320px;
+	height: auto;
+  padding: 0px 0px 0px 0px; */
+}
+
+figure.image > img {
+	width: 288px;
+	height: 288px;
+  margin: 0 auto;
 }
 
 figure.gal {
@@ -59,14 +85,11 @@ figure.gal {
 }
 
 .gal img {
-	/* width: 82px;
-	height: 82px; */
-	width: 104px;
-	height: 104px;
+	width: 96px;
+	height: 96px;
 }
 
 div.description {
-	/* width: 240px; */
 	width: 304px;
 	height: auto;
   padding: 16px 8px 8px 8px;

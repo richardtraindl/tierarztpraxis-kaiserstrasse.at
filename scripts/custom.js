@@ -1,6 +1,11 @@
 
 
 	function selMenueItemActiv(){
+    var WinWidth = $( window ).width();
+    if(WinWidth < 640){
+      return;
+    }
+
 		var bodyid = 	$("body").attr("id");
 		
 		var divitem = $("#nav_" + bodyid);
@@ -24,6 +29,11 @@
 	}
 
 	function showSection(){
+    var WinWidth = $( window ).width();
+    if(WinWidth < 640){
+      return;
+    }
+
 		$("section").removeClass("aktiv");
 		
 		if(window.location.hash == ""){
@@ -43,7 +53,6 @@
 		
 		$("nav#mainnav a").removeClass("nav-aktiv"); 
 		$('nav a#nav_' + stringarr[1]).addClass("nav-aktiv");
-	 
 		/* 
 
 		var item = $('a#nav_' + anker).parents('div.menu-item').first();

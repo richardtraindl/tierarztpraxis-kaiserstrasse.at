@@ -244,3 +244,7 @@ section .spacer {
 .gal table, .gal th, .gal td {
   border: 2px solid darkgray;
 }
+
+.gal table {
+	margin: 0 auto;
+}
