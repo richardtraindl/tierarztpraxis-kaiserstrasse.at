@@ -37,7 +37,16 @@
 
 				showSection();
 
-        $('a.gallery').colorbox({rel:"gal"});
+        $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
+          var WinWidth = $( window ).width();
+          if(WinWidth < 640){
+            return "300px"; 
+          }
+          else{
+            return "400px";
+          }
+        }});
+
 			});
 		</script>
 
