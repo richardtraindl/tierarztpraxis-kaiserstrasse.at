@@ -1,8 +1,7 @@
 
 
 	function selMenueItemActiv(){
-    var WinWidth = $( window ).width();
-    if(WinWidth < 640){
+    if(window.screen.width < 640){
       return;
     }
 
@@ -29,8 +28,7 @@
 	}
 
 	function showSection(){
-    var WinWidth = $( window ).width();
-    if(WinWidth < 640){
+    if(window.screen.width < 640){
       return;
     }
 
