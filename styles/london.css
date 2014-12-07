@@ -31,6 +31,7 @@ h1 {
   text-align: center;
 	font-size: 24px;
 	line-height: 28px;
+	font-weight: bold;
   /* padding: 20px 0px 20px 0px; */
 }
 
@@ -132,7 +133,7 @@ table {
 
 header {
 	/* background:url(../img/union_jack.png) top left; */
-  background-color: #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
+  background-color: white; /* #FAF0E6; /*#FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
 	width: 992px;
 	padding: 10px 0px 10px 0px;
 	margin: 10px auto 10px auto;
@@ -176,7 +177,7 @@ section .spacer {
 
 #wrapper {
 	/* background-color: #FFFFE8; */
-	background-color: #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
+	background-color: white; /* #FAF0E6; /* #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
 	width: 992px;
 	margin: 0px auto;
 	margin-bottom: 20px;
@@ -207,7 +208,7 @@ figure.image > img {
 }
 
 section {
-  background-color: lightgray;
+  background-color: #E0E0E0;
   margin: 20px 20px 20px 20px;  
   padding: 20px 40px 20px 40px;
 }
