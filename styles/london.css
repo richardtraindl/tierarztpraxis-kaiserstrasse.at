@@ -51,8 +51,8 @@ a, a:link, a:visited, a:active, a:focus {
 }
 
 li {
-	margin-left: 20px;
-  padding:  10px;
+	margin-left: 10px;
+  padding: 0px 0px 10px 0px;
 	text-align: left;
   list-style-type: none;
 }
@@ -213,21 +213,17 @@ figure.image > img {
 
 section {
   background-color: #E0E0E0;
-  margin: 0px 20px 10px 0px;
-  padding: 20px 20px 20px 20px;
+  margin: 0px 20px 20px 0px;
+  padding: 10px 10px 10px 10px;
 	text-align: justify;
-}
-
-section h1, section h2 {
-	text-align: left;
-	font-style: italic;
 }
 
 section h3 {
   text-align: center;
   font-weight: bold;
-  padding: 0px 0px 20px 0px;
+  padding-bottom: 10px;
 }
+
 
 .fixed {
   text-decoration: underline;
