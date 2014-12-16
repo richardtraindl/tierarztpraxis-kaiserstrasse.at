@@ -134,10 +134,14 @@ table {
 header {
 	/* background:url(../img/union_jack.png) top left; */
   background-color: white; /* #FAF0E6; /*#FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
-	width: 992px;
+	width: 960px;
 	padding: 10px 0px 10px 0px;
 	margin: 10px auto 10px auto;
 	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid rgb(34, 34, 34);
 }
 
 header img {
@@ -148,18 +152,9 @@ header img {
 }
 
 .fellows {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
 	width: 80px;
 	height: 120px;
-}
-
-section {
-	text-align: justify;
-}
-
-section h1, section h2 {
-	text-align: left;
-	font-style: italic;
 }
 
 .spacer {
@@ -178,9 +173,13 @@ section .spacer {
 #wrapper {
 	/* background-color: #FFFFE8; */
 	background-color: white; /* #FAF0E6; /* #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
-	width: 992px;
-	margin: 0px auto;
-	margin-bottom: 20px;
+	width: 940px;
+	margin: 0px auto 20px auto;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 }
 
 #content {
@@ -190,9 +189,14 @@ section .spacer {
   height: 512px;
 }
 
+.subcontent {
+  width: 70%;
+}
+
 .references {
 	background-color: #FFFF99;
 	padding: 30px 10px 10px 10px;
+  width: 30%;
 }
 
 figure.image {
@@ -209,8 +213,14 @@ figure.image > img {
 
 section {
   background-color: #E0E0E0;
-  margin: 20px 20px 20px 20px;  
-  padding: 20px 40px 20px 40px;
+  margin: 0px 20px 10px 0px;
+  padding: 20px 20px 20px 20px;
+	text-align: justify;
+}
+
+section h1, section h2 {
+	text-align: left;
+	font-style: italic;
 }
 
 section h3 {
