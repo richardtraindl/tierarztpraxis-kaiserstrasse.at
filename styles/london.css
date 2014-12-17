@@ -23,7 +23,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  background:url(../img/background.png) top left;
+  /* background:url(../img/background.png) top left; */
+  background-color: #b46f6f; /* #FFE09E; /* #FFE394; /* #FFFFA0; /*  /*#FAF0E6;  /*  /* /*  */
   /* height: 101%; */
 }
 
@@ -133,7 +134,7 @@ table {
 
 header {
 	/* background:url(../img/union_jack.png) top left; */
-  background-color: white; /* #FAF0E6; /*#FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
+  background-color: #FFFFE8; /* white; /* #FAF0E6; /*#FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
 	width: 960px;
 	padding: 10px 0px 10px 0px;
 	margin: 10px auto 10px auto;
@@ -172,7 +173,7 @@ section .spacer {
 
 #wrapper {
 	/* background-color: #FFFFE8; */
-	background-color: white; /* #FAF0E6; /* #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
+	background-color: #FFFFE8; /* white; /* #FAF0E6; /* #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
 	width: 940px;
 	margin: 0px auto 20px auto;
 	padding: 10px 10px 10px 10px;
@@ -194,9 +195,9 @@ section .spacer {
 }
 
 .references {
-	background-color: #FFFF99;
-	padding: 30px 10px 10px 10px;
   width: 30%;
+	background-color: #FFFFC3; /* #FAF0E6; /* #FFFFA0; /* #FFFF99; */
+	padding: 0px 10px 10px 10px;
 }
 
 figure.image {
@@ -212,8 +213,8 @@ figure.image > img {
 }
 
 section {
-  background-color: #E0E0E0;
-  margin: 0px 20px 20px 0px;
+  background-color: #EAEAEA; /*  */
+  margin: 0px 10px 10px 0px;
   padding: 10px 10px 10px 10px;
 	text-align: justify;
 }
