@@ -1,30 +1,30 @@
 /* CSS for medium */
 
 #wrapper {
-	width: 640px;
+  width: 640px;
   height: auto;
-	margin: 0 auto;
-	margin-bottom: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 #inner-wrapper {
-	display: table;
-	border-collapse: collapse;
-	width: 100%;
-	height: 100%;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
 }
 
 #most-inner-wrapper {
-	display: table-row;
-	width: 100%;
-	height: 100%;
+  display: table-row;
+  width: 100%;
+  height: 100%;
 }
 
 #navigation {
-	display: table-cell;
-	vertical-align: top;
-	width: 136px;
+  display: table-cell;
+  vertical-align: top;
+  width: 136px;
   height: auto;
-	padding: 16px 8px 8px 16px;
+  padding: 16px 8px 8px 16px;
 }
 
 #mainnav {
@@ -32,41 +32,41 @@
 }
 
 #content {
-	display: table-cell;
-	vertical-align: top;
-	width: 480px;
+  display: table-cell;
+  vertical-align: top;
+  width: 480px;
   height: auto;
 }
 
 figure.image {
-	float: left;
-	width: 300px;
-	height: 294px;
+  float: left;
+  width: 300px;
+  height: 294px;
   padding: 0px 0px 0px 0px;
 }
 
 figure.image > img {
-	width: 288px;
-	height: 288px;
+  width: 288px;
+  height: 288px;
 }
 
 .gal img{
-	width: 93px;
-	height: 93px;
+  width: 93px;
+  height: 93px;
 }
 
 div.description {
-	width: 468px;
-	height: auto;
+  width: 468px;
+  height: auto;
   padding: 16px 16px 8px 0px;
 }
 
 #willkommen {
-	top: -40px;
+  top: -40px;
   width: 288px;
-	height: 40px;
-	font-size: 16px;
-	line-height: 20px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .telefon {
@@ -80,11 +80,11 @@ div.description {
 }
 
 .telefon-cell2 {
-	float: left;
+  float: left;
 }
 
 .telefon-cell3 {
-	float: left;
+  float: left;
 }
 
 .telefon-cell4 {

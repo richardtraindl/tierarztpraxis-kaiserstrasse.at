@@ -2,41 +2,41 @@
 
 <html lang="de">
 
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-		<!-- meta name="viewport" content="width=device-width" / -->
+    <!-- meta name="viewport" content="width=device-width" / -->
     <!-- meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" -->
 
-		<link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/all.css">
 
-		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="styles/small.css" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="styles/small.css" />
 
-		<link rel="stylesheet" media="only screen and (min-device-width: 481px) and (max-device-width: 999px)" href="styles/medium.css" />
+    <link rel="stylesheet" media="only screen and (min-device-width: 481px) and (max-device-width: 999px)" href="styles/medium.css" />
 
-		<link rel="stylesheet" media="only screen and (min-device-width: 1000px)" href="styles/desktop.css" />
+    <link rel="stylesheet" media="only screen and (min-device-width: 1000px)" href="styles/desktop.css" />
 
-		<link rel="stylesheet" href="scripts/colorbox/colorbox.css">
-		
-		<script src="scripts/jquery-1.11.1.min.js"></script>
-			
-		<script src="scripts/jquery.slider.js"></script>
-			
-		<script src="scripts/custom.js"></script>
-		
-		<script src="scripts/colorbox/jquery.colorbox.js"></script>
-	 
-		<script src="scripts/colorbox/jquery.colorbox-de.js"></script>
+    <link rel="stylesheet" href="scripts/colorbox/colorbox.css">
+    
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+      
+    <script src="scripts/jquery.slider.js"></script>
+      
+    <script src="scripts/custom.js"></script>
+    
+    <script src="scripts/colorbox/jquery.colorbox.js"></script>
+   
+    <script src="scripts/colorbox/jquery.colorbox-de.js"></script>
 
-		<!--[if lt IE 9]>
-			<script src="scripts/html5shiv.js"></script>
-		<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
 
-		<script>
-			$(document).ready(function() {
-				selMenueItemActiv();
+    <script>
+      $(document).ready(function() {
+        selMenueItemActiv();
 
-				showSection();
+        showSection();
 
         $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
           var WinWidth = $( window ).width();
@@ -48,17 +48,17 @@
           }
         }});
 
-			});
-		</script>
+      });
+    </script>
 
-		<title> {{ page.title }} </title>
-	</head>
+    <title> {{ page.title }} </title>
+  </head>
 
-	<body id="{{ page.id }}">
+  <body id="{{ page.id }}">
 
-		{% include header.html %}
+    {% include header.html %}
 
-		<div id="wrapper">
+    <div id="wrapper">
       <div id="inner-wrapper">
         <div id="most-inner-wrapper">
           <div id="navigation">
@@ -71,6 +71,6 @@
       </div>
     </div>
 
-	</body>
+  </body>
 </html>
 

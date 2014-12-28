@@ -2,43 +2,43 @@
 
 
 header {
-	padding: 6px 0px 6px 0px;
-	margin-top: 6px;
-	margin-bottom: 6px;
+  padding: 6px 0px 6px 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 header h1, header h1 a {
-	font-size: 18px;
-	line-height: 18px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 header p, header p a {
-	font-size: 16px;
-	line-height: 16px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 #wrapper {
-	width: 320px;
+  width: 320px;
   height: auto;
-	margin: 0px auto;
-	margin-bottom: 10px;
+  margin: 0px auto;
+  margin-bottom: 10px;
 }
 
 #inner-wrapper {
-	display: block;
+  display: block;
 }
 
 #most-inner-wrapper {
-	display: block;
+  display: block;
 }
 
 #navigation {
-	display: block;
-	width: 304px;
+  display: block;
+  width: 304px;
   height: auto;
-	padding: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
   margin-bottom: 16px;
-	background-color: #F0F0F0; /* lightgray; */
+  background-color: #F0F0F0; /* lightgray; */
 }
 
 #mainnav {
@@ -47,36 +47,36 @@ header p, header p a {
 
 #mainnav .menu-item {
   float: left;
-	padding: 2px 2px 2px 2px;
+  padding: 2px 2px 2px 2px;
   margin: 4px 4px 4px 4px;
-	background-color: #ADD8E6;
-	text-align: left;
+  background-color: #ADD8E6;
+  text-align: left;
   border-radius: 4px 4px 4px 4px;
-	-moz-border-radius: 4px 4px 4px 4px;
-	-webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
 }
 
 #mainnav .submenu-item {
-	margin: 0px 0px 6px 6px;
+  margin: 0px 0px 6px 6px;
 }
 
 #content {
   clear: both;
-	display: block;
-	width: 320px;
+  display: block;
+  width: 320px;
   height: auto;
 }
 
 figure.image {
   display: none;
-	/* width: 320px;
-	height: auto;
+  /* width: 320px;
+  height: auto;
   padding: 0px 0px 0px 0px; */
 }
 
 figure.image > img {
-	width: 288px;
-	height: 288px;
+  width: 288px;
+  height: 288px;
   margin: 0 auto;
 }
 
@@ -85,13 +85,13 @@ figure.gal {
 }
 
 .gal img {
-	width: 96px;
-	height: 96px;
+  width: 96px;
+  height: 96px;
 }
 
 div.description {
-	width: 304px;
-	height: auto;
+  width: 304px;
+  height: auto;
   padding: 16px 8px 8px 8px;
 }
 
@@ -100,39 +100,39 @@ div.description {
 }
 
 .telefon {
-	display: table;
-	border-collapse: collapse;
-	height: 100%;
+  display: table;
+  border-collapse: collapse;
+  height: 100%;
 }
 
 .telefon-row {
-	display: table-row;
+  display: table-row;
   page-break-inside: avoid;
-	height: 100%;
+  height: 100%;
 }
 
 .telefon-cell1 {
-	display: table-cell;
-	vertical-align: top;
-	height: 100%;
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
 }
 
 .telefon-cell2 {
-	display: table-cell;
-	vertical-align: top;
-	height: 100%;
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
 }
 
 .telefon-cell3 {
-	display: table-cell;
-	vertical-align: top;
-	height: 100%;
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
 }
 
 .telefon-cell4 {
-	display: table-cell;
-	vertical-align: top;
-	height: 100%;
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
 }
 
 #kontakt {
