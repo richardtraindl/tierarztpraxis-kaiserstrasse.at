@@ -60,6 +60,10 @@ header p, header p a {
   margin: 0px 0px 6px 6px;
 }
 
+#nav_galerie {
+  display: none;
+}
+
 #content {
   clear: both;
   display: block;
@@ -69,9 +73,6 @@ header p, header p a {
 
 figure.image {
   display: none;
-  /* width: 320px;
-  height: auto;
-  padding: 0px 0px 0px 0px; */
 }
 
 figure.image > img {
@@ -93,6 +94,17 @@ div.description {
   width: 304px;
   height: auto;
   padding: 16px 8px 8px 8px;
+}
+
+#section-index-small {
+  display: block;
+}
+
+#section-index-small h2 {
+  padding: 20px 8px 8px 8px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
 }
 
 #willkommen {

@@ -85,31 +85,6 @@ table {
   letter-spacing: 1px;
 }
 
-.bottom_line {
-  border-bottom-width: 1px;
-  border-style: solid;
-}
-
-.top_dots {
-  border-top-width: 1px;
-  border-style: dotted;
-}
-
-.right_dots {
-  border-right-width: 1px;
-  border-style: dotted;
-}
-
-.bottom_dots {
-  border-bottom-width: 1px;
-  border-style: dotted;
-}
-
-.left_dots {
-  border-left-width: 1px;
-  border-style: dotted;
-}
-
 .small-gap {
   padding-bottom: 10px;
 }

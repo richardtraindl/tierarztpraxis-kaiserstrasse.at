@@ -61,6 +61,10 @@ div.description {
   padding: 16px 16px 8px 0px;
 }
 
+#section-index-small {
+  display: none;
+}
+
 #willkommen {
   top: -40px;
   width: 288px;

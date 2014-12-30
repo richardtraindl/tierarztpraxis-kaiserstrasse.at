@@ -1,16 +1,26 @@
 
   function selMenueItemActiv(){
-    if(window.screen.width < 640){
-      return;
-    }
-
     var bodyid = 	$("body").attr("id");
     
     var divitem = $("#nav_" + bodyid);
 
     var subitems = divitem.children('div.submenu-item');
-    subitems.addClass('aktiv');
+    
+    if(window.screen.width < 640){
+      if(window.location.hash == ""){
+        divitem.find('a').first().addClass('nav-aktiv');
+      }
+      else{
+        var stringarr = window.location.hash.split('#');
         
+        $('nav a#nav_' + stringarr[1]).addClass("nav-aktiv");
+      }
+
+      return;
+    }
+
+    subitems.addClass('aktiv');  
+
     if(window.location.hash == ""){
       if( subitems.length == 0 ){
         divitem.find('a').first().addClass('nav-aktiv');

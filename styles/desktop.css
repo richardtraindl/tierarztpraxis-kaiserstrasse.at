@@ -69,6 +69,10 @@ div.inner-description {
   overflow-y: auto;
 }
 
+#section-index-small {
+  display: none;
+}
+
 #willkommen {
   top: -50px;
   height: 50px;
