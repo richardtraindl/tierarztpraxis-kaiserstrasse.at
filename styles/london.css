@@ -180,3 +180,7 @@ section h3 {
   text-decoration: underline;
 }
 
+.bottom_line {
+	border-bottom-width: 1px;
+	border-style: solid;
+}
