@@ -128,6 +128,13 @@ header img {
   height: 120px;
 }
 
+.news { 
+  font-size: 16px; 
+  line-height: 20px; 
+  font-weight: bold; 
+  color: red;
+}
+
 #wrapper {
   /* background-color: #FFFFE8; */
   background-color: #FFFFE8; /* white; /* #FAF0E6; /* #FFFFE8; /* #FFFFA0; /*#FFE394; /* #FFE09E; */
