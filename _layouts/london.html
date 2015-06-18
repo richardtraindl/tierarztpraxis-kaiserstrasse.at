@@ -7,11 +7,33 @@
 
     <link rel="stylesheet" href="../styles/london.css" />
 
+    <link rel="stylesheet" href="../scripts/colorbox/colorbox.css">
+    
     <script src="../scripts/jquery-1.11.1.min.js"></script>
+    
+    <script src="../scripts/colorbox/jquery.colorbox.js"></script>
+   
+    <script src="../scripts/colorbox/jquery.colorbox-de.js"></script>
 
     <!--[if lt IE 9]>
       <script src="../scripts/html5shiv.js"></script>
     <![endif]-->
+
+    <script>
+      $(document).ready(function() {
+        $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
+          var WinWidth = $( window ).width();
+          if(WinWidth < 640){
+            return "260px"; 
+          }
+          else{
+            return "400px";
+          }
+        }});
+
+      });
+    </script>
+
 
   <title> {{ page.title }} </title>
   </head>
