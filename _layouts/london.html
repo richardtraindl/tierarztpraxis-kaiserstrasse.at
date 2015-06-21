@@ -21,16 +21,7 @@
 
     <script>
       $(document).ready(function() {
-        $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
-          var WinWidth = $( window ).width();
-          if(WinWidth < 640){
-            return "260px"; 
-          }
-          else{
-            return "400px";
-          }
-        }});
-
+        $('a.gallery').colorbox({rel:"nofollow"});
       });
     </script>
 
@@ -43,15 +34,15 @@
     <header>
         <h1>London 2015</h1>
 
-        <img src="../img/clemens.png" class="fellows">
-        <img src="../img/markus.png" class="fellows">
-        <img src="../img/richard.png" class="fellows">
+        <a class="gallery" href="../img/clemens.png"><img src="../img/clemens.png" class="fellows"></a>
+        <a class="gallery" href="../img/markus.png"><img src="../img/markus.png" class="fellows"></a>
+        <a class="gallery" href="../img/richard.png"><img src="../img/richard.png" class="fellows"></a>
 
         <img src="../img/union_jack.png">
 
-        <img src="../img/andi.png" class="fellows">
-        <img src="../img/manfred.png" class="fellows">
-        <img src="../img/didi.png" class="fellows">
+        <a class="gallery" href="../img/andi.png"><img src="../img/andi.png" class="fellows"></a>
+        <a class="gallery" href="../img/manfred.png"><img src="../img/manfred.png" class="fellows"></a>
+        <a class="gallery" href="../img/didi.png"><img src="../img/didi.png" class="fellows"></a>
     </header>
 
     <div id="wrapper">
