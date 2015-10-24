@@ -212,10 +212,10 @@ section .spacer {
   display: block;
 }
 
-.gal table, .gal th, .gal td {
+.gal table, .gal4x4 table, .gal th, .gal4x4 th, .gal td, .gal4x4 td {
   border: 2px solid darkgray;
 }
 
-.gal table {
+.gal table, .gal4x4 table {
   margin: 0 auto;
 }

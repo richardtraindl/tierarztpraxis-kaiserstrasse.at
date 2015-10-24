@@ -53,6 +53,11 @@ figure.image > img {
   height: 168px;
 }
 
+.gal4x4 img{
+  width: 254px;
+  height: 254px;
+}
+
 div.description {
   display: table-cell;
   vertical-align: top;
