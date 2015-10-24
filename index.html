@@ -10,16 +10,29 @@ id: index
     <section id="section-index" class="aktiv">
       <figure id="figure-willkommen" class="image">
         <img src="img/fassade_400x400.jpg" alt="Fassade">
-        <h1 id="willkommen">Herzlich willkommen <br>in der Tierarztpraxis Kaiserstrasse</h1>
+        <img src="img/fassade_600x400.png" alt="Fassade">        
+        <!-- h1 id="willkommen">Herzlich willkommen <br>in der Tierarztpraxis Kaiserstrasse</h1 -->
       </figure>
 
     <section id="section-index-small" class="aktiv">
       <h2>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h2>
-    </section>
+    </section -->
 
       <div class="description">
+        <h2>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h2>
+        
+        <div class="huge-gap"></div>
+        
         {% include kontakt.html %}
       </div>
     </section>
 
   </article>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      // $('figure.aktiv').removeClass("aktiv");
+      // $('figure#slideshow').addClass("aktiv");
+      $('#figure-willkommen').fadeSlideShow();
+    });
+  </script>
