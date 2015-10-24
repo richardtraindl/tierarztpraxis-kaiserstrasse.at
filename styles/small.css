@@ -96,19 +96,11 @@ div.description {
   padding: 16px 8px 8px 8px;
 }
 
-#section-index-small {
-  display: block;
-}
-
 #section-index-small h2 {
   padding: 20px 8px 8px 8px;
   font-style: normal;
   font-weight: bold;
   text-align: center;
-}
-
-#willkommen {
-  display: none;
 }
 
 .telefon {

@@ -74,13 +74,16 @@ div.inner-description {
   overflow-y: auto;
 }
 
-#section-index-small {
+#figure-willkommen-medium {
   display: none;
 }
 
-#willkommen {
-  top: -50px;
-  height: 50px;
+#figure-mitarbeiter-medium {
+  display: none;
+}
+
+#figure-allgemeine_leistungen-medium{
+  display: none;
 }
 
 .telefon {

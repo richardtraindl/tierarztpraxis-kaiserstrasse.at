@@ -31,6 +31,10 @@
   height: auto;
 }
 
+#nav_galerie {
+  display: none;
+}
+
 #content {
   display: table-cell;
   vertical-align: top;
@@ -61,16 +65,20 @@ div.description {
   padding: 16px 16px 8px 0px;
 }
 
-#section-index-small {
+#kontakt {
+  display: inline-block;
+}
+
+#figure-willkommen {
   display: none;
 }
 
-#willkommen {
-  top: -40px;
-  width: 288px;
-  height: 40px;
-  font-size: 16px;
-  line-height: 20px;
+#figure-mitarbeiter {
+  display: none;
+}
+
+#figure-allgemeine_leistungen{
+  display: none;
 }
 
 .telefon {
