@@ -28,6 +28,19 @@ body {
   /* height: 101%; */
 }
 
+body#schulmedizin {
+  background-image: url("../img/bg_blue_paper.jpg");
+}
+
+body#homoeopathie {
+  background-image: url("../img/bg_sand.jpg");
+}
+
+
+body#ernaehrung {
+  background-image: url("../img/bg1.png");
+}
+
 h1 {
   font-size: 20px;
   line-height: 24px;
