@@ -24,21 +24,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  background-color: #FFE394; /* #FFE09E; */
+  background-color: #FFE394;
   /* height: 101%; */
-}
-
-body#schulmedizin {
-  background-image: url("../img/bg_blue_paper.jpg");
-}
-
-body#homoeopathie {
-  background-image: url("../img/bg2.png");
-}
-
-
-body#ernaehrung {
-  background-image: url("../img/bg1.png");
 }
 
 h1 {
