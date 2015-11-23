@@ -1,26 +1,10 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-weight: normal;
-    font-size: 16px;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-
 html {
     overflow-y:scroll;
 }
 
 body {
-    font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
-    color: #2B2B2B;
-    max-width: 900px;
-    width: 900px;
+    max-width: 640px;
+    width: 640px;
     margin: auto;
 }
 
@@ -144,19 +128,4 @@ article h3 {
 img.welcome {
     width: 320px;
     padding: 0px 10px 0px 10px;
-}
-
-.div-table {
-    display: table;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.div-row {
-    display: table-row;
-}
-
-.div-cell {
-    display: table-cell;
-    vertical-align: top;
 }
