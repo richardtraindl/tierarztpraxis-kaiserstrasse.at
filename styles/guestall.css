@@ -20,8 +20,6 @@ html {
 body {
     font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
     color: #2B2B2B;
-    max-width: 900px;
-    width: 900px;
     margin: auto;
 }
 
@@ -71,21 +69,6 @@ header {
     background-color: Beige;
     margin: 20px 0px 20px 0px;
     padding: 10px 20px 10px 20px;
-}
-
-#header_col1_2 {
-    width: 120px;
-    padding: 0px 20px 0px 0px;
-}
-
-#header_col2_2 {
-    width: 760px;
-    vertical-align: bottom;
-}
-
-#header_img {
-    width: 120px;
-    height: 120px;
 }
 
 #header_txt {
