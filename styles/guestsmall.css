@@ -1,26 +1,7 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-weight: normal;
-    font-size: 16px;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-
-html {
-    overflow-y:scroll;
-}
-
 body {
     font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
     color: #2B2B2B;
-    max-width: 900px;
-    width: 900px;
+    width: 420px;
     margin: auto;
 }
 
@@ -41,31 +22,6 @@ p {
     padding: 0px 0px 20px 0px;
 }
 
-a, 
-a:link, 
-a:visited,
-a:active {
-    color: #2B2B2B;
-    text-decoration: none;
-}
-
-a:hover{
-    color: darkgrey;
-}
-
-li {
-    list-style-type: square;
-    margin-left: 10px;
-}
-
-.fbold {
-    font-weight: bold;
-}
-
-.gap {
-    padding-bottom: 20px;
-}
-
 header {
     background-color: Beige;
     margin: 20px 0px 20px 0px;
@@ -73,18 +29,16 @@ header {
 }
 
 #header_col1_2 {
-    width: 120px;
-    padding: 0px 20px 0px 0px;
+    display: none;
 }
 
 #header_col2_2 {
-    width: 760px;
+    width: 420px;
     vertical-align: bottom;
 }
 
 #header_img {
-    width: 120px;
-    height: 120px;
+    display: none;
 }
 
 #header_txt {
@@ -144,19 +98,4 @@ article h3 {
 img.welcome {
     width: 320px;
     padding: 0px 10px 0px 10px;
-}
-
-.div-table {
-    display: table;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.div-row {
-    display: table-row;
-}
-
-.div-cell {
-    display: table-cell;
-    vertical-align: top;
 }
