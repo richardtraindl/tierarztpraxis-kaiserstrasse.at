@@ -57,18 +57,18 @@ header {
 }
 
 #header_col1_2 {
-    width: 120px;
-    padding: 0px 20px 0px 0px;
+    width: 90px;
+    padding: 0px 10px 0px 0px;
 }
 
 #header_col2_2 {
-    width: 760px;
+    width: 360px;
     vertical-align: bottom;
 }
 
 #header_img {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 
 #header_txt {
