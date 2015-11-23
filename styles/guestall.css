@@ -13,10 +13,6 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-html {
-    overflow-y:scroll;
-}
-
 body {
     font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
     color: #2B2B2B;
