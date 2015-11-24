@@ -23,6 +23,12 @@ header h1 {
     padding: 10px 10px 10px 10px;
 }
 
+img#logo {
+    width: 140px;
+    padding: 10px 10px 10px 0px;
+}
+
+
 p {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 20px 0px;
