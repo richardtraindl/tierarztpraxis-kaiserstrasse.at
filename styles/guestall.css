@@ -1,6 +1,7 @@
 body {
     font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
     color: #2B2B2B;
+    max-width: 900px;
     margin: auto;
 }
 
