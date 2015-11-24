@@ -21,10 +21,13 @@ header {
 
 header h1 {
     padding: 10px 10px 10px 30px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 header img {
     width: 100%;
+    min-width: 160px;
     /* padding: 10px 10px 10px 10px; */
 }
 
