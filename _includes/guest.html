@@ -1,64 +1,61 @@
 
-<header>
-    <table>
-        <tr>
-            <td id="header_col1_2">
-                <a href="index.html"><img id="header_img" src="/img2/logo.jpg" alt="Logo"></a>
-            </td>
-            <td id="header_col2_2">
-                <h1 id="header_txt">Erzieherin Schmitt</h1>
-                <nav>
-                    <hr>
-                    
-                    <ul>
-                        <li class="menu_nav">
-                            {% if page.id == "index" %}
-                                <a href="index.html"><span style="font-weight: bold">Willkommen</span></a>
-                            {% else %}
-                                <a href="index.html">Willkommen</a>
-                            {% endif %}
-                                                        
-                        </li>
-                        <li class="menu_nav">
-                            {% if page.id == "service" %}
-                                <a href="service.html"><span style="font-weight: bold">Dienstleistungen</span></a>
-                            {% else %}
-                                <a href="service.html">Dienstleistungen</a>
-                            {% endif %}
-                                                        
-                        </li>
-                        <li class="menu_nav">
-                            {% if page.id == "brief1"  %}
-                                <a href="brief1.html"><span style="font-weight: bold">Brief #1</span></a>
-                            {% else %}
-                                <a href="brief1.html">Brief #1</a>
-                            {% endif %}
-                        </li>
-                        <li class="menu_nav">
-                            {% if page.id == "brief2"  %}
-                                <a href="brief2.html"><span style="font-weight: bold">Brief #2</span></a>
-                            {% else %}
-                                <a href="brief2.html">Brief #2</a>
-                            {% endif %}
-                        </li>
-                        <li class="menu_nav">
-                            {% if page.id == "brief3"  %}
-                                <a href="brief3.html"><span style="font-weight: bold">Brief #3</span></a>
-                            {% else %}
-                                <a href="brief3.html">Brief #3</a>
-                            {% endif %}
-                        </li>
-                        <li class="menu_nav">
-                            {% if page.id == "brief4"  %}
-                                <a href="brief4.html"><span style="font-weight: bold">Brief #4</span></a>
-                            {% else %}
-                                <a href="brief4.html">Brief #4</a>
-                            {% endif %}
-                        </li>
-                    </ul>
-                </nav>
-            </td>
-        </tr>
-    </table>
-</header>
+        <header class="section group">
+            <div class="col span_3_of_12">
+                <a href="index.html"><img id="header_img" src="/img2/logo.jpg" alt="Logo" style="width: 140px"></a>
+            </div>
+            <div class="col span_9_of_12">
+                <h1 id="header_txt" style="font-size: 20px;">Erzieherin Schmitt</h1>
+            </div>
+
+            <nav class="col span_12_of_12">
+                <hr>
+                
+                <ul>
+                    <li class="menu_nav">
+                        {% if page.id == "index" %}
+                            <a href="index.html"><span style="font-weight: bold">Willkommen</span></a>
+                        {% else %}
+                            <a href="index.html">Willkommen</a>
+                        {% endif %}
+                                                    
+                    </li>
+                    <li class="menu_nav">
+                        {% if page.id == "service" %}
+                            <a href="service.html"><span style="font-weight: bold">Dienstleistungen</span></a>
+                        {% else %}
+                            <a href="service.html">Dienstleistungen</a>
+                        {% endif %}
+                                                    
+                    </li>
+                    <li class="menu_nav">
+                        {% if page.id == "brief1"  %}
+                            <a href="brief1.html"><span style="font-weight: bold">Brief #1</span></a>
+                        {% else %}
+                            <a href="brief1.html">Brief #1</a>
+                        {% endif %}
+                    </li>
+                    <li class="menu_nav">
+                        {% if page.id == "brief2"  %}
+                            <a href="brief2.html"><span style="font-weight: bold">Brief #2</span></a>
+                        {% else %}
+                            <a href="brief2.html">Brief #2</a>
+                        {% endif %}
+                    </li>
+                    <li class="menu_nav">
+                        {% if page.id == "brief3"  %}
+                            <a href="brief3.html"><span style="font-weight: bold">Brief #3</span></a>
+                        {% else %}
+                            <a href="brief3.html">Brief #3</a>
+                        {% endif %}
+                    </li>
+                    <li class="menu_nav">
+                        {% if page.id == "brief4"  %}
+                            <a href="brief4.html"><span style="font-weight: bold">Brief #4</span></a>
+                        {% else %}
+                            <a href="brief4.html">Brief #4</a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </nav>
+        </header>
 

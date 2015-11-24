@@ -13,9 +13,16 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+html {
+    overflow-y:scroll
+}
+
 body {
     font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
     color: #2B2B2B;
+    background:url(img/background.png) top left;
+    max-width: 900px;
+    width: 900px;
     margin: auto;
 }
 
@@ -27,12 +34,6 @@ h2 {
     font-size: 18px;
 }
 
-header {
-    background-color: Beige;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 20px 10px 20px;
-}
-
 header h1 {
     padding: 10px 10px 10px 10px;
 }
@@ -42,7 +43,10 @@ p {
     padding: 0px 0px 20px 0px;
 }
 
-a, a:link, a:visited, a:active {
+a, 
+a:link, 
+a:visited,
+a:active {
     color: #2B2B2B;
     text-decoration: none;
 }
@@ -64,10 +68,34 @@ li {
     padding-bottom: 20px;
 }
 
+.twocols {
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-count: 2;
+    -moz-column-gap: 0px; /* Firefox */
+    -webkit-column-gap: 0px; /* Safari and Chrome */
+    column-gap: 0px;
+}
+
 header {
     background-color: Beige;
     margin: 20px 0px 20px 0px;
     padding: 10px 20px 10px 20px;
+}
+
+#header_col1_2 {
+    width: 120px;
+    padding: 0px 20px 0px 0px;
+}
+
+#header_col2_2 {
+    width: 760px;
+    vertical-align: bottom;
+}
+
+#header_img {
+    width: 120px;
+    height: 120px;
 }
 
 #header_txt {
@@ -122,6 +150,54 @@ article h3 {
     text-align: center;
     padding: 10px 10px 20px 10px;    
     margin: 10px 10px 10px 10px;
+}
+
+img.welcome {
+    width: 320px;
+    padding: 0px 10px 0px 10px;
+}
+
+.portrait {
+    min-height: 200px;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.portrait img {
+    width: 120px;
+    height: 120px;
+    padding: 5px 10px 5px 5px;
+    float: left;
+}
+
+
+div.prevsite {
+    text-align: left;
+}
+
+div.nextsite {
+    text-align: left;
+}
+
+.governess, .mother, .boy, .comment {
+    padding: 10px 10px 10px 10px;
+    margin: 0px 5px 10px 5px;
+}
+
+.governess {
+    background-color: LightGray;
+}
+
+.mother {
+    background-color: PowderBlue;
+}
+
+.boy {
+    background-color: PowderBlue;
+}
+
+.comment {
+    background-color: lightgrey;
 }
 
 .div-table {
