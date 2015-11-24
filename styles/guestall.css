@@ -24,8 +24,8 @@ header h1 {
 }
 
 header img {
-    width: 140px;
-    padding: 10px 10px 10px 10px;
+    width: 100%;
+    /* padding: 10px 10px 10px 10px; */
 }
 
 
