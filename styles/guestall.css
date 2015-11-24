@@ -20,13 +20,14 @@ header {
 }
 
 header h1 {
-    padding: 10px 10px 10px 30px;
-    vertical-align: middle;
+    /* padding: 10px 10px 10px 30px;
+    vertical-align: middle; */
+    font-size: 28px;
 }
 
 header img {
     width: 100%;
-    min-width: 120px;
+    min-width: 160px;
     max-width: 240px;
     /* padding: 10px 10px 10px 10px; */
 }
