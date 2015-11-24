@@ -15,8 +15,8 @@ h2 {
 
 header {
     background-color: Beige;
-    margin: 20px 0px 20px 0px;
-    /* padding: 10px 20px 10px 20px; */
+    /* margin: 20px 0px 20px 0px;
+    padding: 10px 20px 10px 20px; */
 }
 
 header h1 {
@@ -31,7 +31,6 @@ header img {
     max-width: 240px;
     /* padding: 10px 10px 10px 10px; */
 }
-
 
 p {
     margin: 0px 0px 0px 0px;
@@ -58,16 +57,6 @@ li {
 
 .gap {
     padding-bottom: 20px;
-}
-
-header {
-    background-color: Beige;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 20px 10px 20px;
-}
-
-#header_txt {
-    padding: 0px 0px 0px 0px;
 }
 
 nav {
