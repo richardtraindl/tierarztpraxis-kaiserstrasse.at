@@ -15,14 +15,14 @@ h2 {
     font-size: 20px;
 }
 
-p {
+p, figure {
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 32px 0px;
 }
 
 a, a:link, a:visited, a:active {
     color: #2B2B2B;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover{
