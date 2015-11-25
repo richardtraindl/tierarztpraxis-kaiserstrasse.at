@@ -14,9 +14,23 @@ h2 {
     font-size: 18px;
 }
 
+p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+a, a:link, a:visited, a:active {
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgrey;
+}
+
 li {
-  margin-left: 25px;
-  text-align: left;
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 header {
@@ -36,33 +50,6 @@ header img {
     min-width: 160px;
     max-width: 240px;
     /* padding: 10px 10px 10px 10px; */
-}
-
-p {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 20px 0px;
-}
-
-a, a:link, a:visited, a:active {
-    color: #2B2B2B;
-    text-decoration: none;
-}
-
-a:hover{
-    color: darkgrey;
-}
-
-li {
-    list-style-type: square;
-    margin-left: 10px;
-}
-
-.fbold {
-    font-weight: bold;
-}
-
-.gap {
-    padding-bottom: 20px;
 }
 
 nav {
@@ -120,6 +107,14 @@ article h3 {
     float: left; 
     width: 40%;
     min-width: 240px;
+}
+
+.fbold {
+    font-weight: bold;
+}
+
+.gap {
+    padding-bottom: 20px;
 }
 
 .flexbox-container {
