@@ -14,6 +14,12 @@ h2 {
     font-size: 18px;
 }
 
+li {
+  list-style-image: url("/img/listitem.png");
+  margin-left: 20px;
+  text-align: left;
+}
+
 header {
     background-color: Beige;
     /* margin: 20px 0px 20px 0px;
