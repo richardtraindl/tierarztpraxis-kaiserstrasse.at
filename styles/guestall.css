@@ -1,17 +1,18 @@
 body {
-    font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
-    color: #2B2B2B;
     max-width: 900px;
     min-width: 240px;
     margin: auto;
+    color: #2B2B2B;
+    font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
