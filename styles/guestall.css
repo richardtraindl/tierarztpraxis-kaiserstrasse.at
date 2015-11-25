@@ -15,8 +15,7 @@ h2 {
 }
 
 li {
-  list-style-image: url("/img/listitem.png");
-  margin-left: 20px;
+  margin-left: 25px;
   text-align: left;
 }
 
