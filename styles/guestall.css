@@ -65,7 +65,7 @@ nav {
     padding: 0px 0px 0px 0px;
 }
 
-nav hr{
+nav hr {
     margin: 3px 0px 3px 0px;
     border: 0;
     height: 1px;
@@ -111,7 +111,7 @@ article h3 {
 }
 
  article img {
-    padding: 0px 10px 10px 0px;
+    padding: 0px 20px 20px 0px;
     float: left; 
     width: 40%;
     min-width: 240px;
