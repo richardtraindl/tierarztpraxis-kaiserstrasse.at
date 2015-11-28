@@ -1,5 +1,9 @@
 /* CSS for medium */
 
+* {
+  text-align: left;
+}
+
 #wrapper {
   width: 640px;
   height: auto;

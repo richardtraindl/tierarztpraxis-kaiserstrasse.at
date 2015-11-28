@@ -10,6 +10,7 @@
   margin: 0px;
   padding: 0px;
   border: 0px;
+  text-align: justify;
   font-family: Helvetica, 'Open Sans';
   font-weight: normal;
   font-size: 14px;
@@ -139,7 +140,6 @@ header p, header p a {
 
 section {
   display: none;
-  text-align: justify;
 }
 
 section.aktiv {
