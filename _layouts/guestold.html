@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta http-equiv="cleartype" content="on">
+
+        <!-- meta name="HandheldFriendly" content="True" -->
+        <!-- meta name="MobileOptimized" content="320" -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/styles/html5reset.css" media="all">
+        <link rel="stylesheet" href="/styles/guestall.css" media="all">
+        <link rel="stylesheet" href="/styles/guestcol.css" media="all">
+        <link rel="stylesheet" href="/styles/guest12cols.css" media="all">
+
+        <script src="/scripts/jquery-1.11.1.min.js"></script>
+
+        <title> {{ page.title }} </title>
+
+    </head>
+
+    <body>
+        {% include guestheader.html %}
+
+        <div id="content-wrapper">
+            {{ content }}
+        </div>
+    </body>
+</html>
+
