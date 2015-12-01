@@ -137,6 +137,12 @@ article h3 {
     font-weight: bold;
 }
 
+.div-3cols {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+} 
+
 .grid {
     width: 100%;
     display: -webkit-flex;
