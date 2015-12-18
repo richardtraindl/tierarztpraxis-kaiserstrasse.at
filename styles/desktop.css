@@ -86,6 +86,10 @@ div.inner-description {
   display: none;
 }
 
+#figure-weichteilchirurgie-medium{
+  display: none;
+}
+
 .telefon {
   display: table;
   border-collapse: collapse;
