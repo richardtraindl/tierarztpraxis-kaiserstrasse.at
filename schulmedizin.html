@@ -26,9 +26,18 @@ id: schulmedizin
 
 
   <section id="labordiagnostik" class="aktiv">
-    <figure class="image">
-      <img src="img/schulmedizin2.jpg" alt="Labor">
+     <figure class="image">
+      <img src="img/labor1.jpg" alt="Labor">
+      <img src="img/labor2.jpg" alt="Labor">
+      <img src="img/labor3.jpg" alt="Labor">
+      <img src="img/labor4.jpg" alt="Labor">
+      <img src="img/labor5.jpg" alt="Labor">
+      <img src="img/labor6.jpg" alt="Labor">
     </figure>
+
+    <!-- figure class="image">
+      <img src="img/schulmedizin2.jpg" alt="Labor">
+    </figure -->
 
     <div class="description">
       {% include schulmedizin/labordiagnostik.html %}
@@ -37,9 +46,14 @@ id: schulmedizin
 
 
   <section id="digitales_roentgen" class="aktiv">
-    <figure class="image">
-      <img src="img/schulmedizin3.jpg" alt="Röntgen">
+     <figure class="image">
+      <img src="img/roentgen1.jpg" alt="Röntgen">
+      <img src="img/roentgen2.jpg" alt="Röntgen">
     </figure>
+
+    <!-- figure class="image">
+      <img src="img/schulmedizin3.jpg" alt="Röntgen">
+    </figure -->
 
     <div class="description">
       {% include schulmedizin/digitales_roentgen.html %}
@@ -49,8 +63,13 @@ id: schulmedizin
 
   <section id="ultraschall" class="aktiv">
     <figure class="image">
-      <img src="img/schulmedizin4.jpg" alt="Ultraschall">
+      <img src="img/untersuchung1a.jpg" alt="Untersuchung">
+      <img src="img/untersuchung2a.jpg" alt="Untersuchung">
     </figure>
+    
+    <!-- figure class="image">
+      <img src="img/schulmedizin4.jpg" alt="Ultraschall">
+    </figure -->
 
     <div class="description">
       {% include schulmedizin/ultraschall.html %}
@@ -94,7 +113,8 @@ id: schulmedizin
     $(document).ready(function(){
       // $('figure.aktiv').removeClass("aktiv");
       // $('figure#slideshow').addClass("aktiv");
-      $('#figure-allgemeine_leistungen').fadeSlideShow();
-      $('#figure-weichteilchirurgie').fadeSlideShow();
+      // $('#figure-allgemeine_leistungen').fadeSlideShow();
+      // $('#figure-weichteilchirurgie').fadeSlideShow();
+      $('figure.image').fadeSlideShow();
     });
   </script>
