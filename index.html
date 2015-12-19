@@ -8,16 +8,12 @@ id: index
   <article id="article-index">
 
     <section id="section-index" class="aktiv">
-      <figure id="figure-willkommen" class="image">
+      <figure class="image">
         <img src="img/fassade1.jpg" alt="Fassade">
         <img src="img/menschen_schlange.jpg" alt="Kunden">
         <img src="img/warteraum1.jpg" alt="Warteraum">
         <img src="img/warteraum2.jpg" alt="Warteraum">
         <img src="img/warteraum3.jpg" alt="Warteraum">
-      </figure>
-
-      <figure id="figure-willkommen-medium" class="image">
-        <img src="img/fassade1.jpg" alt="Fassade">
       </figure>
 
       <div class="description">
@@ -35,6 +31,7 @@ id: index
     $(document).ready(function(){
       // $('figure.aktiv').removeClass("aktiv");
       // $('figure#slideshow').addClass("aktiv");
-      $('#figure-willkommen').fadeSlideShow();
+      // $('#figure-willkommen').fadeSlideShow();
+      $('figure.image').fadeSlideShow();
     });
   </script>

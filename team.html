@@ -47,10 +47,6 @@ id: team
         <img src="img/mitarbeiter5.jpg" alt="Mitarbeiter">
       </figure>
 
-      <figure id="figure-mitarbeiter-medium" class="image">
-        <img src="img/mitarbeiter1.jpg" alt="Mitarbeiter">
-      </figure>
-
       <div class="description">
         {% include team/mitarbeiter.html %}
       </div>
@@ -62,6 +58,7 @@ id: team
     $(document).ready(function(){
       // $('figure.aktiv').removeClass("aktiv");
       // $('figure#slideshow').addClass("aktiv");
+      // $('#figure-mitarbeiter').fadeSlideShow();
       $('#figure-mitarbeiter').fadeSlideShow();
     });
   </script>

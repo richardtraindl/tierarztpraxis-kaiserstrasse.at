@@ -1,8 +1,8 @@
 	$.fn.fadeSlideShow = function(options){
 		return this.each(function(){
 			settings = $.extend({
-				width: 512,
-				height: 512,
+				// width: 512,
+				// height: 512,
 				speed: 1000,
 				interval: 5000 }, options);
 

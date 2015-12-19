@@ -74,22 +74,6 @@ div.inner-description {
   overflow-y: auto;
 }
 
-#figure-willkommen-medium {
-  display: none;
-}
-
-#figure-mitarbeiter-medium {
-  display: none;
-}
-
-#figure-allgemeine_leistungen-medium{
-  display: none;
-}
-
-#figure-weichteilchirurgie-medium{
-  display: none;
-}
-
 .telefon {
   display: table;
   border-collapse: collapse;
