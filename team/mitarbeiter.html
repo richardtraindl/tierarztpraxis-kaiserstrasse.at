@@ -1,0 +1,22 @@
+---
+layout: desktop
+title: Team
+id: team-mitarbeiter
+---
+
+  <article id="mitarbeiter">
+      <figure id="figure-mitarbeiter" class="image">
+        <img src="/img/team1.jpg" alt="Team">
+        <img src="/img/team2.jpg" alt="Team">        
+      </figure>
+
+      <div class="description">
+        {% include team/mitarbeiter.html %}
+      </div>
+  </article>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#figure-mitarbeiter').fadeSlideShow();
+    });
+  </script>
