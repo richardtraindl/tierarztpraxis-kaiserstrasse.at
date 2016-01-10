@@ -58,7 +58,7 @@ figure.image > img {
   height: 126px;
 }
 
-div.description {
+.description {
   display: table-cell;
   vertical-align: top;
   width: 272px;
@@ -67,12 +67,12 @@ div.description {
   padding: 28px 16px 0px 16px;
 }
 
-div.inner-description {
+/* div.inner-description {
   width: 272px;
   height: 480px;
   max-height: 480px;
   overflow-y: auto;
-}
+} */
 
 .telefon {
   display: table;

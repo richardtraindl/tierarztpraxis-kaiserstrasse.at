@@ -94,18 +94,18 @@ figure.gal {
   height: 96px;
 }
 
-div.description {
+.description {
   width: 304px;
   height: auto;
   padding: 16px 8px 8px 8px;
 }
 
-#section-index-small h2 {
+/* #section-index-small h2 {
   padding: 20px 8px 8px 8px;
   font-style: normal;
   font-weight: bold;
   text-align: center;
-}
+} */
 
 .telefon {
   display: table;

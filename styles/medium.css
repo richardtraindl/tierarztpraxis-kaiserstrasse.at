@@ -63,15 +63,15 @@ figure.image > img {
   height: 93px;
 }
 
-div.description {
-  width: 468px;
+.description {
+  width: 476px;
   height: auto;
-  padding: 16px 16px 8px 0px;
+  padding: 8px 8px 8px 0px;
 }
 
-#kontakt {
+/* #kontakt {
   display: inline-block;
-}
+} */
 
 .telefon {
 }

@@ -8,7 +8,7 @@
     
     $('nav a#nav_' + stringarr[1]).addClass("nav-aktiv");
     
-    if(window.screen.width >= 640){
-        subitems.addClass('aktiv');
-    }
+    // if(window.screen.width >= 640){
+    subitems.addClass('aktiv');
+    // }
   }

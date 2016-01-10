@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Regular.ttf');
-    src: url('../fonts/OpenSans-Regular.woff');
+    src: url('/fonts/OpenSans-Regular.ttf');
+    src: url('/fonts/OpenSans-Regular.woff');
 }
 
 * {
@@ -130,31 +130,9 @@ header p, header p a {
   background-color: #FFFFE8;
 }
 
-.inaktiv {
-  display: none;
-}
-
-.aktiv {
-  display: block;
-}
-
-section {
-  display: none;
-}
-
-section.aktiv {
-  display: block;
-}
-
-section h1, section h2 {
+article h1, article h2 {
   text-align: left;
   font-style: italic;
-}
-
-#section-index h1, 
-#section-index h2, 
-#section-index p {
-  text-align: left;
 }
 
 .spacer {
@@ -207,6 +185,7 @@ section .spacer {
 
 .gal table, .gal4x4 table, .gal th, .gal4x4 th, .gal td, .gal4x4 td {
   border: 2px solid darkgray;
+  border-bottom: 1px solid darkgray;
 }
 
 .gal table, .gal4x4 table {
