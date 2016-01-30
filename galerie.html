@@ -14,7 +14,7 @@ id: galerie
             <td><a class="gallery" href="/img/gal3.jpg"><img src="/img/gal3.jpg" alt="Galerie"></a></td>
             <td><a class="gallery" href="/img/gal4.jpg"><img src="/img/gal4.jpg" alt="Galerie"></a></td>
           </tr>
-          <tr>
+          <tr>   
             <td><a class="gallery" href="/img/gal5.jpg"><img src="/img/gal5.jpg" alt="Galerie"></a></td>
             <td><a class="gallery" href="/img/gal6.jpg"><img src="/img/gal6.jpg" alt="Galerie"></a></td>
             <td><a class="gallery" href="/img/gal7.jpg"><img src="/img/gal7.jpg" alt="Galerie"></a></td>
@@ -46,3 +46,17 @@ id: galerie
           </p>
       </div>
   </article>
+
+    <script>
+      $(document).ready(function() {
+        $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
+          var WinWidth = $( window ).width();
+          if(WinWidth < 640){
+            return "260px"; 
+          }
+          else{
+            return "600px";
+          }
+        }});
+      });
+    </script>

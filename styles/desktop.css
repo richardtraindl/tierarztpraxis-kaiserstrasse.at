@@ -58,6 +58,16 @@ figure.image > img {
   height: 126px;
 }
 
+.gal5x5 img{
+  width: 100px;
+  height: 100px;
+}
+
+.gal6x6 img{
+  width: 83px;
+  height: 83px;
+}
+
 .description {
   display: table-cell;
   vertical-align: top;

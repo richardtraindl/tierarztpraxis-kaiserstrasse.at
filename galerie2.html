@@ -1,0 +1,61 @@
+---
+layout: desktop
+title: Galerie2
+id: galerie2
+---
+
+
+  <article id="article-galerie2">
+      <figure class="image gal4x4">
+        <table>
+          <tr>
+            <td><a class="gallery2" href="/img/gal22.jpg"><img src="/img/gal22.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal23.jpg"><img src="/img/gal23.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal24.jpg"><img src="/img/gal24.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal25.jpg"><img src="/img/gal25.jpg" alt="Galerie"></a></td>
+          </tr>
+          <tr>
+            <td><a class="gallery2" href="/img/gal26.jpg"><img src="/img/gal26.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal27.jpg"><img src="/img/gal27.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal28.jpg"><img src="/img/gal28.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal29.jpg"><img src="/img/gal29.jpg" alt="Galerie"></a></td>
+          </tr>
+          <tr>
+            <td><a class="gallery2" href="/img/gal30.jpg"><img src="/img/gal30.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal31.jpg"><img src="/img/gal31.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal32.jpg"><img src="/img/gal32.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal33.jpg"><img src="/img/gal33.jpg" alt="Galerie"></a></td>
+          </tr>
+          <tr>
+            <td><a class="gallery2" href="/img/gal34.jpg"><img src="/img/gal34.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal35.jpg"><img src="/img/gal35.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal36.jpg"><img src="/img/gal36.jpg" alt="Galerie"></a></td>
+            <td><a class="gallery2" href="/img/gal37.jpg"><img src="/img/gal37.jpg" alt="Galerie"></a></td>
+          </tr>
+        </table>
+      </figure>
+
+      <div class="description">
+          <h2>Galerie</h2>
+
+          <div class="spacer"><img src="/img/horizontal-line.png" alt=""></div>
+
+          <p>
+            Rundgang durch unsere Ordination...
+          </p>
+      </div>
+  </article>
+
+    <script>
+      $(document).ready(function() {
+        $('a.gallery2').colorbox({rel:"gal", innerWidth: function(){
+          var WinWidth = $( window ).width();
+          if(WinWidth < 640){
+            return "260px"; 
+          }
+          else{
+            return "600px";
+          }
+        }});
+      });
+    </script>

@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="/scripts/colorbox/colorbox.css">
     
-    <script src="/scripts/jquery-1.11.1.min.js"></script>
+    <script src="/scripts/jquery-2.2.0.min.js"></script>    
       
     <script src="/scripts/jquery.slider.js"></script>
       
@@ -36,19 +36,6 @@
     <script>
       $(document).ready(function() {
         selMenueItemActiv();
-
-        // showSection();
-
-        $('a.gallery').colorbox({rel:"gal", innerWidth: function(){
-          var WinWidth = $( window ).width();
-          if(WinWidth < 640){
-            return "260px"; 
-          }
-          else{
-            return "600px";
-          }
-        }});
-
       });
     </script>
   </head>
