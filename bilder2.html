@@ -48,17 +48,10 @@ id: galerie-bilder2
 
     <script>
       $(document).ready(function() {
-        $('a.gallery2').colorbox({rel:"gal", innerWidth: function(){
-          var WinWidth = $( window ).width();
-          if(WinWidth < 640){
-            return "260px"; 
-          }
-          else{
-            return "600px";
-          }          
-        },
-        speed: 300,
-        fadeOut: 300,
+        $('a.gallery2').colorbox({rel:"gal", 
+        speed: "300",
+        fadeOut: "300",
+        innerWidth: "600",
         scalePhotos: true,
         closeButton: true,
         });
