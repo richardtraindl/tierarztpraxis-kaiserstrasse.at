@@ -79,19 +79,8 @@ figure.image {
   display: none;
 }
 
-figure.image > img {
-  width: 288px;
-  height: 288px;
-  margin: 0 auto;
-}
-
-figure.gal {
-  display: block;
-}
-
-.gal img {
-  width: 96px;
-  height: 96px;
+figure.medium-image {
+  display: none;
 }
 
 .description {
