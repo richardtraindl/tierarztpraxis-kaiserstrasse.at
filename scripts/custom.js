@@ -25,7 +25,7 @@
           directionNav: true,             // Next & Prev navigation
           controlNav: false,                 // 1,2,3... navigation
           controlNavThumbs: false,         // Use thumbnails for Control Nav
-          pauseOnHover: true,             // Stop animation while hovering
+          pauseOnHover: false,             // Stop animation while hovering
           manualAdvance: false,             // Force manual transitions
           prevText: '',                 // Prev directionNav text
           nextText: '',                 // Next directionNav text
