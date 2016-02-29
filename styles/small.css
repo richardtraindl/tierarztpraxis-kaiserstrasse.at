@@ -50,7 +50,7 @@ header p, header p a {
 }
 
 #mainnav .menu-item {
-  float: left;
+  display: block;
   padding: 2px 2px 2px 2px;
   margin: 4px 4px 4px 4px;
   background-color: #ADD8E6;
