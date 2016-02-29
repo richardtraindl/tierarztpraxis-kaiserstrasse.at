@@ -77,7 +77,7 @@ header p, header p a {
   margin: 0px 0px 6px 6px;
 }
 
-#nav_galerie {
+#nav_galerie *{
   display: none;
 }
 
