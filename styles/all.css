@@ -192,15 +192,3 @@ section .spacer {
   margin: 0 auto;
 }
 
-.btn {
-  display: inline-block;
-  padding: 4px 4px 4px 4px;
-  text-align: center;
-  color: #333;
-  background-color: #E6E6E6;
-  background-image: linear-gradient(top, white 0%, #E6E6E6 100%);
-  border-radius: 4px;
-  cursor: pointer;
-  border: 1px solid darkgray;
-  white-space: nowrap; 
-}
