@@ -1,7 +1,11 @@
 /* CSS for medium */
 
 * {
-  /* text-align: left; */
+  text-align: center;
+}
+
+article {
+    text-align: left;
 }
 
 #wrapper {
