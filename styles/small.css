@@ -139,7 +139,7 @@ figure.medium-image {
 
 .btn {
   display: inline-block;
-  padding: 4px 10px 4px;
+  padding: 4px 4px 4px 4px;
   text-align: center;
   color: #333;
   background-color: #E6E6E6;
@@ -149,9 +149,4 @@ figure.medium-image {
   border: 1px solid darkgray;
   white-space: nowrap; 
 
-}
-
-a.btn, a.btn:visited, a.btn:hover {
-  color: #333;
-  text-decoration: none; 
 }
