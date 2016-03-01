@@ -65,7 +65,7 @@ figure.medium-image > img {
 }
 
 .description {
-  width: 288px; /* 476px; */
+  width: 280px; /* 476px; */
   height: auto;
   padding: 8px 8px 8px 0px;
 }
