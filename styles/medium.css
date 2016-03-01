@@ -42,7 +42,7 @@
 #content {
   display: table-cell;
   vertical-align: top;
-  width: 288px /* 480px; */
+  width: 288px; /* 480px; */
   height: auto;
 }
 
