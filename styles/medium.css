@@ -5,7 +5,7 @@
 }
 
 #wrapper {
-  width: 444px; /* 640px; */
+  width: 640px;
   height: auto;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -42,7 +42,7 @@
 #content {
   display: table-cell;
   vertical-align: top;
-  width: 288px; /* 480px; */
+  width: 480px;
   height: auto;
 }
 
@@ -65,7 +65,7 @@ figure.medium-image > img {
 }
 
 .description {
-  width: 280px; /* 476px; */
+  width: 476px;
   height: auto;
   padding: 8px 8px 8px 0px;
 }
