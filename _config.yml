@@ -3,29 +3,3 @@ safe: true
 exclude: 
 - README.md
 
-prose:
-  rooturl: '_includes'
-  siteurl: 'http://richardtraindl.github.io/tierarztpraxis-kaiserstrasse.at/'
-  ignore:
-    - .gitignore
-    - CNAME
-    - _config.yml
-    - anfahrt.html
-    - bilder1.html
-    - bilder2.html
-    - impressum.html
-    - index.html
-    - /_layouts
-    - /team
-    - /styles
-    - /static
-    - /schulmedizin
-    - /img
-    - /homoeopathie
-    - /fonts
-    - /ernaehrung
-    - /_includes/header.html
-    - /_includes/kontakt.html
-    - /_includes/navigation.html
-
-
