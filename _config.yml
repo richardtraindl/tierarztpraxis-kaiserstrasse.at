@@ -6,7 +6,6 @@ exclude:
 prose:
   rooturl: '_includes'
   siteurl: 'http://richardtraindl.github.io/tierarztpraxis-kaiserstrasse.at/'
-  media: 'media'
   ignore:
     - .gitignore
     - CNAME
