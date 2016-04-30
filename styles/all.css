@@ -183,6 +183,15 @@ section .spacer {
   display: block;
 }
 
+#news *{
+    text-align: left
+}
+
+#news h3{
+    color: red;
+    font-size: 18px
+}
+
 .gal table, .gal4x4 table, .gal th, .gal4x4 th, .gal td, .gal4x4 td {
   border: 2px solid darkgray;
   border-bottom: 1px solid darkgray;
