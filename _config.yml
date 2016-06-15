@@ -1,4 +1,12 @@
-safe: true
+title: "Tierarztpraxis Kaiserstraße"
+
+url: "http://tierarztpraxis-kaiserstrasse.at"
+
+author: "Elfriede Koppensteiner, Dr."
+
+description: "Leistungen und Behandlungsmöglichkeiten der Tierarztpraxis Kaiserstraße"
+
+logo: /img/logo.png
 
 exclude: 
 - README.md
@@ -7,3 +15,4 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   
+safe: true
