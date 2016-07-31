@@ -36,7 +36,7 @@
   height: 512px;
 }
 
-.div#links {
+div#links {
   display: table-cell;
   vertical-align: top;
   width: 512px;
