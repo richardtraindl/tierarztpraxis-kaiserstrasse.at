@@ -36,13 +36,14 @@
   height: 512px;
 }
 
-div#links {
+#links {
     background-image: url("/img/homoeopathie9.jpg");
     background-size: 512px 512px;
     display: table-cell;
     vertical-align: top;
     width: 512px;
-    height: 512px;  
+    height: 512px;
+    color: black;
 }
 
 #links a {
