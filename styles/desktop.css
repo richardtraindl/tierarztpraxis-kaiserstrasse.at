@@ -37,15 +37,16 @@
 }
 
 div#links {
-  display: table-cell;
-  vertical-align: top;
-  padding-top: 50px;
-  width: 512px;
-  height: 512px;  
+    background-image: url("img/homoeopathie9.jpg");
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 50px;
+    width: 512px;
+    height: 512px;  
 }
 
 #links a {
-  color: blue;
+    color: blue;
 }
 
 figure.image {
