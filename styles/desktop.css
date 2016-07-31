@@ -44,6 +44,10 @@ div#links {
   height: 512px;  
 }
 
+#links a {
+  color: blue;
+}
+
 figure.image {
   display: table-cell;
   vertical-align: top;

@@ -86,12 +86,16 @@ table {
   letter-spacing: 1px;
 }
 
-.small-gap {
-  padding-bottom: 10px;
-}
-
 .gap {
   padding-bottom: 20px;
+}
+
+.tiny-gap {
+  padding-bottom: 4px;
+}
+
+.small-gap {
+  padding-bottom: 10px;
 }
 
 .huge-gap {
@@ -200,4 +204,3 @@ section .spacer {
 .gal table, .gal4x4 table {
   margin: 0 auto;
 }
-
