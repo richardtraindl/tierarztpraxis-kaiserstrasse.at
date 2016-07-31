@@ -37,12 +37,16 @@
 }
 
 #links {
-    background-color: #CFA479;
+    background-color: #DEB887;
     display: table-cell;
     vertical-align: top;
     width: 512px;
     height: 512px;
-    padding: 20px;
+}
+
+#inner-links {
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 #links * {
