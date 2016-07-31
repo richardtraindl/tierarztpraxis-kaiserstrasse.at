@@ -37,7 +37,7 @@
 }
 
 div#links {
-    background-image: url("img/homoeopathie9.jpg");
+    background-image: url("/img/homoeopathie9.jpg");
     display: table-cell;
     vertical-align: top;
     padding-top: 50px;
