@@ -37,12 +37,12 @@
 }
 
 #links {
-    background-image: url("/img/homoeopathie9.jpg");
-    background-size: 512px 512px;
+    background-color: #CFA479
     display: table-cell;
     vertical-align: top;
     width: 512px;
     height: 512px;
+    padding: 20px;
 }
 
 #links * {
