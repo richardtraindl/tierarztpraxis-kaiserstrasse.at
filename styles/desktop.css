@@ -57,6 +57,10 @@
     color: #395858;
 }
 
+.link-description {
+  display: display;
+}
+
 .mobile-description {
   display: none;
 }
