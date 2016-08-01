@@ -204,3 +204,22 @@ section .spacer {
 .gal table, .gal4x4 table {
   margin: 0 auto;
 }
+
+#links {
+    background-color: #FFF7B3;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#inner-links {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#links * {
+    color: black;
+}
+
+#links a {
+    color: #395858;
+}
