@@ -102,6 +102,10 @@ figure.medium-image {
   padding: 16px 8px 8px 8px;
 }
 
+.link-description {
+  display: none;
+}
+
 .mobile-description {
   display: display;
 }
