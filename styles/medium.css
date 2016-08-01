@@ -50,6 +50,10 @@ figure.image {
   display: none;
 }
 
+.link-description {
+  display: none;
+}
+
 .mobile-description {
   display: display;
 }
