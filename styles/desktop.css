@@ -57,6 +57,10 @@
     color: #395858;
 }
 
+.mobile-description {
+  display: none;
+}
+
 figure.image {
   display: table-cell;
   vertical-align: top;
