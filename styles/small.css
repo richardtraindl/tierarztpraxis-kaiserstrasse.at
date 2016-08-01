@@ -102,6 +102,10 @@ figure.medium-image {
   padding: 16px 8px 8px 8px;
 }
 
+.mobile-description {
+  display: display;
+}
+
 /* #section-index-small h2 {
   padding: 20px 8px 8px 8px;
   font-style: normal;
