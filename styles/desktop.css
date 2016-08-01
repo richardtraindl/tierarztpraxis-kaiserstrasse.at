@@ -37,9 +37,6 @@
 }
 
 #links {
-    background-color: #FFF7B3;
-    display: table-cell;
-    vertical-align: top;
     width: 512px;
     height: 512px;
 }
@@ -47,14 +44,6 @@
 #inner-links {
     padding-top: 50px;
     padding-left: 50px;
-}
-
-#links * {
-    color: black;
-}
-
-#links a {
-    color: #395858;
 }
 
 .link-description {
