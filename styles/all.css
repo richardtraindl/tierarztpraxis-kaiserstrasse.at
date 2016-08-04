@@ -216,9 +216,9 @@ section .spacer {
 }
 
 #links * {
-    color: black;
+    /* color: black; */
 }
 
 #links a {
-    color: #395858;
+    color: Blue; /* #395858; */
 }
