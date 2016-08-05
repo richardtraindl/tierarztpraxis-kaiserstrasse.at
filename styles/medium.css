@@ -50,11 +50,11 @@ figure.image {
   display: none;
 }
 
-.link-description {
+.homoe-link-description {
   display: none;
 }
 
-.mobile-description {
+.mobile-homoe-description {
   display: display;
   padding: 10px;
 }
@@ -68,7 +68,7 @@ figure.medium-image > img {
   height: 288px;
 }
 
-.gal img{
+.gal img {
   width: 93px;
   height: 93px;
 }
@@ -78,10 +78,6 @@ figure.medium-image > img {
   height: auto;
   padding: 8px 8px 8px 0px;
 }
-
-/* #kontakt {
-  display: inline-block;
-} */
 
 .telefon {
 }
