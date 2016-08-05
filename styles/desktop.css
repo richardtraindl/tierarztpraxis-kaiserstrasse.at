@@ -47,11 +47,11 @@
     padding-left: 50px;
 }
 
-.link-description {
+.homoe-link-description {
   display: display;
 }
 
-.mobile-description {
+.mobile-homoe-description {
   display: none;
 }
 
@@ -71,22 +71,22 @@ figure.image > img {
   height: 512px;
 }
 
-.gal img{
+.gal img {
   width: 168px;
   height: 168px;
 }
 
-.gal4x4 img{
+.gal4x4 img {
   width: 126px;
   height: 126px;
 }
 
-.gal5x5 img{
+.gal5x5 img {
   width: 100px;
   height: 100px;
 }
 
-.gal6x6 img{
+.gal6x6 img {
   width: 83px;
   height: 83px;
 }
@@ -99,13 +99,6 @@ figure.image > img {
   max-height: 480px;
   padding: 28px 16px 0px 16px;
 }
-
-/* div.inner-description {
-  width: 272px;
-  height: 480px;
-  max-height: 480px;
-  overflow-y: auto;
-} */
 
 .telefon {
   display: table;
