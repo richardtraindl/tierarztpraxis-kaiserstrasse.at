@@ -58,10 +58,6 @@ header p, header p a {
   background-color: #F0F0F0; /* lightgray; */
 }
 
-#mainnav {
-
-}
-
 #mainnav .menu-item {
   display: block;
   padding: 2px 2px 2px 2px;
@@ -102,20 +98,13 @@ figure.medium-image {
   padding: 16px 8px 8px 8px;
 }
 
-.link-description {
+.homoe-link-description {
   display: none;
 }
 
-.mobile-description {
+.mobile-homoe-description {
   display: display;
 }
-
-/* #section-index-small h2 {
-  padding: 20px 8px 8px 8px;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-} */
 
 .telefon {
   display: table;
@@ -157,5 +146,3 @@ figure.medium-image {
   width: 100%;
   margin: 0;
 }
-
-
