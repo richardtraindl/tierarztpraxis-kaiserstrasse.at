@@ -98,7 +98,7 @@ permalink: /homoeopathie-links2.html
           kann ich Ihnen gute ho&shy;mö&shy;opa&shy;thisch ar&shy;bei&shy;tende Ärzte em&shy;pfeh&shy;len. 
         </p> 
       <form>
-          <input></input>
+          <input id="bgcolor"></input>
           <button id="set-bgcolor" type=submit>hintergrundfarbe ändern</button>
        </form>
     </div>
@@ -107,7 +107,8 @@ permalink: /homoeopathie-links2.html
   <script type="text/javascript">
     $(document).ready(function(){
         $('#set-bgcolor').click(function(){
-           alert( "Handler for .click() called." );
+           var bgcolor = $('#bgcolor').val();
+           alert( "Handler for .click() called." + bgcolor);
          });
     });
   </script>
