@@ -6,13 +6,13 @@ author: "Elfriede Koppensteiner, Dr."
 
 description: "Leistungen und Behandlungsmöglichkeiten der Tierarztpraxis Kaiserstraße"
 
-logo: /img/logo.png
+logo: "/img/logo.png"
 
-exclude: 
+exclude:
 - README.md
 
 gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
+- jekyll-seo-tag
+- jekyll-sitemap
+
 safe: true
