@@ -2,7 +2,7 @@ backend:
   name: github
   repo: richardtraindl/tierarztpraxis-kaiserstrasse.at
   branch: master
-  media_folder: "/static"
+  media_folder: "static"
   collections:
   - name: "blog" # Used in routes, e.g. /admin/collections/blog
     label: "Blog" # Used in the UI
