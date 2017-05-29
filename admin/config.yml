@@ -3,7 +3,7 @@ backend:
   repo: richardtraindl/tierarztpraxis-kaiserstrasse.at
   branch: master
 
-media_folder: "/img"
+media_folder: "img"
 
 collections:
   - name: "blog" # Used in routes, e.g. /admin/collections/blog
