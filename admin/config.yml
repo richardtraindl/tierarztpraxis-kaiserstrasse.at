@@ -2,7 +2,7 @@ backend:
   name: github
   repo: richardtraindl/tierarztpraxis-kaiserstrasse.at
   branch: master
-  folder: "img"
+  folder: "/img"
   media_folder: "/img"
   public_folder: "/img/uploads"
   collections:
