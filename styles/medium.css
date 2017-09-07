@@ -63,7 +63,7 @@ figure.medium-image {
   display: display;
 }
 
-figure.medium-image > img {
+figure.medium-image img {
   width: 288px;
   height: 288px;
 }
