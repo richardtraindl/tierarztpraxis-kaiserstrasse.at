@@ -76,7 +76,7 @@ figure.image img {
   height: 168px;
 }
 
-img.gal4x4 {
+.gal4x4 img {
   width: 126px !important;
   height: 126px !important;
 }
