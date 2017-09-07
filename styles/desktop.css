@@ -37,7 +37,7 @@
 }
 
 #homoe-links {
-    background-color: #FFD8A4; /* FFCBA4; #FFB499;  #FF7C4D; */
+    background-color: #FFD8A4;
     width: 512px;
     height: 512px;
 }
@@ -48,7 +48,7 @@
 }
 
 .homoe-link-description {
-  display: display;
+  display: table-cell;
 }
 
 .mobile-homoe-description {

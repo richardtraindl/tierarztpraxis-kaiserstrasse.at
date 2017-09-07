@@ -42,6 +42,10 @@ id: index
 
     <script>
       $(document).ready(function() {
+        if(window.matchMedia("(max-width: 639px)").matches) {
+            window.location.href = '/m/index.html';
+        } 
+
         startSlider();
       });
     </script>
