@@ -76,9 +76,9 @@ figure.image img {
   height: 168px;
 }
 
-img.gal4x4 !important {
-  width: 126px;
-  height: 126px;
+img.gal4x4 {
+  width: 126px !important;
+  height: 126px !important;
 }
 
 .gal5x5 img {
