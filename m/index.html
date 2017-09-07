@@ -1,46 +1,16 @@
 ---
-layout: desktop
+layout: mobile
 title: Willkommen
 id: index
 ---
 
 
   <article id="article-index">
-    <figure class="image">
-      <picture>
-        <source media="(min-width: 1000px)" srcset="img/fassade1.jpg">
-        <img src="img/fassade1.jpg" alt="Fassade">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="img/warteraum1.jpg">
-        <img src="img/warteraum1.jpg" alt="Warteraum">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="img/warteraum2.jpg">
-        <img src="img/warteraum2.jpg" alt="Warteraum">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="img/warteraum3.jpg">
-        <img src="img/warteraum3.jpg" alt="Warteraum">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="img/warteraum4.jpg">
-        <img src="img/warteraum4.jpg" alt="Warteraum">
-      </picture>
-    </figure>
-
-    <figure class="medium-image">
-      <picture>
-        <source media="(min-width: 640px)" srcset="img/fassade1.jpg">
-        <img src="img/fassade1.jpg" alt="Fassade">
-      </picture>
-    </figure>
-
     <div class="description">
       <h2>Herzlich willkommen in der Tierarztpraxis Kaiserstrasse</h2>
-      
+
       <div class="huge-gap"></div>
-      
+
       {% include kontakt.html %}
 
       <div class="huge-gap"></div>
@@ -49,8 +19,3 @@ id: index
     </div>
   </article>
 
-    <script>
-      $(document).ready(function() {
-        startSlider();
-      });
-    </script>
