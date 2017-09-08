@@ -6,7 +6,14 @@ id: anfahrt
 
 
   <article id="article-anfahrt">
+
+    <figure class="mobile-image">
+        <picture>
+          <source media="(min-width: 640px)" srcset="/img/anfahrtsplan_medium.jpg">
+          <img src="/img/anfahrtsplan_medium.jpg" alt="Anfahrtsplan">
+        </picture>
+    </figure>
     
-     {% include _anfahrt.html %}
+    {% include _anfahrt.html %}
 
   </article>
