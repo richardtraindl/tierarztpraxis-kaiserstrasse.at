@@ -45,7 +45,7 @@
           var bodyid = $("body").attr("id");
           var stringarr = bodyid.split('-');
           var divitem = $("#nav_" + stringarr[0]);
-          divitem.find('a:first-child').css('font-weight', 'bold');
+          divitem.find('a:first').css('font-weight', 'bold');
           var subitems = divitem.children('div.submenu-item');
           $('nav a#nav_' + stringarr[1]).addClass("nav-aktiv");
           subitems.addClass('aktiv');
