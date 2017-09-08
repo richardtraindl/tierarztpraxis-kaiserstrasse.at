@@ -87,6 +87,7 @@ header p, header p a {
 figure.mobile-image img {
   width: 288px;
   height: 288px;
+  margin: 0px auto;
 }
 
 .description {
