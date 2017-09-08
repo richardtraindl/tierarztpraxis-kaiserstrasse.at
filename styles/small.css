@@ -84,12 +84,9 @@ header p, header p a {
   height: auto;
 }
 
-figure.image {
-  display: none;
-}
-
-figure.medium-image {
-  display: none;
+figure.mobile-image img {
+  width: 288px;
+  height: 288px;
 }
 
 .description {
