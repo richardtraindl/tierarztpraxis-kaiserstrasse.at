@@ -34,11 +34,25 @@ header p, header p a {
   line-height: 16px;
 }
 
+header img {
+  width: 32px;
+}
+
+header h1, header h1 a {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+header p, header p a {
+  font-size: 16px;
+  line-height: 16px;
+}
+
 #wrapper {
-  width: 320px;
+  min-width: 240px;
+  max-width: 480px;
   height: auto;
-  margin: 0px auto;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 
 #inner-wrapper {
@@ -51,7 +65,7 @@ header p, header p a {
 
 #navigation {
   display: block;
-  width: 304px;
+  #width: 304px;
   height: auto;
   padding: 8px 8px 8px 8px;
   margin-bottom: 16px;
@@ -80,18 +94,18 @@ header p, header p a {
 #content {
   clear: both;
   display: block;
-  width: 320px;
   height: auto;
 }
 
 figure.mobile-image img {
-  width: 288px;
-  height: 288px;
+  width: 96%;
+  #width: 288px;
+  #height: 288px;
   margin: 0px auto;
 }
 
 .description {
-  width: 304px;
+  #width: 304px;
   height: auto;
   padding: 16px 8px 8px 8px;
 }

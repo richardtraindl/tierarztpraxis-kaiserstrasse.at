@@ -196,12 +196,12 @@ section .spacer {
     font-size: 18px
 }
 
-.gal table, .gal4x4 table, .gal th, .gal4x4 th, .gal td, .gal4x4 td {
+.gal4x4 table, .gal4x4 th, .gal4x4 td {
   border: 2px solid darkgray;
   border-bottom: 1px solid darkgray;
 }
 
-.gal table, .gal4x4 table {
+.gal4x4 table {
   margin: 0 auto;
 }
 
@@ -211,8 +211,7 @@ section .spacer {
 }
 
 #homoe-inner-links {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 #homoe-links a {

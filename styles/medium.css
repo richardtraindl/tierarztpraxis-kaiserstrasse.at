@@ -5,11 +5,12 @@
 }
 
 #wrapper {
-  width: 640px;
+  min-width: 456px;
+  max-width: 640px;
   height: auto;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
+
 #inner-wrapper {
   display: table;
   border-collapse: collapse;
@@ -27,6 +28,7 @@
   display: table-cell;
   vertical-align: top;
   width: 136px;
+  #width: 30%;
   height: auto;
   padding: 16px 8px 8px 16px;
 }
@@ -42,7 +44,7 @@
 #content {
   display: table-cell;
   vertical-align: top;
-  width: 480px;
+  #min-width: 288px;
   height: auto;
 }
 
@@ -68,15 +70,10 @@ figure.medium-image img {
   height: 288px;
 }
 
-.gal img {
-  width: 93px;
-  height: 93px;
-}
-
 .description {
-  width: 476px;
+  # width: 476px;
   height: auto;
-  padding: 8px 8px 8px 0px;
+  padding: 8px 16px 8px 0px;
 }
 
 .telefon {

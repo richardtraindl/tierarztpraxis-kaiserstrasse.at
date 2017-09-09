@@ -71,24 +71,9 @@ figure.image img {
   height: 512px;
 }
 
-.gal img {
-  width: 168px;
-  height: 168px;
-}
-
 .gal4x4 img {
   width: 126px !important;
   height: 126px !important;
-}
-
-.gal5x5 img {
-  width: 100px;
-  height: 100px;
-}
-
-.gal6x6 img {
-  width: 83px;
-  height: 83px;
 }
 
 .description {
