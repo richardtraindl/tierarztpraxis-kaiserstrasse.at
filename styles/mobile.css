@@ -57,7 +57,7 @@ body {
 #nav-image {
   position: absolute;
   right: 0px;
-  bottom: 0px;
+  top: 100px;
   /* float: right;
   clear: all; */
 }
