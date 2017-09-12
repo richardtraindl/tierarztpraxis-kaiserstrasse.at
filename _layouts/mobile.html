@@ -20,41 +20,23 @@
 
   <body id="{{ page.id }}">
 
-    {% include header.html %}
+    <div id="mobile-wrapper">
+      {% include mobile-header.html %}
+      
+      {% include mobile-nav.html %}
 
-    <div id="wrapper">
-      <div id="inner-wrapper">
-        <div id="most-inner-wrapper">
-          <div id="navigation">
-            {% include navigation.html %}
-          </div>
-          <div id="content">
-            {{ content }}
-          </div>
-        </div>
+      <div id="mobile-content">
+        {{ content }}
       </div>
     </div>
 
     <script src="/static/jquery-1.11.1.min.js"></script>
 
-    <!-- script src="/static/custom.js"></script -->
-
     <script>
       $(document).ready(function() {
-        function selMenueItemActiv(){
-          var bodyid = $("body").attr("id");
-          var stringarr = bodyid.split('-');
-          var divitem = $("#nav_" + stringarr[0]);
-          divitem.find('a:first').css('font-weight', 'bold');
-          var subitems = divitem.children('div.submenu-item');
-          $('nav a#nav_' + stringarr[1]).addClass("nav-aktiv");
-          subitems.addClass('aktiv');
-        }
-        selMenueItemActiv();
       });
     </script>
 
   </body>
-  
   
 </html>
