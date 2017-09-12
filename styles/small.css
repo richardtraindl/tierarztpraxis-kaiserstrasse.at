@@ -23,8 +23,8 @@ body {
 }
 
 #mobile-header, #mobile-nav, #mobile-content {
-	margin: 6px 12px;
-	background-color: Beige;
+  margin: 6px 12px;
+  background-color: Beige;
 }
 
 #mobile-wrapper {
@@ -62,13 +62,13 @@ body {
 
 #mobile-nav {
   text-align: right;
-	padding: 0px;
+  padding: 0px;
   display: none;
 }
 
 #mobile-nav ul {
-   margin: 0px;
-   padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #mobile-nav li {
@@ -79,7 +79,7 @@ body {
 }
 
 #mobile-content {
-	padding: 20px;
+  padding: 20px;
 }
 
 figure.mobile-image img {
