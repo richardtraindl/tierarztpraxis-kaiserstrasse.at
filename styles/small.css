@@ -1,5 +1,9 @@
 /* CSS for small */
 
+body {
+  background-color: White;
+  height: auto;
+}
 
 * {
   text-align: left;
@@ -18,83 +22,64 @@
   white-space: nowrap; 
 }
 
-header {
-  padding: 6px 0px 6px 0px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+#mobile-header, #mobile-nav, #mobile-content {
+	margin: 6px 12px;
+	background-color: Beige;
 }
 
-header h1, header h1 a {
+#mobile-wrapper {
+  margin: 0px auto;
+  padding: 6px 0px;
+  background-color: #FFE394;
+  min-width: 320px;
+  max-width: 640px;
+}
+
+
+#mobile-header h1, #mobile-header h1 a {
   font-size: 18px;
   line-height: 18px;
 }
 
-header p, header p a {
+#mobile-header p, #mobile-header p a {
   font-size: 16px;
   line-height: 16px;
 }
 
-header img {
+#mobile-header img {
   width: 32px;
 }
 
-header h1, header h1 a {
-  font-size: 18px;
-  line-height: 18px;
+#mobile-header {
+  text-align: center;
+  padding: 20px;
 }
 
-header p, header p a {
-  font-size: 16px;
-  line-height: 16px;
+#mobile-header  img {
+  float: right;
+  clear: all;
 }
 
-#wrapper {
-  min-width: 240px;
-  max-width: 480px;
-  height: auto;
-  margin: 10px auto;
-}
-
-#inner-wrapper {
-  display: block;
-}
-
-#most-inner-wrapper {
-  display: block;
-}
-
-#navigation {
-  display: block;
-  #width: 304px;
-  height: auto;
-  padding: 8px 8px 8px 8px;
-  margin-bottom: 16px;
-  background-color: #F0F0F0; /* lightgray; */
-}
-
-#mainnav .menu-item {
-  display: block;
-  padding: 2px 2px 2px 2px;
-  margin: 4px 4px 4px 4px;
-  background-color: #ADD8E6;
-  text-align: left;
-  border-radius: 4px 4px 4px 4px;
-  -moz-border-radius: 4px 4px 4px 4px;
-  -webkit-border-radius: 4px 4px 4px 4px;
-}
-
-#mainnav .submenu-item {
-  margin: 0px 0px 6px 6px;
-}
-
-#nav_galerie, #nav_galerie.menu-item {
+#mobile-nav {
+  text-align: right;
+	padding: 0px;
   display: none;
 }
 
-#content {
-  clear: both;
-  display: block;
-  height: auto;
+#mobile-nav ul {
+   margin: 0px;
+   padding: 0px;
+}
+
+#mobile-nav li {
+  margin: 0px 0px 2px 0px;
+  padding: 8px;
+  background-color: rgb(210, 213, 221);
+  list-style: none;
+}
+
+#mobile-content {
+	padding: 20px;
 }
 
 figure.mobile-image img {
