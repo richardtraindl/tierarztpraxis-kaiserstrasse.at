@@ -22,11 +22,6 @@ body {
   white-space: nowrap; 
 }
 
-#mobile-header, #mobile-nav, #mobile-content {
-  margin: 6px 12px;
-  background-color: #FFFFE8; /* Beige; */
-}
-
 #mobile-wrapper {
   margin: 0px auto;
   padding: 6px 0px;
@@ -35,6 +30,15 @@ body {
   max-width: 640px;
 }
 
+#mobile-header, #mobile-nav, #mobile-content {
+  margin: 6px 12px;
+  background-color: #FFFFE8; /* Beige; */
+}
+
+#mobile-header {
+  text-align: center;
+  padding: 20px;
+}
 
 #mobile-header h1, #mobile-header h1 a {
   font-size: 18px;
@@ -50,28 +54,25 @@ body {
   width: 32px;
 }
 
-#mobile-header {
-  text-align: center;
-  padding: 20px;
-}
-
 #nav-image {
   float: right;
   clear: all;
 }
 
 #mobile-nav {
-  text-align: right !important;
+  text-align: right;
   padding: 0px;
   display: none;
 }
 
 #mobile-nav ul {
+  text-align: right;
   margin: 0px;
   padding: 0px;
 }
 
 #mobile-nav li {
+  text-align: right;
   margin: 0px 0px 2px 0px;
   padding: 8px;
   background-color: LightBlue;
