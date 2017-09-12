@@ -35,6 +35,9 @@
     <script>
       $(document).ready(function() {
         $("#nav-button").on("click",function(){
+          if(window.matchMedia("(min-width: 640px)").matches) {
+            $("#nav-item-vollversion").addClass('active');
+          }
           $("#mobile-nav").toggle();
           return false;});
       });
