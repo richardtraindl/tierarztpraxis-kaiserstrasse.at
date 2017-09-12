@@ -15,7 +15,7 @@
     
     <link rel="stylesheet" href="/styles/all.css" media="all">
 
-    <link rel="stylesheet" href="/styles/mobile.css">
+    <link rel="stylesheet" href="/styles/mobile.css" media="all">
   </head>
 
   <body id="{{ page.id }}">
@@ -33,14 +33,13 @@
     <script src="/static/jquery-1.11.1.min.js"></script>
 
     <script>
-      $(document).ready(function() {
         $("#nav-button").on("click",function(){
           if(window.matchMedia("(min-width: 640px)").matches) {
             $("#nav-item-vollversion").removeClass('non-active').addClass('active');
           }
           $("#mobile-nav").toggle();
-          return false;});
-      });
+          return false;
+        });
     </script>
 
   </body>
