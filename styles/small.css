@@ -61,7 +61,7 @@ body {
 }
 
 #mobile-nav {
-  text-align: right;
+  text-align: right !important;
   padding: 0px;
   display: none;
 }
@@ -74,7 +74,7 @@ body {
 #mobile-nav li {
   margin: 0px 0px 2px 0px;
   padding: 8px;
-  background-color: rgb(210, 213, 221);
+  background-color: LightBlue;
   list-style: none;
 }
 
