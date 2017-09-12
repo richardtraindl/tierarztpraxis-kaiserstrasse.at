@@ -79,6 +79,10 @@ body {
   list-style: none;
 }
 
+#nav-item-vollversion {
+  display: none;
+}
+
 .active {
   display: display;
 }
