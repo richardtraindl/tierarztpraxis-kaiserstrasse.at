@@ -79,6 +79,10 @@ body {
   list-style: none;
 }
 
+.active {
+  display: display;
+}
+
 #mobile-content {
   padding: 20px;
 }
@@ -136,3 +140,4 @@ figure.mobile-image img {
   width: 100%;
   margin: 0;
 }
+
