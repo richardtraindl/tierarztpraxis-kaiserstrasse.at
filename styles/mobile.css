@@ -79,7 +79,7 @@ body {
   list-style: none;
 }
 
-#nav-item-vollversion {
+.non-active {
   display: none;
 }
 
