@@ -28,7 +28,7 @@ body {
   background-color: #FFE394;
   min-width: 320px;
   max-width: 640px;
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 #mobile-header, #mobile-nav, #mobile-content {
