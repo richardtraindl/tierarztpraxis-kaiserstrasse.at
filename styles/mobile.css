@@ -28,7 +28,7 @@ body {
   background-color: #FFE394;
   min-width: 320px;
   max-width: 640px;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 #mobile-header, #mobile-nav, #mobile-content {
@@ -40,7 +40,7 @@ body {
   position: relative;
   text-align: center;
   padding: 20px;
-  border-radius: 15px 15px 0px 0px;
+  /* border-radius: 15px 15px 0px 0px; */
 }
 
 #mobile-header h1, #mobile-header h1 a {
@@ -93,7 +93,7 @@ body {
 
 #mobile-content {
   padding: 20px;
-  border-radius: 0px 0px 15px 15px;
+  /* border-radius: 0px 0px 15px 15px; */
 }
 
 figure.mobile-image img {
