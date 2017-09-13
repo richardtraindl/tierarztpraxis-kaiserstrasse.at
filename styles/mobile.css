@@ -98,13 +98,13 @@ body {
 
 figure.mobile-image img {
   width: 96%;
-  #width: 288px;
-  #height: 288px;
+  /* width: 288px;
+  height: 288px; */
   margin: 0px auto;
 }
 
 .description {
-  #width: 304px;
+  /* width: 304px; */
   height: auto;
   padding: 16px 8px 8px 8px;
 }
