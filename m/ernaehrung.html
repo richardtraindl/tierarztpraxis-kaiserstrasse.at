@@ -7,7 +7,23 @@ id: ernaehrung
   <article>
 
     {% include ernaehrung/_ernaehrungsberatung.html %}
+    <div class="small-gap"></div>
+    <figure class="mobile-image">
+        <picture>
+          <source media="(min-width: 640px)" srcset="/img/ernaehrung1_medium.jpg">
+          <img src="/img/ernaehrung1_medium.jpg" alt="Ernährungsberatung">
+        </picture>
+    </figure>
+
+    <div class="gap"></div>
 
     {% include ernaehrung/_rationserstellung.html %}
+    <div class="small-gap"></div>
+    <figure class="mobile-image">
+        <picture>
+          <source media="(min-width: 640px)" srcset="/img/julia_medium.jpg">
+          <img src="/img/julia_medium.jpg" alt="Julia">
+        </picture>
+    </figure>
 
   </article>
