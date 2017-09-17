@@ -96,8 +96,12 @@ body {
   border-radius: 0px 0px 6px 6px;
 }
 
+figure.mobile-image {
+  padding: 0px 8px 0px 8px;
+}
+
 figure.mobile-image img {
-  width: 96%;
+  width: 100%;
   /* width: 288px;
   height: 288px; */
   margin: 0px auto;
