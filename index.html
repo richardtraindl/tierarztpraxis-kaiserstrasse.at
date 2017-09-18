@@ -5,7 +5,7 @@ id: index
 ---
 
   <script>
-    if(window.matchMedia("(orientation: portrait) and (max-width: 640px)").matches) {
+    if(window.matchMedia("((orientation: portrait) and (max-width: 640px)) or ((orientation: landscape) and (max-width: 1280px))").matches) {
       window.location.href = '/m/index.html';
     } 
   </script>
