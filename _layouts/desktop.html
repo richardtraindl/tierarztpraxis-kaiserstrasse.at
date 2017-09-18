@@ -34,6 +34,14 @@
     <script src="/static/custom.js"></script>
 
     <script>
+      var url = document.referrer;
+      console.log(url.indexOf("tierarztpraxis-kaiserstrasse.at"));
+      if(url.indexOf("tierarztpraxis-kaiserstrasse.at") == -1){
+        if(window.matchMedia("(max-width: 768px)").matches) {
+          window.location.href = '/m/index.html';
+        }
+      }
+
       $(document).ready(function() {
         selMenueItemActiv();
       });
