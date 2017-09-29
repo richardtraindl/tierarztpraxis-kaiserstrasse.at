@@ -40,6 +40,19 @@
           $("#mobile-nav").toggle();
           return false;
         });
+
+        $(".mobile-nav").on("click",function(){
+          var id = $(this).attr("id");
+          if(id == "list-vollversion"){
+            window.location.href = "/index.html";
+          }
+          else{
+            var stringarr = id.split('-');
+            var target = (stringarr[1] + ".html");
+            window.location.href = target;
+          }
+          return false;
+        });
     </script>
 
   </body>
