@@ -188,7 +188,7 @@ section .spacer {
 }
 
 #news *{
-    text-align: left
+    text-align: justify;
 }
 
 #news h3{
