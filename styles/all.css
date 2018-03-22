@@ -191,7 +191,8 @@ section .spacer {
     text-align: justify;
 }
 
-#news h3{
+#news h1, #news h2, #news h3{
+    padding-bottom: 10px;
     color: red;
     font-size: 18px
 }
