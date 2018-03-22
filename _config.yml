@@ -1,3 +1,4 @@
+
 title: "Tierarztpraxis Kaiserstraße"
 
 url: "http://tierarztpraxis-kaiserstrasse.at"
@@ -9,14 +10,12 @@ description: "Leistungen und Behandlungsmöglichkeiten der Tierarztpraxis Kaiser
 logo: "/img/logo.png"
 
 exclude:
-- README.md
+  - README.md
 
 plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-admin
+  - jekyll-seo-tag
 
-safe: true
+save: true
 
 prose:
   rooturl: '_includes/edit'
