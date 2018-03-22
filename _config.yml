@@ -21,4 +21,17 @@ safe: true
 prose:
   rooturl: '_includes'
   siteurl: 'tierarztpraxis-kaiserstrasse.at'
-  
+  ignore:
+  - ernaehrung
+  - homoeopathie
+  - schulmedizin
+  - team
+  - _anfahrt.html
+  - _anfahrt.html
+  - _impressum.html
+  - _index.html
+  - _kontakt.html
+  - desktop-header.html
+  - desktop-nav.html
+  - mobile-header.html
+  - mobile-nav.html
