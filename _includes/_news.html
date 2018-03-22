@@ -1,7 +1,8 @@
 
 
     <div id="news">
-       {% include edit/news.md %}
+       {% capture txt %}{% include edit/news.md %}{% endcapture %}
+       {{ txt | markdownify }}
     </div>
 
       <!-- h3>ACHTUNG!</h3>
