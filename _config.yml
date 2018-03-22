@@ -17,3 +17,8 @@ plugins:
 - jekyll-admin
 
 safe: true
+
+prose:
+  rooturl: '_includes'
+  siteurl: 'tierarztpraxis-kaiserstrasse.at'
+  
