@@ -1,4 +1,6 @@
-<!-- Tipps: Silbentrennung bei langen Wörtern mit &shy; -->
+<!-- Tipps: 
+   ### belassen, es steht für Überschrift.
+   Silbentrennung bei langen Wörtern mit &shy; -->
 
 ### ACHTUNG
 
