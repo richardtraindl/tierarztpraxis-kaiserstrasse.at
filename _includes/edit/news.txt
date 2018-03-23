@@ -1,3 +1,5 @@
-### ACHTUNG!
+<!-- Tipps: Silbentrennung bei langen Wörtern mit &shy; -->
 
+### ACHTUNG
+ <!-- leere Zeile belassen -->
 Ab Februar 2018 bieten wir Zahnröntgen und eine moderne Zahn&shy;behandlungs&shy;station an!
