@@ -3,7 +3,5 @@
    Silbentrennung bei langen Wörtern mit &shy; 
 -->
 
-<!--### ACHTUNG
+### ACHTUNG
     Die Ordination ist im September 2019 jeweils am Samstag geschlossen!
-
-  
