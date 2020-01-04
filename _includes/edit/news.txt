@@ -3,9 +3,4 @@
    Silbentrennung bei langen Wörtern mit &shy; 
 -->
 
-### ACHTUNG
-    Die Ordination ist vom 23.12. bis 29.12. 
-    geschlossen. Am 30.12.2019 geöffnet ab 
-    9 Uhr. Am 31.12.2019 geschlossen. 
-    Im neuen Jahr ab 02.01.2020 
-    ab 16 Uhr geöffnet. 
+
