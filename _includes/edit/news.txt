@@ -5,6 +5,6 @@
    Das Patientenverhalten wird Ihnen in der Ordination bekanntgegeben.
 -->
 ### ACHTUNG
-**Am Mittwoch, den 15. Juli, ist die Ordination am Vormittag geschlossen.** Nachmittags ist regulär von 16h bis 19h geöffnet.
+*Am Mittwoch, den 15. Juli, ist die Ordination am Vormittag geschlossen.* Nachmittags ist regulär von 16h bis 19h geöffnet.
 
 In den Sommermonaten Juni, Juli und August ist die Ordination am Samstag geschlossen.
