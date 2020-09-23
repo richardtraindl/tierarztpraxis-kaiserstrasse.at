@@ -5,4 +5,6 @@
    Das Patientenverhalten wird Ihnen in der Ordination bekanntgegeben.
 -->
 ### ACHTUNG
+Am Mittwoch, den 23. September und Mittwoch, den 30. September bleibt die Ordination am Nachmittag geschlossen.
+
 In den Monaten September und Oktober bleibt die Ordination am Samstag geschlossen.
