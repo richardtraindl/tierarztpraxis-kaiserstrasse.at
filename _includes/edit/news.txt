@@ -1,9 +1,6 @@
 <!-- Tipps: 
    ### vor Achtung schreiben, es steht für Überschrift.
    Silbentrennung bei langen Wörtern mit &shy; 
-   Die Ordination bleibt am Samstag bis auf Weiteres geschlossen.
 -->
 ### ACHTUNG
-Die Ordination bleibt am Freitag, dem 30. April 2021, geschlossen.
-
-Und bis auf Weiteres bleibt die Ordination am Samstag geschlossen.
+Die Ordination bleibt am Samstag bis auf Weiteres geschlossen.
