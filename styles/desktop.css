@@ -1,57 +1,13 @@
 /* CSS for all width's */
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.ttf');
-    src: url('/fonts/OpenSans-Regular.woff');
-}
-
 * {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
   text-align: justify;
-  font-family: Helvetica, 'Open Sans';
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   color: #395858;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
 }
 
 body {
   background-color: #FFE394;
   height: 101%;
-}
-
-h1 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-h2 { 
-  font-size: 18px; 
-  line-height: 22px; 
-}
-
-a, a:link, a:visited, a:active, a:focus {
-  text-decoration: none;
-}
-
-li {
-  list-style-image: url("/img/listitem.png");
-  margin-left: 20px;
-  text-align: left;
-}
-
-img {
-  display: block;
 }
 
 article{
@@ -89,31 +45,6 @@ article{
   padding: 28px 16px 0px 16px;
 }
 
-.fbold {
-  font-weight: bold;
-}
-
-.fitalic {
-  font-style: italic;
-  letter-spacing: 1px;
-}
-
-.gap {
-  padding-bottom: 20px;
-}
-
-.tiny-gap {
-  padding-bottom: 4px;
-}
-
-.small-gap {
-  padding-bottom: 10px;
-}
-
-.huge-gap {
-  padding-bottom: 30px;
-}
-
 header {
   padding: 10px 0px 10px 0px;
   margin-top: 20px;
@@ -145,19 +76,6 @@ header p, header p a {
 article h1, article h2 {
   text-align: left;
   font-style: italic;
-}
-
-.spacer {
-  padding: 16px 0px 16px 0px;
-}
-
-section .spacer {
-  padding: 12px 0px 20px 0px;
-}
-
-.spacer img {
-  width: 40px;
-  height: 1px;
 }
 
 #mainnav {
@@ -195,15 +113,9 @@ section .spacer {
   display: block;
 }
 
-#news *{
+/*#news *{
     text-align: justify;
-}
-
-#news h1, #news h2, #news h3{
-    padding-bottom: 10px;
-    color: red;
-    font-size: 18px
-}
+}*/
 
 .gal4x4{
   display: grid;
@@ -225,10 +137,6 @@ section .spacer {
   height: 512px;
   padding-top: 40px;
   padding-left: 40px;
-}
-
-#homoe-links a {
-    color: DarkBlue;
 }
 
 .description {

@@ -1,26 +1,7 @@
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.ttf');
-    src: url('/fonts/OpenSans-Regular.woff');
-}
-
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
   text-align: left;
-  font-family: Helvetica, 'Open Sans';
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   color: #395858;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
 }
 
 body {
@@ -109,55 +90,6 @@ body {
   list-style: none;
 }
 
-.fbold {
-  font-weight: bold;
-}
-
-.fitalic {
-  font-style: italic;
-  letter-spacing: 1px;
-}
-
-.gap {
-  padding-bottom: 20px;
-}
-
-.tiny-gap {
-  padding-bottom: 4px;
-}
-
-.small-gap {
-  padding-bottom: 10px;
-}
-
-.huge-gap {
-  padding-bottom: 30px;
-}
-
-h1 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-h2 { 
-  font-size: 18px; 
-  line-height: 22px; 
-}
-
-a, a:link, a:visited, a:active, a:focus {
-  text-decoration: none;
-}
-
-li {
-  list-style-image: url("/img/listitem.png");
-  margin-left: 20px;
-  text-align: left;
-}
-
-img {
-  display: block;
-}
-
 #mobile-content {
   padding: 20px;
   border-radius: 0px 0px 6px 6px;
@@ -181,37 +113,6 @@ figure.mobile-image img {
   font-style: italic;
 }
 
-.telefon{
-  display: grid;
-  grid-template-columns: max-content max-content max-content;
-  grid-gap: 0px;
-  padding: 0px; 
-}
-
-.oeffnungszeiten {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-gap: 0px;
-  padding: 0px; 
-}
-
-.spacer {
-  padding: 16px 0px 16px 0px;
-}
-
-section .spacer {
-  padding: 12px 0px 20px 0px;
-}
-
-.spacer img {
-  width: 40px;
-  height: 1px;
-}
-
 #homoe-links {
   padding: 10px;
-}
-
-#homoe-links a {
-  color: DarkBlue;
 }
