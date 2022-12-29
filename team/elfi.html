@@ -5,11 +5,16 @@ id: team-elfi
 permalink: /team-elfi.html
 ---
 
-  <article id="elfi">
-    <figure class="image">
+  <article>
+
+    {% include desktop-nav.html %}
+
+    <figure id="center" class="image">
       <img src="/img/elfi.jpg" alt="Elfi">
     </figure>
 
-    {% include team/_elfi.html %}
+    <div id="right" class="description">
+      {% include team/_elfi.html %}
+    </div>
 
   </article>

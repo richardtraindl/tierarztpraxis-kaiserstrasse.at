@@ -2,11 +2,14 @@
 layout: desktop
 title: Willkommen
 id: index
-image: "/img/fassade1.jpg"
 ---
 
+
   <article>
-    <figure class="image">
+
+    {% include desktop-nav.html %}
+
+    <figure id="center" class="image">
       <img src="/img/fassade1.jpg" alt="Fassade">
 
       <img src="/img/warteraum1.jpg" alt="Warteraum">
@@ -16,7 +19,9 @@ image: "/img/fassade1.jpg"
       <img src="/img/warteraum4.jpg" alt="Warteraum">
     </figure>
 
-    {% include _index.html %}
+    <div id="right" class="description">
+      {% include _index.html %}
+    </div>
 
   </article>
 

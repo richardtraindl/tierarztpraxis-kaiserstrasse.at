@@ -4,12 +4,16 @@ title: Anfahrt
 id: anfahrt
 ---
 
-
   <article>
-    <figure class="image">
-        <img src="/img/anfahrtsplan.jpg" alt="Anfahrtsplan">
+
+    {% include desktop-nav.html %}
+
+    <figure id="center" class="image">
+      <img src="/img/anfahrtsplan.jpg" alt="Anfahrtsplan">
     </figure>
 
-    {% include _anfahrt.html %}
+    <div id="right" class="description">
+      {% include _anfahrt.html %}
+    </div>
 
   </article>

@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 
 <html lang="de">
-
   <head>
     <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>{{ page.title }} | {{ site.title }}</title>
-
-    {% seo title=false %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="/favicon_32x32.png">
-    
-    <link rel="stylesheet" href="/styles/all.css" media="all">
 
-    <link rel="stylesheet" media="only screen and (max-width: 999px)" href="/styles/medium.css">
+    <link rel="stylesheet" href="/styles/mobile.css" media="all">
 
-    <link rel="stylesheet" media="only screen and (min-width: 1000px)" href="/styles/desktop.css">
+    <link rel="stylesheet" href="/styles/desktop.css" media="all">
 
     <script src="/static/jquery-1.11.1.min.js"></script>    
       
@@ -32,41 +25,33 @@
     <link rel="stylesheet" href="/static/nivo-slider/nivo-slider.css">
 
     <script src="/static/custom.js"></script>
-
+    
     <script>
-      var url = document.referrer;
+      if(isMobile() == true){
+        window.location.href = '/m/index.html';
+      }
+      /*var url = document.referrer;
       console.log(url.indexOf("tierarztpraxis-kaiserstrasse.at"));
       if(url.indexOf("tierarztpraxis-kaiserstrasse.at") == -1){
         if(window.matchMedia("(max-width: 768px)").matches) {
           window.location.href = '/m/index.html';
         }
-      }
+      }*/
 
       $(document).ready(function() {
         selMenueItemActiv();
       });
     </script>
+
+    <title>{{ page.title }}</title>
   </head>
 
   <body id="{{ page.id }}">
 
     {% include desktop-header.html %}
 
-    <div id="wrapper">
-      <div id="inner-wrapper">
-        <div id="most-inner-wrapper">
-          <div id="navigation">
-            {% include desktop-nav.html %}
-          </div>
-          <div id="content">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ content }}
 
   </body>
+
 </html>
-
-
-

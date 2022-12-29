@@ -6,7 +6,10 @@ permalink: /team-mitarbeiter.html
 ---
 
   <article id="mitarbeiter">
-    <figure id="figure-mitarbeiter" class="image">
+
+    {% include desktop-nav.html %}
+
+    <figure id="center" class="image">
       <img src="/img/team.jpg" alt="Team">
       <img src="/img/anna.jpg" alt="Anna">
       <img src="/img/marius.jpg" alt="Marius">
@@ -14,7 +17,9 @@ permalink: /team-mitarbeiter.html
       <img src="/img/hanni.jpg" alt="Hanni">
     </figure>
 
-    {% include team/_mitarbeiter.html %}
+    <div id="right" class="description">
+      {% include team/_mitarbeiter.html %}
+    </div>
 
   </article>
 

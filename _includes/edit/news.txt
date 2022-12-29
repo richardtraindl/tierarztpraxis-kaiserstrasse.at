@@ -5,10 +5,8 @@
   Die Ordination bleibt am Dienstag, dem 6. Juli, geschlossen.
   Die Ordination bleibt am Freitag, dem 12. November, geschlossen.
   Bis auf Weiteres bleibt die Ordination an Samstagen geschlossen. 
+  Am Dienstag, dem 27. Dezember, ist die Ordination ab 9h geöffnet.
 -->
-<!-- 
-### ACHTUNG
-Wegen der Weihnachtsfeiertage schließt unsere Ordination am Freitag, dem 23. Dezember, um 12h.
 
-Am Dienstag, dem 27. Dezember, ist die Ordination ab 9h geöffnet.
--->
+### ACHTUNG
+Die Ordination schließt am Freitag, dem 30. Dezember, um 12h.

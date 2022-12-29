@@ -5,9 +5,15 @@ id: impressum
 ---
 
   <article>
-    <figure class="image">
+
+    {% include desktop-nav.html %}
+
+    <figure id="center" class="image">
       <img src="/img/untersuchung1.jpg" alt="Medieninhaber">
     </figure>
 
-     {% include _impressum.html %}
+    <div id="right" class="description">
+      {% include _impressum.html %}
+    </div>
+
   </article>

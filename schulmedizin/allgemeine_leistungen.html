@@ -5,9 +5,11 @@ id: schulmedizin-allgemeine_leistungen
 permalink: /schulmedizin-allgemeine_leistungen.html
 ---
 
+  <article>
+    
+    {% include desktop-nav.html %}
 
-  <article id="allgemeine_leistungen">
-    <figure class="image">
+    <figure id="center" class="image">
       <img src="/img/allg_leistungen4.jpg" alt="Untersuchung">
 
       <img src="/img/allg_leistungen1.jpg" alt="Untersuchung">
@@ -19,7 +21,9 @@ permalink: /schulmedizin-allgemeine_leistungen.html
       <img src="/img/allg_leistungen3.jpg" alt="Untersuchung">
     </figure>
 
-    {% include schulmedizin/_allgemeine_leistungen.html %}
+    <div id="right" class="description">
+      {% include schulmedizin/_allgemeine_leistungen.html %}
+    </div>
 
   </article>
 
