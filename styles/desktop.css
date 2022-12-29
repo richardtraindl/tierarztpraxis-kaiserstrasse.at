@@ -73,11 +73,6 @@ header p, header p a {
   font-style: italic;
 }
 
-article h1, article h2 {
-  text-align: left;
-  font-style: italic;
-}
-
 #mainnav {
   height: 100%;
   padding: 28px 16px 16px 16px;
@@ -112,10 +107,6 @@ article h1, article h2 {
 #mainnav .submenu-item.aktiv {
   display: block;
 }
-
-/*#news *{
-    text-align: justify;
-}*/
 
 .gal4x4{
   display: grid;

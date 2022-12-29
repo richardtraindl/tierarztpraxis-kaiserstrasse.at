@@ -85,6 +85,11 @@ section .spacer {
   height: 1px;
 }
 
+.description h1, .description h2 {
+  text-align: left;
+  font-style: italic;
+}
+
 .telefon{
   display: grid;
   grid-template-columns: max-content max-content max-content;
