@@ -34,7 +34,7 @@ article{
   width: 512px;
 }
 
-#center img{
+.image img{
   width: 512px;
 }
 
@@ -118,8 +118,8 @@ header p, header p a {
 }
 
 .gal4x4 img {
-  width: 126px !important;
-  height: 126px !important;
+  width: 126px;
+  height: 126px;
 }
 
 #homoe-links {
