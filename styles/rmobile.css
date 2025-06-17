@@ -1,0 +1,138 @@
+
+
+* {
+  text-align: left;
+  color: #395858;
+}
+
+body {
+  background-color: White;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem; /*4px 4px 4px 4px;*/
+  text-align: center;
+  color: #333;
+  background-color: #E6E6E6;
+  background-image: linear-gradient(top, white 0%, #E6E6E6 100%);
+  border-radius: 0.25rem; /*4px;*/
+  cursor: pointer;
+  border: 0.063rem solid darkgray; /* 1px */
+  white-space: nowrap; 
+}
+
+#mobile-wrapper{
+  margin: 0 auto;
+  padding: 0.375rem 0; /* 6px 0;*/
+  background-color: #FFE394;
+  width: 100%;
+  border-radius: 0.375rem; /* 6px; */
+}
+
+header, #content{
+  padding: 0.625rem 0; /*10px 0px 10px 0px;*/
+  margin: 0.375rem 0.75rem; /* 6px 12px;*/
+  background-color: #FFFFE8;
+}
+
+header{
+  position: relative;
+  text-align: center;
+  padding: 1.25rem; /*20px;*/
+  border-radius: 0.375rem 0.375rem 0 0; /*6px 6px 0px 0px;*/
+}
+
+header h1, header h1 a {
+  font-size: 1.125rem; /* 18px;*/
+  line-height: 1.125rem; /*  18px; */
+  text-align: center;
+  text-decoration: underline;
+}
+
+header p, header p a {
+  font-size: 1rem; /*16px;*/
+  line-height: 1rem; /*16px;*/
+  text-align: center;
+  font-style: italic;
+}
+
+header img {
+  text-align: center;
+  margin: auto;
+  width: rem; /*32px;*/
+}
+
+#nav-image{
+  position: absolute;
+  right: 0.5rem; /* 8px;*/
+  bottom: 0.5rem; /* 8px;*/
+}
+
+#desktop-nav{
+  display: none;
+}
+
+nav{
+  text-align: right;
+  padding: 0 0.75rem; /* 0 12px;*/
+  display: none;
+}
+
+nav ul{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  text-align: right;
+  margin: 0 0 0.125rem 0; /*0px 0px 2px 0px;*/
+  padding: 0.5rem; /*8px;*/
+  background-color: LightBlue;
+}
+
+#content{
+  padding: 1.25rem; /* 20px;*/
+  border-radius: 0 0 0.375rem 0.375; /* 0px 0px 6px 6px;*/
+}
+
+section{
+  display: grid;
+  grid-template-columns: 100%;
+  padding-bottom: 1.25rem; /*20px;*/
+}
+
+section figure{
+  grid-row-start: 2;
+}
+
+section figure img{
+  width: 100%;
+}
+
+section .description{
+  grid-row-start: 1;
+}
+
+.description {
+  height: auto;
+  padding: 1rem 0 0.5rem 0; /*16px 0 8px 0;*/
+}
+
+#homoe-links {
+  padding: 0.625rem; /*10px;*/
+}
+
+.gallery{
+  padding: 0px;
+  background-color: darkgray;
+}
+
+.gallery img {
+  /*width: 100%;
+  height: 100%;*/
+  border-bottom: 0.063rem solid White;
+}
+

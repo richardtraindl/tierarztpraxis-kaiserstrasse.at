@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"-->
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    {% seo title=false %}
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/styles/rall.css" media="all">
+
+    <link rel="stylesheet" media="screen and not (pointer: coarse)" href="/styles/rdesktop.css">
+
+    <link rel="stylesheet" media="screen and (pointer: coarse)" href="/styles/rmobile.css">
+  
+    <script src="/static/jquery-1.11.1.min.js"></script>
+
+    <script src="/static/colorbox/jquery.colorbox-min.js"></script>
+
+    <script src="/static/colorbox/jquery.colorbox-de.js"></script>
+
+    <link rel="stylesheet" href="/static/colorbox/colorbox.css">
+
+    <script src="/static/nivo-slider/jquery.nivo.slider.pack.js"></script>
+
+    <link rel="stylesheet" href="/static/nivo-slider/nivo-slider.css">
+
+    <script src="/static/rcustom.js"></script>
+
+    {% if page.id == "anfahrt" %}
+      <link rel="stylesheet" href="/static/leaflet/leaflet.css">
+
+      <script src="/static/leaflet/leaflet.js"></script>
+    {% endif %}
+  </head>
+
+  <body>
+
+    <div id="mobile-wrapper">
+      {% include rheader.html %}
+
+      {% include rmobile-nav.html %}
+
+      <div id="content">
+        {% include rdesktop-nav.html %}
+
+        {{ content }}
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+
+        $("#nav-button").on("click",function(){
+          $("#mobile-nav").toggle();
+          return false;
+        });
+        
+        var site = window.location.href.split("#")[0].split("/")[3].replace(".html", "");
+        var sectionid = window.location.href.split("#")[1];
+        if(sectionid){
+          showSection(site, sectionid, true);
+        }
+
+      });
+    </script>
+
+  </body>
+  
+</html>
