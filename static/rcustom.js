@@ -1,14 +1,12 @@
 
 
-  function showSection(site, sectionid, isnewsite){
+  function showSection(site, sectionid){
 
-    if(!isnewsite){
-      var oldsectionid = $('section:visible').first().attr("id");
-      var oldfigureid = $('section:visible').first().children("figure[id^='nivoslider']").first().attr('id');
+    var oldsectionid = $('section:visible').first().attr("id");
+    var oldfigureid = $('section:visible').first().children("figure[id^='nivoslider']").first().attr('id');
 
-      if(oldsectionid && oldfigureid){
-        stopSlider(oldsectionid, oldfigureid);
-      }
+    if(oldsectionid && oldfigureid){
+      stopSlider(oldsectionid, oldfigureid);
     }
 
     // navigation
@@ -41,12 +39,24 @@
 
 
   function startSlider(sectionid, figureid){
-    $("#" + sectionid + " figure#" + figureid).data('nivoslider').start();
+    try{
+      $("#" + sectionid + " figure#" + figureid).data('nivoslider').start();
+    }
+    catch(err) {
+      console.log("startSlider Meldung/Fehler: "+ err.message);
+    }
   }
 
+
   function stopSlider(sectionid, figureid){
-    $("#" + sectionid + " figure#" + figureid).data('nivoslider').stop();
+    try{
+      $("#" + sectionid + " figure#" + figureid).data('nivoslider').stop();
+    }
+    catch(err) {
+      console.log("stopSlider Meldung/Fehler: "+ err.message);
+    }
   }
+
 
   function initSlider(sectionid, figureid){
     console.log("initSlider");

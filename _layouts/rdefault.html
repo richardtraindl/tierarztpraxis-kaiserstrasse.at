@@ -66,7 +66,11 @@
         var site = window.location.href.split("#")[0].split("/")[3].replace(".html", "");
         var sectionid = window.location.href.split("#")[1];
         if(sectionid){
-          showSection(site, sectionid, true);
+          showSection(site, sectionid);
+        }
+        else{
+          sectionid = $("article").children("section").first().attr("id");
+          showSection(site, sectionid);
         }
 
       });
