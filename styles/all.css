@@ -12,35 +12,45 @@ footer, header, hgroup, menu, nav, section {
     src: url('/fonts/OpenSans-Regular.woff');
 }
 
-* {
+html{
+  font-size: 100%; 
+  line-height: 1.6;
+}
+
+*{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   border: 0px;
   font-family: Helvetica, 'Open Sans';
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem; /*14px;*/
+  line-height: 1.142; /*16px;*/
 }
 
 h1 {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1rem; /*20px;*/
+  line-height: 1.2; /*24px;*/
 }
 
 h2 { 
-  font-size: 18px; 
-  line-height: 22px; 
+  font-size: 1.125rem; /*18px; */
+  line-height: 1.222; /*22px; */
 }
 
 a, a:link, a:visited, a:active, a:focus {
   text-decoration: none;
 }
 
-li {
+ul{
   list-style-image: url("/img/listitem.png");
-  margin-left: 20px;
-  text-align: left;
+  margin-left: 1.25rem; /*20px;*/
+}
+
+nav ul{
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
 }
 
 img {
@@ -53,36 +63,36 @@ img {
 
 .fitalic {
   font-style: italic;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem; /*1px;*/
 }
 
 .tiny-gap {
-  padding-bottom: 4px;
+  padding-bottom: 0.25rem; /*4px;*/
 }
 
 .small-gap {
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem; /*10px;*/
 }
 
 .gap {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem; /*20px;*/
 }
 
 .huge-gap {
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem; /*30px;*/
 }
 
 .spacer {
-  padding: 16px 0px 16px 0px;
+  padding: 1rem 0 1rem 0; /*16px 0px 16px 0px;*/
 }
 
 section .spacer {
-  padding: 12px 0px 20px 0px;
+  padding: 0.75rem 0 1.25 0; /* 12px 0 20px 0;*/
 }
 
 .spacer img {
-  width: 40px;
-  height: 1px;
+  width: 2.5rem; /*40px;*/
+  height: 0.063rem; /*1px;*/
 }
 
 .description h1, .description h2 {
@@ -93,23 +103,27 @@ section .spacer {
 .telefon{
   display: grid;
   grid-template-columns: max-content max-content max-content;
-  grid-gap: 0px;
-  padding: 0px; 
+  grid-gap: 0;
+  padding: 0; 
 }
 
 .oeffnungszeiten {
   display: grid;
   grid-template-columns: max-content max-content;
-  grid-gap: 0px;
-  padding: 0px; 
+  grid-gap: 0;
+  padding: 0; 
 }
 
 #homoe-links a {
-    color: DarkBlue;
+  color: DarkBlue;
 }
 
 #news h1, #news h2, #news h3{
-    padding-bottom: 10px;
-    color: red;
-    font-size: 18px
+  padding-bottom: 0.625rem; /*10px;*/
+  color: Red;
+  font-size: 1.125rem; /*18px*/
+}
+
+.inactive{
+  display: none;
 }

@@ -1,148 +1,146 @@
 
-    <nav id="mainnav">
+    <nav id="desktop-nav">
 
       <div id="nav_index" class="menu-item">
-        <a href="index.html">Willkommen</a>
-      </div><!-- Index/Willkommen end -->
+        <a href="/index.html">Willkommen</a>
+      </div>
+      <!-- Index/Willkommen end -->
+
 
       <div id="nav_team" class="menu-item">
-        <a href="team-elfi.html">Team</a>
+        <a href="/team.html#elfi">Team</a>
 
-        <div class="submenu-item">
-          <a id="nav_elfi" href="team-elfi.html">
+        <div id="subnav_elfi" class="submenu-item nicht-aktiv">
+          <a href="#elfi" onclick="showSection('team', 'elfi')">
             Elfriede Koppensteiner
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_gerold" href="team-gerold.html">
+        <div id="subnav_gerold" class="submenu-item nicht-aktiv">
+          <a href="#gerold" onclick="showSection('team', 'gerold')">
             Gerold Koppensteiner
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_mitarbeiter" href="team-mitarbeiter.html">
+        <div id="subnav_mitarbeiter" class="submenu-item nicht-aktiv">
+          <a href="#mitarbeiter" onclick="showSection('team', 'mitarbeiter')">
             Unser Team
           </a>
         </div>
-
-      </div><!-- Team end -->
+      </div>
+      <!-- Team end -->
 
 
       <div id="nav_schulmedizin" class="menu-item">
-        <a href="schulmedizin-allgemeine_leistungen.html">Schulmedizin</a>
+        <a href="/schulmedizin.html#allgleistungen">Schulmedizin</a>
 
-        <div class="submenu-item">
-          <a id="nav_allgemeine_leistungen" href="schulmedizin-allgemeine_leistungen.html">
+        <div id="subnav_allgleistungen" class="submenu-item nicht-aktiv">
+          <a href="#allgleistungen" onclick="showSection('schulmedizin', 'allgleistungen')">
               Allgemeine Leistungen
             </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_labordiagnostik" href="schulmedizin-labordiagnostik.html">
+        <div id="subnav_labordiagnostik" class="submenu-item nicht-aktiv">
+          <a href="#labordiagnostik" onclick="showSection('schulmedizin', 'labordiagnostik')">
             Labordiagnostik
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_digitales_roentgen" href="schulmedizin-digitales_roentgen.html">
+        <div id="subnav_roentgen" class="submenu-item nicht-aktiv">
+          <a href="#roentgen" onclick="showSection('schulmedizin', 'roentgen')">
             Digitales Röntgen
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_ultraschall" href="schulmedizin-ultraschall.html">
+        <div id="subnav_ultraschall" class="submenu-item nicht-aktiv">
+          <a href="#ultraschall" onclick="showSection('schulmedizin', 'ultraschall')">
             Ultraschall
           </a>
         </div>
-          
-        <div class="submenu-item">
-          <a id="nav_zahnhygiene" href="schulmedizin-zahnhygiene.html">
+
+        <div id="subnav_zahnmedizin" class="submenu-item nicht-aktiv">
+          <a href="#zahnmedizin" onclick="showSection('schulmedizin', 'zahnmedizin')">
             Zahnmedizin
           </a>
         </div>
           
-        <div class="submenu-item">
-          <a id="nav_weichteilchirurgie" href="schulmedizin-weichteilchirurgie.html">
+        <div id="subnav_chirurgie" class="submenu-item nicht-aktiv">
+          <a href="#chirurgie" onclick="showSection('schulmedizin', 'chirurgie')">
             Weichteilchirurgie
           </a>
         </div>
-
       </div><!-- Schulmedizin end -->
 
 
       <div id="nav_homoeopathie" class="menu-item">
-        <a href="homoeopathie-heilen.html">Homöopathie</a>
+        <a href="/homoeopathie.html#heilen">Homöopathie</a>
 
-        <div class="submenu-item">
-          <a id="nav_heilen" href="homoeopathie-heilen.html">
+        <div id="subnav_heilen" class="submenu-item nicht-aktiv">
+          <a href="#heilen" onclick="showSection('homoeopathie', 'heilen')">
             Heilen durch <br>Homöopathie
           </a>
         </div>
         
-        <div class="submenu-item">
-          <a id="nav_unterschied" href="homoeopathie-unterschied.html">
+        <div id="subnav_unterschied" class="submenu-item nicht-aktiv">
+          <a href="#unterschied" onclick="showSection('homoeopathie', 'unterschied')">
             Unterschied zur <br>Schulmedizin
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_behandlung" href="homoeopathie-behandlung.html">
+        <div id="subnav_behandlung" class="submenu-item nicht-aktiv">
+          <a href="#behandlung" onclick="showSection('homoeopathie', 'behandlung')">
             Behandlung mit <br>Homöopathie
           </a>
         </div>
-        <div class="submenu-item">
-          <a id="nav_links" href="homoeopathie-links.html">
+        <div id="subnav_links" class="submenu-item nicht-aktiv">
+          <a href="#links" onclick="showSection('homoeopathie', 'links')">
             Links zur <br>Homöopathie
           </a>
         </div>
-
       </div><!-- Homöopathie end -->
 
 
       <div id="nav_ernaehrung" class="menu-item">
-        <a href="ernaehrung-ernaehrungsberatung.html">Ernährung</a>
+        <a href="/ernaehrung.html#ernaehrungsberatung">Ernährung</a>
 
-        <div class="submenu-item">
-          <a id="nav_ernaehrungsberatung" href="ernaehrung-ernaehrungsberatung.html">
+        <div id="subnav_ernaehrungsberatung" class="submenu-item nicht-aktiv">
+          <a href="#ernaehrungsberatung" onclick="showSection('ernaehrung', 'ernaehrungsberatung')">
               Individuelle <br>Ernährungsberatung
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_rationserstellung" href="ernaehrung-rationserstellung.html">
+        <div id="subnav_rationserstellung" class="submenu-item nicht-aktiv">
+          <a href="#rationserstellung" onclick="showSection('ernaehrung', 'rationserstellung')">
               Rationserstellung- <br>und Überprüfung
           </a>
         </div>
-
       </div><!-- Ernährung end -->
 
 
       <div id="nav_galerie" class="menu-item">
-        <a href="bilder1.html">Galerie</a>
+        <a href="/galerie.html#galerie1">Galerie</a>
 
-        <div class="submenu-item">
-          <a id="nav_bilder1" href="bilder1.html">
+        <div id="subnav_galerie1" class="submenu-item nicht-aktiv">
+          <a href="#galerie1" onclick="showSection('galerie', 'galerie1')">
               Bilder
           </a>
         </div>
 
-        <div class="submenu-item">
-          <a id="nav_bilder2" href="bilder2.html">
+        <div id="subnav_galerie2" class="submenu-item nicht-aktiv">
+          <a href="#galerie2" onclick="showSection('galerie', 'galerie2')">
               Weitere Bilder
           </a>
         </div>
-
       </div><!-- Galerie end -->
 
 
       <div id="nav_anfahrt" class="menu-item">
-          <a href="anfahrt.html">Anfahrt</a>
+          <a href="/anfahrt.html">Anfahrt</a>
       </div><!-- Anfahrt end -->
 
 
       <div id="nav_impressum" class="menu-item">
-        <a href="impressum.html">Impressum</a>
+        <a href="/impressum.html">Impressum</a>
       </div><!-- Impressum end -->
 
     </nav>

@@ -14,11 +14,11 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <link rel="stylesheet" href="/styles/rall.css" media="all">
+    <link rel="stylesheet" href="/styles/all.css" media="all">
 
-    <link rel="stylesheet" media="screen and not (pointer: coarse)" href="/styles/rdesktop.css">
+    <link rel="stylesheet" media="screen and not (pointer: coarse)" href="/styles/desktop.css">
 
-    <link rel="stylesheet" media="screen and (pointer: coarse)" href="/styles/rmobile.css">
+    <link rel="stylesheet" media="screen and (pointer: coarse)" href="/styles/mobile.css">
   
     <script src="/static/jquery-1.11.1.min.js"></script>
 
@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" href="/static/nivo-slider/nivo-slider.css">
 
-    <script src="/static/rcustom.js"></script>
+    <script src="/static/custom.js"></script>
 
     {% if page.id == "anfahrt" %}
       <!--link rel="stylesheet" href="/static/leaflet/leaflet.css"-->
@@ -44,12 +44,12 @@
   <body>
 
     <div id="mobile-wrapper">
-      {% include rheader.html %}
+      {% include header.html %}
 
-      {% include rmobile-nav.html %}
+      {% include mobile-nav.html %}
 
       <div id="content">
-        {% include rdesktop-nav.html %}
+        {% include desktop-nav.html %}
 
         {{ content }}
       </div>
