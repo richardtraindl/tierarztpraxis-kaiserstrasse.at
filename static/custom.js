@@ -85,8 +85,8 @@
   }
 
 
-  /*function initMap(){
-    var map = L.map('anfahrtsplan').setView([48.20004, 16.34072], 16);
+  function initMap(){
+    var map = L.map('anfahrtsplan').setView([48.20004, 16.34072], 15);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -99,7 +99,7 @@
       fillOpacity: 0.2,
       radius: 30
     }).addTo(map);
-  }*/
+  }
 
 
   function getDeviceState(){
