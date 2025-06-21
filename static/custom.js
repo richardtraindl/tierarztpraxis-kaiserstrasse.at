@@ -42,7 +42,7 @@
     try{
       $("#" + sectionid + " figure#" + figureid).data('nivoslider').start();
     }
-    catch(err) {
+    catch(err){
       console.log("startSlider Meldung/Fehler: "+ err.message);
     }
   }
@@ -52,7 +52,7 @@
     try{
       $("#" + sectionid + " figure#" + figureid).data('nivoslider').stop();
     }
-    catch(err) {
+    catch(err){
       console.log("stopSlider Meldung/Fehler: "+ err.message);
     }
   }
@@ -85,7 +85,7 @@
   }
 
 
-  function initMap(){
+  /*function initMap(){
     var map = L.map('anfahrtsplan').setView([48.20004, 16.34072], 16);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -99,7 +99,7 @@
       fillOpacity: 0.2,
       radius: 30
     }).addTo(map);
-  }
+  }*/
 
 
   function getDeviceState(){

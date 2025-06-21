@@ -14,12 +14,12 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <link rel="stylesheet" href="/styles/all.css" media="all">
+    <link rel="stylesheet" media="all" href="/styles/nall.css">
 
-    <link rel="stylesheet" media="screen and not (pointer: coarse)" href="/styles/desktop.css">
+    <link rel="stylesheet" media="screen and not (pointer: coarse)" href="/styles/ndesktop.css">
 
-    <link rel="stylesheet" media="screen and (pointer: coarse)" href="/styles/mobile.css">
-  
+    <link rel="stylesheet" media="screen and (pointer: coarse)" href="/styles/nmobile.css">
+
     <script src="/static/jquery-1.11.1.min.js"></script>
 
     <script src="/static/colorbox/jquery.colorbox-min.js"></script>
@@ -62,7 +62,7 @@
           $("#mobile-nav").toggle();
           return false;
         });
-        
+
         var site = window.location.href.split("#")[0].split("/")[3].replace(".html", "");
         var sectionid = window.location.href.split("#")[1];
         if(sectionid){
