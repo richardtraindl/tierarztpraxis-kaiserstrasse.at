@@ -47,14 +47,14 @@ header{
 
 header h1, header h1 a {
   font-size: 1.125rem; /* 18px;*/
-  line-height: 1.125rem; /*  18px; */
+  line-height: 1.0 /* 18px; */
   text-align: center;
   text-decoration: underline;
 }
 
 header p, header p a {
   font-size: 1rem; /*16px;*/
-  line-height: 1rem; /*16px;*/
+  line-height: 1.0; /* 16px; */
   text-align: center;
   font-style: italic;
 }

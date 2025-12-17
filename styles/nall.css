@@ -12,11 +12,6 @@ footer, header, hgroup, menu, nav, section {
     src: url('/fonts/OpenSans-Regular.woff');
 }
 
-html{
-  font-size: 100%; 
-  line-height: 1.6;
-}
-
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -24,12 +19,15 @@ html{
   border: 0px;
   font-family: Helvetica, 'Open Sans';
   font-weight: normal;
-  font-size: 0.875rem; /*14px;*/
-  line-height: 1.142; /*16px;*/
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.142;
 }
 
 h1 {
-  font-size: 1rem; /*20px;*/
+  font-size: 1.425rem; /*20px;*/
   line-height: 1.2; /*24px;*/
 }
 
