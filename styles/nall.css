@@ -1,5 +1,4 @@
 
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -21,19 +20,19 @@ footer, header, hgroup, menu, nav, section {
   font-weight: normal;
 }
 
-body {
+html {
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.14;
 }
 
 h1 {
-  font-size: 1.425rem; /*20px;*/
+  font-size: 1.43rem; /*20px;*/
   line-height: 1.2; /*24px;*/
 }
 
 h2 { 
-  font-size: 1.125rem; /*18px; */
-  line-height: 1.222; /*22px; */
+  font-size: 1.29rem; /*18px; */
+  line-height: 1.23; /*22px; */
 }
 
 a, a:link, a:visited, a:active, a:focus {
@@ -42,7 +41,7 @@ a, a:link, a:visited, a:active, a:focus {
 
 ul{
   list-style-image: url("/img/listitem.png");
-  margin-left: 1.25rem; /*20px;*/
+  margin-left: 1.43rem; /*20px;*/
 }
 
 nav ul{
@@ -61,36 +60,36 @@ img {
 
 .fitalic {
   font-style: italic;
-  letter-spacing: 0.063rem; /*1px;*/
+  letter-spacing: 0.072rem; /*1px;*/
 }
 
 .tiny-gap {
-  padding-bottom: 0.25rem; /*4px;*/
+  padding-bottom: 0.29rem; /*4px;*/
 }
 
 .small-gap {
-  padding-bottom: 0.625rem; /*10px;*/
+  padding-bottom: 0.71rem; /*10px;*/
 }
 
 .gap {
-  padding-bottom: 1.25rem; /*20px;*/
+  padding-bottom: 1.43rem; /*20px;*/
 }
 
 .huge-gap {
-  padding-bottom: 1.875rem; /*30px;*/
+  padding-bottom: 2.14rem; /*30px;*/
 }
 
 .spacer {
-  padding: 1rem 0 1rem 0; /*16px 0px 16px 0px;*/
+  padding: 1.14rem 0 1.14rem 0; /*16px 0px 16px 0px;*/
 }
 
 section .spacer {
-  padding: 0.75rem 0 1.25 0; /* 12px 0 20px 0;*/
+  padding: 0.86rem 0 1.43 0; /* 12px 0 20px 0;*/
 }
 
 .spacer img {
-  width: 2.5rem; /*40px;*/
-  height: 0.063rem; /*1px;*/
+  width: 2.86rem; /*40px;*/
+  height: 0.072rem; /*1px;*/
 }
 
 .description h1, .description h2 {
@@ -117,9 +116,9 @@ section .spacer {
 }
 
 #news h1, #news h2, #news h3{
-  padding-bottom: 0.625rem; /*10px;*/
+  padding-bottom: 0.71rem; /*10px;*/
   color: Red;
-  font-size: 1.125rem; /*18px*/
+  font-size: 1.29rem; /*18px*/
 }
 
 .inactive{
