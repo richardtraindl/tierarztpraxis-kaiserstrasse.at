@@ -35,7 +35,7 @@ header p, header p a {
   font-style: italic;
 }
 
-#content{
+#content {
   display: flex;
   justify-content: flex-start; /*space-between; */
   align-items: flex-start; /*stretch; baseline; */
@@ -47,20 +47,20 @@ header p, header p a {
   padding: 0; 
 }
 
-article{
+article {
   width: 82.25%;
 }
 
-section{
+section {
   display: grid;
   grid-template-columns: 62.75% 37.25% /*512px 304px;*/
 }
 
-section figure{
+section figure {
   aspect-ratio: 1 / 1;
 }
 
-section figure img{
+section figure img {
   width: 100%;
 }
 
@@ -68,39 +68,39 @@ section figure img{
   padding: 2.0rem 1.14rem 0 1.14rem; /*28px 16px 0px 16px;*/
 }
 
-.description li{
+.description li {
   text-align: left;
 }
 
-#nav-button{
+#nav-button {
   display: none;
 }
 
-#mobile-nav{
+#mobile-nav {
   display: none;
 }
 
-#desktop-nav{
+#desktop-nav {
   width: 17.75%;
   height: 100%;
   padding: 2.0rem 1.14rem 1.14rem 1.14rem; /* 28px 16px 16px 16px;*/
   text-align: left;
 }
 
-a.nav-aktiv{
+a.nav-aktiv {
   color: #B22222;
 }
 
-.invisible{
+.invisible {
   visibility: hidden;
 }
 
-.menu-item{
+.menu-item {
   padding: 1.43rem 0 0 0; /*20px 0px 0px 0px;*/
   text-align: left;
 }
 
-.menu-item *{
+.menu-item * {
   font-size: 1.0rem; /*14px;*/
   line-height: 1.14; /*16px;*/
 }
@@ -110,20 +110,20 @@ a.nav-aktiv{
   text-align: left;
 }
 
-.submenu-item *{
+.submenu-item * {
   font-size: 0.86rem; /*12px;*/
   line-height: 1.17; /*14px;*/
 }
 
-.nicht-aktiv{
+.nicht-aktiv {
   display: none !important;
 }
 
-.aktiv{
+.aktiv {
   display: block;
 }
 
-.gallery{
+.gallery {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-row-gap: 0;

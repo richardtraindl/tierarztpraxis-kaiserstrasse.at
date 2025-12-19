@@ -11,15 +11,18 @@ footer, header, hgroup, menu, nav, section {
     src: url('/fonts/OpenSans-Regular.woff');
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   border: 0px;
   font-family: Helvetica, 'Open Sans';
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.14;
+}
+
+html {
+  font-size: 14px;
 }
 
 h1 {
@@ -36,12 +39,12 @@ a, a:link, a:visited, a:active, a:focus {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style-image: url("/img/listitem.png");
   margin-left: 1.43rem; /*20px;*/
 }
 
-nav ul{
+nav ul {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -94,7 +97,7 @@ section .spacer {
   font-style: italic;
 }
 
-.telefon{
+.telefon {
   display: grid;
   grid-template-columns: max-content max-content max-content;
   grid-gap: 0;
@@ -112,12 +115,12 @@ section .spacer {
   color: DarkBlue;
 }
 
-#news h1, #news h2, #news h3{
+#news h1, #news h2, #news h3 {
   padding-bottom: 0.71rem; /*10px;*/
   color: Red;
   font-size: 1.29rem; /*18px*/
 }
 
-.inactive{
+.inactive {
   display: none;
 }
